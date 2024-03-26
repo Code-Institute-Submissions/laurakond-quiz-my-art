@@ -47,9 +47,33 @@ Link to live page: [Quiz My Art](link)
 
 ### Target audience
 
+This quiz game is aimed towards anyone who enjoys participating in quiz games, want to learn something new and enjoy their time answering questions to varying degree of difficulty:
+
+- People who are interested in and like art, art history and history.
+- People who want to test their art history knowledge.
+- People who would like to learn something new while taking part in interactive quiz game.
+- People who are intersted in quizes and trivia games.
+
 
 ### User Stories
-Users:
+
+**As a first time user, I want to:**
+- Clearly understand how the quiz works and what it is about. 
+- Be able to read instructions before the start of the quiz.
+- Be able to start the quiz when I am ready.
+
+**As a user I want to:**
+- Test my art history knowledge by completing a quiz.
+- Choose a category or difficulty of the quiz.
+- Have multiple choice questions to pick from.
+- See how many questions there are in total per round and which question I am at.
+- Instantly see if my choice was correct.
+- Find out my final score.
+- Be able to take the quiz again after the completion.
+- Have a variety of questions that do not repeat.
+- Challenge myself by answering the questions without multiple choice options.
+
+
 
 
 
