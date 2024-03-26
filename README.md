@@ -1,39 +1,296 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Quiz My Art 
 
-Welcome,
+(By Laura Kondrataite)
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Quiz My Art responsiveness on various screens](link)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
 
-## Codeanywhere Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+Link to live page: [Quiz My Art](link)
 
-`python3 -m http.server`
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Table of Contents
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+[Design](#design)
+- [Target audience](#target-audience)
+- [User Stories](#user-stories)
+- [Wireframes](#wireframes)
+- [Color palette](#color-palette)
+- [Font styles](#font-styles)
 
-`http_server`
+[Features](#features)
+ - [Existing features](#existing-features)
+ - [Features Left to Implement](#features-left-to-implement)
+ - [Accessibility](#accessibility)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+[Tools and Technologies](#tools-and-technologies)
+- [Languages used](#languages-used)
+- [Frameworks, Libraries and Programs used](#frameworks-libraries-and-programs-used)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+[Deployment](#deployment)
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+[Testing](#testing)
+- [W3C Validator testing](#w3c-validator-testing)
+- [Unfixed bugs](#unfixed-bugs)
+- [Lighthouse](#lighthouse)
 
-To log into the Heroku toolbelt CLI:
+[Credits](#credits)
+- [Content](#content)
+- [Used Code](#used-code)
+- [Media](#media)
+- [General resources](#general-resources)
+- [Acknowledgments](#acknowledgments)
+- [Code Inspiration](#code-inspiration)
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Design
 
----
+### Target audience
 
-Happy coding!
+
+### User Stories
+Users:
+
+
+
+
+### Wireframes
+The following wireframe mockups show initial idea of how the website would look on three different devices: mobile, tablets and laptops/desktops.
+
+#### Mobile 
+
+![mobile-wireframe](link)
+
+#### Tablet
+
+![tablet-wireframe](link)
+  
+  #### Laptop/Desktop
+
+![desktop wireframe](link)
+
+### Color palette
+
+The following color scheme was used to ensure contrast is achieved between main parts of the website:
+
+
+![color-palette](link)
+
+### Font styles
+
+I used [Google fonts](https://fonts.google.com/) to source fonts for the website. These are:
+
+
+ 
+ [Return to Table of Contents](#table-of-contents)
+
+## Features
+
+The website is comprised of blank pages: a Home page, a blank page, a blank page and an Error 404 page. The latter is hidden from the user, and is only visible when a wrong website address is entered. 
+
+All features are fully responsive on mobile, tablets/iPads, laptops and desktops. 
+
+### Existing features
+
+**The Header**
+
+![header-feature-desktop](link)
+
+
+    ![header-feature-mobile](link)
+
+    ![header-feature-mobile2](link)
+
+<br>
+
+**The Footer**
+
+![enter image description here](link)
+
+
+<br>
+
+**The Home page**
+
+
+
+<br>  
+
+**History & Technique page**. This page is split into three sections including a list of cross-stitching steps to follow and a video. 
+
+
+
+<br>
+
+**Portfolio Gallery** page is divided into two sections that allow the user to easily identify the type of cross-stitch projects are currently underway and which are completed. 
+
+
+<br>
+
+**404 Error page** has been included in case there are any bugs that prevent the website or links from working properly. 
+- The page has a stylised link that clearly indicates interactivity and takes the user back to the Home page of the website. 
+
+  ![ 404 error page](link)
+
+### Features Left to Implement
+
+
+### Accessibility
+
+  - I have followed good standard accessibility practices by including the following:
+	  - I used semantic HTML.
+	  - I included descriptive atl attributes to used images. 
+	  - I marked the current page with the "current" attribute to ensure that screen readers indicate it to the users.
+	  - I provided descriptive information for the screen readers where icons were used.
+	  - I ensured that sufficient color contrast is provided when choosing the color palette.    
+
+ [Return to Table of Contents](#table-of-contents)
+
+## Tools and Technologies
+
+### Languages used
+
+HTML and CSS languages were used for creating this website.
+Markdown was used for creating the README file.
+
+### Frameworks, Libraries and Programs used
+
+The following resources were used to help implement the website:
+- [Basamiq](https://balsamiq.com/) for creating wireframes
+- [GitHub](https://github.com/) for creating and storing files and folders of the website
+- Git was used for version control
+- VScode editor for writing the code
+- [Font Awesome](https://fontawesome.com/) for providing iconography for the website
+- [Google Fonts](https://fonts.google.com/) for choosing appropriate fonts
+- [Favicon](https://favicon.io/) for generating a favicon
+- Google Chrome DevTools for testing, troubleshooting and brainstorming code solutions
+- [Am I Responsive?](https://ui.dev/amiresponsive) website for showing the website's responsiveness on different devices
+- [Pixelied](https://pixelied.com/), [ILoveIMG](https://www.iloveimg.com/), Gimp, [Tiny PNG](https://tinypng.com/) for resizing, compressing and editing images
+- [Coolors](https://coolors.co/) for generating the color palette
+- WCAG color contrast checker for website accessibilty
+
+ [Return to Table of Contents](#table-of-contents)
+
+## Deployment
+
+This website was deployed using GitHub pages. The steps to deploy are as follows:
+
+1. Login to GitHub and navigate to the repository page (Cross-Stitch-Art), click on the chosen repository.
+2. Once inside the repository, click on the "Settings" tab above the repository title.
+3. Select "Pages" tab on the left side navigation menu.
+4. In the "Source" section (middle of the screen), select "main" or "master" branch, then "root" folder and click "save" button.
+5. The GitHub page site will be deployed. 
+
+It might take a few minutes to generate the "live" website link.
+
+The live link to Cross Stitch Art can be found here: [Quiz My Art](link).
+
+ [Return to Table of Contents](#table-of-contents)
+
+
+## Testing 
+
+The website has been tested on Mozilla Firefox desktop, Internet Explorer desktop, Safari mobile, Google Chrome desktop and mobile. 
+
+###  W3C Validator Testing
+
+All HTML pages and CSS file were tested against W3C Markup and CSS validation services.
+
+**HTML**
+- The final run of the blank page through the W3C validator returned no errors. 
+- Screenshots of all the test results can be seen below:
+	- [page name](link) 
+	- [page name](link)
+	- [page name](link)
+	- [404.html](link)
+
+**CSS**
+
+- No errors were found when passing through the official W3C CSS validator. Screenshot of the test result can be seen [here](link). 
+
+### Unfixed Bugs
+
+
+
+### Lighthouse
+
+
+#### The Home page
+
+	- **Desktop test score:**
+
+      ![Home page desktop](link)
+
+	- **Mobile test score:**
+  
+      ![Home page mobile](link)
+
+#### Blank page
+
+  
+	- **Desktop test score:**
+	
+      ![History page desktop](link)
+
+	- **Mobile test score:**
+
+      ![History page mobile](link)
+
+#### Blank page
+
+
+	- **Desktop test score:**
+
+	    ![Portfolio page desktop](link)
+
+	- **Mobile test score:**
+
+	    ![Portfolio page mobile](link)
+
+#### 404 page
+
+
+
+  - **Desktop test score:**
+  
+    ![error page desktop](link)
+
+  - **Mobile test score:**
+    
+    ![error page mobile](link)
+
+ [Return to Table of Contents](#table-of-contents)
+
+## Credits
+
+The following resources have been used in preparation to and while creating the Quiz My Art website:
+
+### Content
+
+
+
+### Used code
+
+
+### Media
+
+#### Images
+
+ 
+#### Video
+
+### General resources
+
+
+
+
+### Acknowledgments
+
+My thanks goes to my mentor, [Martina Terlevic](https://github.com/SephTheOverwitch), for providing guidance, and support on all things code and project.
+
+
+### Code inspiration
+
+ 
+
+ [Return to Table of Contents](#table-of-contents)
