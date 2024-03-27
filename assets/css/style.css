@@ -12,6 +12,10 @@ body{
  flex-direction: column;
 }
 
+h3 {
+ text-align: center;
+}
+
 /* Header style */
 header{
  display: flex;
@@ -26,6 +30,25 @@ main{
  /* Pushing footer down by making the main content to take up the surplus.
  This code part is taken from my Project portfolio 1 */
  flex: 1 0 auto;
+}
+/* Main menu(button) style */
+#categories-container{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 100px 0;
+}
+
+#categories{
+ display: flex;
+ flex-flow: column wrap;
+ justify-content: center;
+ align-items: center;
+}
+
+.btn {
+ /* display: block; */
+ margin: 20px auto;
 }
 
 /* Footer */
