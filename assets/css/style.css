@@ -51,6 +51,43 @@ main{
  margin: 20px auto;
 }
 
+/* 404 error page */
+#error-message-container {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 100px 0;
+}
+
+#error-message {
+ width: 90%;
+ margin: auto;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 100px 0;
+}
+
+#message-content {
+ font-size: 110%;
+}
+
+#message-content>h2 {
+ margin: 0;
+ text-align: center;
+}
+
+#message-content>p {
+ text-align: center;
+ padding: 10px;
+}
+
+#message-content a {
+ text-decoration: none;
+ /* color: #D36D0D; */
+ font-weight: bold;
+}
+
 /* Footer */
 footer{
  text-align: center;
