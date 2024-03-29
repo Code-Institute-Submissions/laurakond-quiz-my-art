@@ -22,6 +22,10 @@ img{
  width: 100%;
 }
 
+p{
+ text-align: center;
+}
+
 /* Header style */
 header {
  display: flex;
@@ -41,6 +45,10 @@ main {
 /* Main content */
 
 /* Styles shared between pages */
+
+#image-container, #paragraph-container{
+ width: 90%;
+}
 
 #categories-container,
 #answer-container {
@@ -75,16 +83,13 @@ main {
  margin: 10px auto;
 }
 
-#image-container{
- width: 90%;
-}
-
 #answer-container {
  padding: 20px 0;
  flex-wrap: wrap;
 }
 
 /* 404 error page */
+/* The code was based on my project one and adjusted to fit the purpose */
 #error-message-container {
  display: flex;
  justify-content: center;
