@@ -52,7 +52,7 @@ main {
 }
 
 #categories-container,
-.answer-container {
+.answer-container, .result-description {
  display: flex;
  justify-content: center;
  align-items: center;
@@ -74,7 +74,7 @@ main {
  margin: 20px auto;
 }
 
-/* Artist question, Painting, Period pages */
+/* Artist question, Painting, Period and Score pages */
 
 .question-prompt, #score-result {
  text-align: center;
@@ -84,7 +84,7 @@ main {
  margin: 10px auto;
 }
 
-.answer-container {
+.answer-container, .result-description {
  padding: 20px 0;
  flex-wrap: wrap;
 }
