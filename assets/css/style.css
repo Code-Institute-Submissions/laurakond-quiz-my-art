@@ -12,8 +12,14 @@ body {
  flex-direction: column;
 }
 
+/* General styles */
+
 h3 {
  text-align: center;
+}
+
+img{
+ width: 100%;
 }
 
 /* Header style */
@@ -67,6 +73,10 @@ main {
  width: 90%;
  flex-direction: column;
  margin: 10px auto;
+}
+
+#image-container{
+ width: 90%;
 }
 
 #answer-container {
