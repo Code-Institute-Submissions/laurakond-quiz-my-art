@@ -18,11 +18,11 @@ h3 {
  text-align: center;
 }
 
-img{
+img {
  width: 100%;
 }
 
-p{
+p {
  text-align: center;
 }
 
@@ -46,7 +46,8 @@ main {
 
 /* Styles shared between pages */
 
-.image-container, #paragraph-container{
+.image-container,
+.paragraph-container {
  width: 90%;
 }
 
@@ -75,7 +76,7 @@ main {
 
 /* Artist question, Painting, Period pages */
 
-.question-prompt {
+.question-prompt, #score-result {
  text-align: center;
  display: flex;
  width: 90%;
@@ -89,11 +90,13 @@ main {
 }
 
 /* Bonus category page */
-#input-answer-container{
+#input-answer-container {
  flex-direction: column;
  display: flex;
  margin: 20px;
 }
+
+/* Score page */
 
 /* 404 error page */
 /* The code was based on my project one and adjusted to fit the purpose */
