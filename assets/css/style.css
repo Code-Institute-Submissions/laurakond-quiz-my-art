@@ -88,6 +88,13 @@ main {
  flex-wrap: wrap;
 }
 
+/* Bonus category page */
+#input-answer-container{
+ flex-direction: column;
+ display: flex;
+ margin: 20px;
+}
+
 /* 404 error page */
 /* The code was based on my project one and adjusted to fit the purpose */
 #error-message-container {
