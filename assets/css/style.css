@@ -46,12 +46,12 @@ main {
 
 /* Styles shared between pages */
 
-#image-container, #paragraph-container{
+.image-container, #paragraph-container{
  width: 90%;
 }
 
 #categories-container,
-#answer-container {
+.answer-container {
  display: flex;
  justify-content: center;
  align-items: center;
@@ -59,7 +59,7 @@ main {
 }
 
 #categories,
-#answer-choice {
+.answer-choice {
  display: flex;
  flex-flow: column wrap;
  justify-content: center;
@@ -73,9 +73,9 @@ main {
  margin: 20px auto;
 }
 
-/* Artist question page */
+/* Artist question, Painting, Period pages */
 
-#question-prompt {
+.question-prompt {
  text-align: center;
  display: flex;
  width: 90%;
@@ -83,7 +83,7 @@ main {
  margin: 10px auto;
 }
 
-#answer-container {
+.answer-container {
  padding: 20px 0;
  flex-wrap: wrap;
 }
