@@ -1,12 +1,12 @@
 /* Asterisk wildcard selsector used to remove default styles */
-*{
+* {
  padding: 0;
  margin: 0;
  box-sizing: border-box;
 }
 
 /* General styles applied from portfolio project 1 */
-body{
+body {
  min-height: 100vh;
  display: flex;
  flex-direction: column;
@@ -17,7 +17,7 @@ h3 {
 }
 
 /* Header style */
-header{
+header {
  display: flex;
  width: 100%;
  display: flex;
@@ -26,29 +26,52 @@ header{
 }
 
 /* Main content */
-main{
+main {
  /* Pushing footer down by making the main content to take up the surplus.
  This code part is taken from my Project portfolio 1 */
  flex: 1 0 auto;
 }
-/* Main menu(button) style */
-#categories-container{
+
+/* Main content */
+
+/* Styles shared between pages */
+
+#categories-container,
+#answer-container {
  display: flex;
  justify-content: center;
  align-items: center;
  padding: 100px 0;
 }
 
-#categories{
+#categories,
+#answer-choice {
  display: flex;
  flex-flow: column wrap;
  justify-content: center;
  align-items: center;
 }
 
+/* Main menu(button) style */
+
 .btn {
  /* display: block; */
  margin: 20px auto;
+}
+
+/* Artist question page */
+
+#question-prompt {
+ text-align: center;
+ display: flex;
+ width: 90%;
+ flex-direction: column;
+ margin: 10px auto;
+}
+
+#answer-container {
+ padding: 20px 0;
+ flex-wrap: wrap;
 }
 
 /* 404 error page */
@@ -89,7 +112,7 @@ main{
 }
 
 /* Footer */
-footer{
+footer {
  text-align: center;
  display: flex;
  flex-direction: column;
