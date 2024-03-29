@@ -30,3 +30,25 @@ document.addEventListener("DOMContentLoaded", function () {
  }
 })
 
+/**function for generating random questions in each category */
+function randomQuestion () {}
+
+/** Shows which question the user is at against the total number of questions */
+function currentQuestionNumber(){}
+
+/** Allows the user to inout their own answer in the Bonus category */
+function userAnswer(){}
+
+/**
+ * Checks the user's answer against the correct answer
+ */
+function checkCorrectAnswer(){}
+
+/** Triggers the Score page after the completion of each category */
+function scoreBoard(){}
+
+/** Calculates the total score of correctly answered questions
+ * and prompts appropriate congratulatory(consoling) paragraph
+ */
+function totalScore(){}
+
