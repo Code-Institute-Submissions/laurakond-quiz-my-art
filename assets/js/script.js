@@ -30,6 +30,8 @@
 //  }
 // })
 
+
+
 document.addEventListener("DOMContentLoaded", function (){
     let categoryButtons = document.getElementsByTagName("button");
 
@@ -37,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function (){
         button.addEventListener("click", function(){
             let categoryType = this.getAttribute("id");
             if(this.getAttribute("id") === "artist") {
-                console.log("you clicked artist category");
+                chooseCategory(categoryType);
             } else if (this.getAttribute("id") === "period") {
                 console.log("you clicked period category");
             } else if (this.getAttribute("id") === "painting") {
@@ -46,11 +48,25 @@ document.addEventListener("DOMContentLoaded", function (){
                 console.log("you clicked I am an expert category");
             } else{
                 // let categoryType = this.getAttribute("id");
-                console.log(`you clicked ${categoryType} category`);
+                runGame(categoryType);
             };
         })
     }
+
+    runGame();
 })
+
+/** Initialises category selection to start the game */
+function runGame(categoryType){
+    console.log("started");
+    chooseCategory();
+    
+}
+
+/**function to enable each category that the player chooses to play */
+// function chooseCategory(categoryType){
+//     console.log("works");
+// }
 
 /**function for generating random questions in each category */
 function randomQuestion () {}
