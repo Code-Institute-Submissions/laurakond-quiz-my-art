@@ -1,45 +1,45 @@
 /* Asterisk wildcard selsector used to remove default styles */
 * {
- padding: 0;
- margin: 0;
- box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 /* General styles applied from portfolio project 1 */
 body {
- min-height: 100vh;
- display: flex;
- flex-direction: column;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /* General styles */
 
 h3 {
- text-align: center;
+    text-align: center;
 }
 
 img {
- width: 100%;
+    width: 100%;
 }
 
 p {
- text-align: center;
+    text-align: center;
 }
 
 /* Header style */
 header {
- display: flex;
- width: 100%;
- display: flex;
- justify-content: center;
- align-items: center;
+    display: flex;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Main content */
 main {
- /* Pushing footer down by making the main content to take up the surplus.
+    /* Pushing footer down by making the main content to take up the surplus.
  This code part is taken from my Project portfolio 1 */
- flex: 1 0 auto;
+    flex: 1 0 auto;
 }
 
 /* Main content */
@@ -48,52 +48,63 @@ main {
 
 .image-container,
 .paragraph-container {
- width: 90%;
+    width: 90%;
 }
 
 #categories-container,
-.answer-container, .result-description {
- display: flex;
- justify-content: center;
- align-items: center;
- padding: 100px 0;
+.answer-container,
+.result-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
 }
 
 #categories,
 .answer-choice {
- display: flex;
- flex-flow: column wrap;
- justify-content: center;
- align-items: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Main menu(button) style */
 
 .btn {
- /* display: block; */
- margin: 20px auto;
+    /* display: block; */
+    margin: 20px auto;
+}
+
+.btn:hover {
+    background-color: coral;
+}
+
+#next-button {
+    text-align: center;
 }
 
 /* Artist question, Painting, Period and Score pages */
 
-.question-prompt, #score-result {
- text-align: center;
- display: flex;
- width: 90%;
- flex-direction: column;
- margin: 10px auto;
+.question-prompt,
+#score-result {
+    text-align: center;
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    margin: 10px auto;
 }
 
-.answer-container, .result-description {
- padding: 20px 0;
- flex-wrap: wrap;
+.answer-container,
+.result-description {
+    padding: 20px 0;
+    flex-wrap: wrap;
 }
 
 /* Bonus category page */
 #input-answer-container {
- flex-direction: column;
- display: flex;
- margin: 20px;
+    flex-direction: column;
+    display: flex;
+    margin: 20px;
 }
 
 /* Score page */
@@ -101,44 +112,44 @@ main {
 /* 404 error page */
 /* The code was based on my project one and adjusted to fit the purpose */
 #error-message-container {
- display: flex;
- justify-content: center;
- align-items: center;
- padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
 }
 
 #error-message {
- width: 90%;
- margin: auto;
- display: flex;
- justify-content: center;
- align-items: center;
- padding: 100px 0;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
 }
 
 #message-content {
- font-size: 110%;
+    font-size: 110%;
 }
 
 #message-content>h2 {
- margin: 0;
- text-align: center;
+    margin: 0;
+    text-align: center;
 }
 
 #message-content>p {
- text-align: center;
- padding: 10px;
+    text-align: center;
+    padding: 10px;
 }
 
 #message-content a {
- text-decoration: none;
- /* color: #D36D0D; */
- font-weight: bold;
+    text-decoration: none;
+    /* color: #D36D0D; */
+    font-weight: bold;
 }
 
 /* Footer */
 footer {
- text-align: center;
- display: flex;
- flex-direction: column;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
