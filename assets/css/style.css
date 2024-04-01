@@ -14,6 +14,7 @@ body {
 
 /* General styles */
 
+h2,
 h3 {
     text-align: center;
 }
@@ -42,30 +43,39 @@ main {
     flex: 1 0 auto;
 }
 
-/* Main content */
+/* Landing page */
 
 /* Styles shared between pages */
 
-.image-container,
-.paragraph-container {
-    width: 90%;
-}
-
-#categories-container,
-.answer-container,
-.result-description {
+#categories-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px 0;
+    /* padding: 100px 0; */
 }
 
 #categories,
-.answer-choice {
+#answer-choice {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
+    margin: auto;
+}
+
+.hide {
+    display: none;
+}
+
+/* Quiz Area */
+
+#quiz-area-container {
+    flex-direction: column;
+    width: 90%;
+    max-width: 600px;
+    margin: auto auto 0;
+    /* border-radius: 10px; */
+    padding: 30px;
 }
 
 /* Main menu(button) style */
@@ -79,13 +89,20 @@ main {
     background-color: coral;
 }
 
-#next-button {
+#next-btn {
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 150px; */
+    /* padding: 10px; */
+    /* margin: auto; */
+    cursor: pointer;
 }
 
 /* Artist question, Painting, Period and Score pages */
 
-.question-prompt,
+/* .question-prompt,
 #score-result {
     text-align: center;
     display: flex;
@@ -98,7 +115,7 @@ main {
 .result-description {
     padding: 20px 0;
     flex-wrap: wrap;
-}
+} */
 
 /* Bonus category page */
 #input-answer-container {
