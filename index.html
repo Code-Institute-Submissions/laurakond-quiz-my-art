@@ -30,61 +30,35 @@
         <!-- Landing page - Categories selection section -->
         <div id="categories-container">
             <div id="categories">
-                <button class="btn" id="artist">Who Painted it?</button>
-                <button class="btn" id="period">Who Lived when?</button>
-                <button class="btn" id="painting">Name that Painting</button>
-                <h3>Bonus Category</h3>
-                <button class="btn" id="bonus">I am an expert!</button>
+                <button class="btn landing-btn" id="artist">Who Painted it?</button>
+                <button class="btn landing-btn" id="period">Who Lived when?</button>
+                <button class="btn landing-btn" id="painting">Name that Painting</button>
+                <!-- <h3>Bonus Category</h3> -->
+                <button class="btn landing-btn" id="bonus">I am an expert!</button>
             </div>
         </div>
 
-        <!-- Quiz area -->
-        <div class="app">
-            <!-- Static displau of the category/main question -->
+        <!-- Main quiz area -->
+        <div class="quiz-area-container" class="hide">
+            <!-- Static display of the category & explanation -->
             <h2>Who Painted it?</h2>
             <p>Choose one right answer from the provided options below.</p>
-            <div class="image-container">
+            <!-- Changeable question area -->
+            <div class="question-container">
                 <!-- This here will be changed by JS -->
-                <h3 id="question">question or image question goes here</h3>
-                <!-- multiple choice area -->
+                <p><span id="question-number">0</span>/10</p>
+                <h3 id="question-placeholder">question or image question goes here</h3>
+                <!-- Multiple choice area -->
                 <div id="answer-choice">
-                    <button class="btn">Answer 1</button>
+                    <!-- <button class="btn">Answer 1</button>
                     <button class="btn">Answer 2</button>
                     <button class="btn">answer 3</button>
-                    <button class="btn">Answer 4</button>
+                    <button class="btn">Answer 4</button> -->
                 </div>
-                <!-- Next button area -->
-                <button id="next-btn">Next</button>
-            </div>
-        </div>
-
-        <div class="question-prompt">
-            <h2>Who Painted it?</h2>
-            <p>Choose one right answer from the provided options below.</p>
-        </div>
-        <!-- Image & question display area -->
-        <div class="answer-container">
-            <p><span id="question-number">0</span>/10</p>
-            <!-- <div class="image-container"> -->
-            <!-- <img src="assets\images\raphael.webp" alt="painting of school of Athens"> -->
-            <h3 class="image-container">Questions and images go here</h3>
-            <!-- </div> -->
-            <div class="answer-choice">
-                <button class="btn">Answer 1</button>
-                <button class="btn">Answer 2</button>
-                <button class="btn">answer 3</button>
-                <button class="btn">Answer 4</button>
             </div>
             <!-- Next button area -->
-            <button id="next-btn">Next</button>
+            <button id="next-btn" class="hide">Next</button>
         </div>
-
-
-
-
-
-
-
     </main>
 
     <!-- Footer section -->
@@ -108,6 +82,7 @@
     <script src="https://kit.fontawesome.com/b3fd759711.js" crossorigin="anonymous"></script>
     <!-- JavaScript link -->
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/artist.js"></script>
 </body>
 
 </html>
