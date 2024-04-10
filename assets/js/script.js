@@ -67,10 +67,51 @@ const paintingCategoryButton = document.getElementById('painting');
 let score = 0;
 let questionNumberCount = 0;
 
+/** This section was inspired by Love Maths project */
+
+// DOM content loaded event listener & each category iteration using a for loop
+document.addEventListener("DOMContentLoaded", function () {
+    let buttons = document.getElementsByTagName("button");
+
+    for (let button of buttons) {
+        button.addEventListener("click", function () {
+            let categoryType = this.getAttribute("id");
+            startGame(categoryType);
+            // "this" refers to specific button pressed, ie "Who painted it" button that has id of "artist"
+            // if (this.getAttribute("id") === "artist") {
+            //     console.log(`you clicked ${categoryType} category button`);
+            //     startGame();
+            // } else if (this.getAttribute("id") === "period") {
+            //     console.log(`you clicked ${categoryType} category button`);
+            //     startGame();
+            // } else if (this.getAttribute("id") === "painting") {
+            //     console.log(`you clicked ${categoryType} category button`);
+            //     startGame();
+            // } else {
+            //     console.log(`error`);
+            // }
+        });
+    }
+});
+
+
 /** Initialises category selection to start the game */
 function startGame(categoryType){
     console.log("started");
     // chooseCategory();
+    if (id === "artist") {
+        artistCategoryButton.classList.add('hide');
+        periodCategoryButton.classList.add('hide');
+        paintingCategoryButton.classList.add('hide');        
+    } else if (id === "period") {
+        artistCategoryButton.classList.add('hide');
+        periodCategoryButton.classList.add('hide');
+        paintingCategoryButton.classList.add('hide');
+    } else if (id === "painting") {
+        artistCategoryButton.classList.add('hide');
+        periodCategoryButton.classList.add('hide');
+        paintingCategoryButton.classList.add('hide');
+    }
     
 }
 
