@@ -182,7 +182,7 @@ function displayQuestion(randomQuestion) {
 
 /** Function that allows the user to select their answer button */
 function userAnswer(event){
-    quizAreaContainer.classList.add('no-more-answer');
+    quizAreaContainer.classList.add("pointer-block");
     correctAnswer = document.getElementById("correct");
     const clickedButton = event.target;
     correctAnswer.classList.add("correct");

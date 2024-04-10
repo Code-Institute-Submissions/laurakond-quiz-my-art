@@ -63,9 +63,24 @@ main {
     margin: auto;
 }
 
+/* JS related content styling */
+
 .hide {
     display: none;
 }
+
+.pointer-block {
+    pointer-events: none;
+}
+
+.correct {
+    background-color: green;
+}
+
+.incorrect {
+    background-color: red;
+}
+
 
 /* Quiz Area */
 
