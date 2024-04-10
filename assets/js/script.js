@@ -58,10 +58,19 @@
 //     runGame();
 // })
 
+// Static variables used for accessing DOM
+const artistCategoryButton = document.getElementById('artist');
+const periodCategoryButton = document.getElementById('period');
+const paintingCategoryButton = document.getElementById('painting');
+
+// variables to get their value defined within functions as I go along
+let score = 0;
+let questionNumberCount = 0;
+
 /** Initialises category selection to start the game */
 function startGame(categoryType){
     console.log("started");
-    chooseCategory();
+    // chooseCategory();
     
 }
 
