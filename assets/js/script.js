@@ -64,8 +64,12 @@ const periodCategoryButton = document.getElementById('period');
 const paintingCategoryButton = document.getElementById('painting');
 
 // variables to get their value defined within functions as I go along
+let randomQuestion;
+let currentQuestionIndex;
+let shuffledQuestions;
 let score = 0;
 let questionNumberCount = 0;
+
 
 /** This section was inspired by Love Maths project */
 
@@ -96,21 +100,27 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 /** Initialises category selection to start the game */
-function startGame(categoryType){
+function startGame(id){
     console.log("started");
     // chooseCategory();
     if (id === "artist") {
         artistCategoryButton.classList.add('hide');
         periodCategoryButton.classList.add('hide');
-        paintingCategoryButton.classList.add('hide');        
+        paintingCategoryButton.classList.add('hide');
+        randomQuestion = artistQuestions;
+        getRandomQuestion();        
     } else if (id === "period") {
         artistCategoryButton.classList.add('hide');
         periodCategoryButton.classList.add('hide');
         paintingCategoryButton.classList.add('hide');
+        randomQuestion = periodQuestions;
+        getRandomQuestion();
     } else if (id === "painting") {
         artistCategoryButton.classList.add('hide');
         periodCategoryButton.classList.add('hide');
         paintingCategoryButton.classList.add('hide');
+        randomQuestion = paintingQuestions;
+        getRandomQuestion();
     }
     
 }
@@ -120,11 +130,23 @@ function startGame(categoryType){
 //     console.log("works");
 // }
 
+/** Fhe below used https://www.youtube.com/watch?v=riDzcEQbX6k
+ * as a guide and idea on how to populate questions using JS
+ */
+
 /**Function that generates random questions in each category */
-function getRandomQuestion () {}
+function getRandomQuestion () {
+    shuffledQuestions = randomQuestion.sort(() => Math.random() - 0.5);
+    // setting the index to 0 as the questions start at the first question of the array
+    currentQuestionIndex = 0;
+    showQuestion();
+}
 
 /** Function that generate a question in the getRandomQuestion function above*/
-function showQuestion() {}
+function showQuestion() {
+    // new function that shows the question above
+    displayQuestion(randomQuestion[currentQuestionIndex]);
+}
 
 /** Function that populates Question area container based on chosen category
  * and applies a class name to the correct answer
