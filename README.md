@@ -4,9 +4,13 @@
 
 ![Quiz My Art responsiveness on various screens](link)
 
+Quiz My Art is an interactive quiz website that tests the user's art history knowledge. It is an image-based quiz which provides a more engaging and visual appeal to the user.
 
+The user will choose from three different categories, and answer image-based questions based on different question/task prompts. After completing the quiz, they will be taken to a final page screen which will show their total score. 
 
-Link to live page: [Quiz My Art](link)
+Quiz My Art game is created for educational purposes only as part of Code Institute's Web Development Diploma course for JavaScript portfolio project.
+
+Link to live page: [Quiz My Art](https://laurakond.github.io/quiz-my-art/)
 
 
 ## Table of Contents
@@ -72,10 +76,6 @@ This quiz game is aimed towards anyone who enjoys participating in quiz games, w
 - Be able to take the quiz again after the completion.
 - Have a variety of questions that do not repeat.
 - Challenge myself by answering the questions without multiple choice options.
-
-
-
-
 
 
 ### Wireframes
