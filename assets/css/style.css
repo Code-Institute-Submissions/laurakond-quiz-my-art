@@ -91,7 +91,7 @@ main {
 
 #next-btn {
     text-align: center;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     /* width: 150px; */
