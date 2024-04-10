@@ -1,16 +1,10 @@
-/** The following video was used as a source for creating
- * a list of questions for all categories:
- * https://www.youtube.com/watch?v=riDzcEQbX6k
- */
-
-
 // Images sourced from Wikipedia.org
 // Questions for the artist category 
 
 const artistQuestions = [
     {
-        question: "test1",
-        imageUrl: "assets/images/raphael.webp",
+        question: "School of Athens, 1509-1511",
+        imageUrl: "assets/images/artist-images/raphael.webp",
         answers: [
             { text: 'Raphael', correct: true },
             { text: 'Michelangelo', correct: false },
@@ -19,18 +13,18 @@ const artistQuestions = [
         ]
     },
     {
-        question: "test2",
-        imageUrl: "assets/images/el-greco.webp",
+        question: "Christ, c. 1600",
+        imageUrl: "assets/images/artist-images/el-greco.webp",
         answers: [
-            { text: 'Goya', correct: false },
-            { text: 'David', correct: false },
+            { text: 'Francisco Goya', correct: false },
+            { text: 'Jacques-Louis David', correct: false },
             { text: 'Caravaggio', correct: false },
             { text: 'El Greco', correct: true }
         ]
     },
     {
-        question: "test3",
-        imageUrl: "assets/images/frida-kahlo.webp",
+        question: "Self-Portrait, c. 1940",
+        imageUrl: "assets/images/artist-images/frida-kahlo.webp",
         answers: [
             { text: 'Pablo Picasso', correct: false },
             { text: 'Frida Kahlo', correct: true },
@@ -39,8 +33,8 @@ const artistQuestions = [
         ]
     },
     {
-        question: "test4",
-        imageUrl: "assets/images/michelangelo-david.webp",
+        question: "David, 1501-1504",
+        imageUrl: "assets/images/artist-images/michelangelo-david.webp",
         answers: [
             { text: 'Auguste Rodin', correct: false },
             { text: 'Michelangelo', correct: true },
@@ -49,8 +43,8 @@ const artistQuestions = [
         ]
     },
     {
-        question: "test5",
-        imageUrl: "assets/images/mona-lisa.webp",
+        question: "Mona Lisa, 1503",
+        imageUrl: "assets/images/artist-images/mona-lisa.webp",
         answers: [
             { text: 'Leonardo Da Vinci', correct: true },
             { text: 'Titian', correct: false },
@@ -59,28 +53,28 @@ const artistQuestions = [
         ]
     },
     {
-        question: "test6",
-        imageUrl: "assets/images/monet-impression-sunrise.webp",
+        question: "Impression Sunrise, 1872",
+        imageUrl: "assets/images/artist-images/monet-impression-sunrise.webp",
         answers: [
-            { text: 'Edouard Manet', correct: true },
-            { text: 'Claude Monet', correct: false },
+            { text: 'Edouard Manet', correct: false },
+            { text: 'Claude Monet', correct: true },
             { text: 'Pierre-Auguste Renoir', correct: false },
             { text: 'Edgar Degas', correct: false }
         ]
     },
     {
-        question: "test7",
-        imageUrl: "assets/images/rembrandt-self-portrait.webp",
+        question: "Self-Portrait, 1669",
+        imageUrl: "assets/images/artist-images/rembrandt-self-portrait.webp",
         answers: [
-            { text: 'Rubens', correct: false },
+            { text: 'Peter Paul Rubens', correct: false },
             { text: 'Claude Poussin', correct: false },
             { text: 'Rembrandt Van Rijn', correct: true },
             { text: 'Frans Hals', correct: false }
         ]
     },
     {
-        question: "test8",
-        imageUrl: "assets/images/titian-diana-actaeon.webp",
+        question: "Diana and Actaeon, 1556-1559",
+        imageUrl: "assets/images/artist-images/titian-diana-actaeon.webp",
         answers: [
             { text: 'Titian', correct: true },
             { text: 'Sandro Botticelli', correct: false },
@@ -89,8 +83,8 @@ const artistQuestions = [
         ]
     },
     {
-        question: "test9",
-        imageUrl: "assets/images/vangogh-stary-night.webp",
+        question: "Starry Night, 1889",
+        imageUrl: "assets/images/artist-images/vangogh-stary-night.webp",
         answers: [
             { text: 'Camille Pissarro', correct: false },
             { text: 'Henri de Toulouse-Lautrec', correct: false },
@@ -99,18 +93,18 @@ const artistQuestions = [
         ]
     },
     {
-        question: "test10",
-        imageUrl: "assets/images/vermeer-girl-with-pearl-earring.webp",
+        question: "Girl with a Pearl Earring, 1665",
+        imageUrl: "assets/images/artist-images/vermeer-girl-with-pearl-earring.webp",
         answers: [
-            { text: 'Vermeer', correct: true },
+            { text: 'Johannes Vermeer', correct: true },
             { text: 'Jan Steen', correct: false },
             { text: 'Gerrit van Honthorst', correct: false },
             { text: 'Frans Hals', correct: false }
         ]
     },
     {
-        question: "test11",
-        imageUrl: "assets/images/jackson-pollock.webp",
+        question: "Number 1A, 1948",
+        imageUrl: "assets/images/artist-images/jackson-pollock.webp",
         answers: [
             { text: 'Max Ernst', correct: false },
             { text: 'Andre Mason', correct: false },
@@ -119,8 +113,8 @@ const artistQuestions = [
         ]
     },
     {
-        question: "test12",
-        imageUrl: "assets/images/grant-wood-american-gothic.webp",
+        question: "American Gothic, 1930",
+        imageUrl: "assets/images/artist-images/grant-wood-american-gothic.webp",
         answers: [
             { text: 'George Bellows', correct: false },
             { text: 'Grant Wood', correct: true },
@@ -129,8 +123,8 @@ const artistQuestions = [
         ]
     },
     {
-        question: "test13",
-        imageUrl: "assets/images/henri-matisse-the-danse.webp",
+        question: "The Dance, 1910",
+        imageUrl: "assets/images/artist-images/henri-matisse-the-danse.webp",
         answers: [
             { text: 'Pablo Picasso', correct: false },
             { text: 'George Braque', correct: false },
@@ -139,18 +133,18 @@ const artistQuestions = [
         ]
     },
     {
-        question: "test14",
-        imageUrl: "assets/images/paul-cezanne-montagne-sainte-victoire.webp",
+        question: "Montagne Sainte Victoire, 1904-1906",
+        imageUrl: "assets/images/artist-images/paul-cezanne-montagne-sainte-victoire.webp",
         answers: [
             { text: 'George Bellows', correct: false },
             { text: 'Francisco de Goya', correct: false },
-            { text: 'Gustave Courbet', correct: true },
-            { text: 'Paul Cezanne', correct: false }
+            { text: 'Gustave Courbet', correct: false },
+            { text: 'Paul Cezanne', correct: true }
         ]
     },
     {
-        question: "test15",
-        imageUrl: "assets/images/auguste-robin-the-thinker.webp",
+        question: "The Thinker, 1904",
+        imageUrl: "assets/images/artist-images/auguste-robin-the-thinker.webp",
         answers: [
             { text: 'Jeff Koons', correct: false },
             { text: 'Constantin Brancusi', correct: false },
@@ -159,8 +153,8 @@ const artistQuestions = [
         ]
     },
     {
-        question: "test16",
-        imageUrl: "assets/images/edward-hopper-nighthawks.webp",
+        question: "Nighthawks, 1942",
+        imageUrl: "assets/images/artist-images/edward-hopper-nighthawks.webp",
         answers: [
             { text: 'Edward Hopper', correct: true },
             { text: 'George Bellows', correct: false },
@@ -169,8 +163,8 @@ const artistQuestions = [
         ]
     },
     {
-        question: "test17",
-        imageUrl: "assets/images/piet-mondrian-mondrian-red-blue-yellow.webp",
+        question: "Red, Blue, Yellow, 1930",
+        imageUrl: "assets/images/artist-images/piet-mondrian-mondrian-red-blue-yellow.webp",
         answers: [
             { text: 'Gustav Klimt', correct: false },
             { text: 'Piet Mondrian', correct: true },
@@ -179,8 +173,8 @@ const artistQuestions = [
         ]
     },
     {
-        question: "test18",
-        imageUrl: "assets/images/the-kiss-klimt.webp",
+        question: "The Kiss, 1907-1908",
+        imageUrl: "assets/images/artist-images/the-kiss-klimt.webp",
         answers: [
             { text: 'Gustav Klimt', correct: true },
             { text: 'Edvard Munch', correct: false },
@@ -189,18 +183,18 @@ const artistQuestions = [
         ]
     },
     {
-        question: "test19",
-        imageUrl: "assets/images/bernini-the-ecstasy-of-saint-theresa.webp",
+        question: "Ecstasy of Saint Theresa, 1647-1652",
+        imageUrl: "assets/images/artist-images/bernini-the-ecstasy-of-saint-theresa.webp",
         answers: [
             { text: 'Auguste Rodin', correct: false },
-            { text: 'Bernini', correct: true },
+            { text: 'Gian Lorenzo Bernini', correct: true },
             { text: 'Antonio Canova', correct: false },
             { text: 'Donatello', correct: false }
         ]
     },
     {
-        question: "test20",
-        imageUrl: "assets/images/rothko-orange-tan-1954.webp",
+        question: "Orange Tan, 1954",
+        imageUrl: "assets/images/artist-images/rothko-orange-tan-1954.webp",
         answers: [
             { text: 'Jackson Pollock', correct: false },
             { text: 'Arshile Gorky', correct: false },
