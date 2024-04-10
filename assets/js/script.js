@@ -62,8 +62,14 @@
 const artistCategoryButton = document.getElementById('artist');
 const periodCategoryButton = document.getElementById('period');
 const paintingCategoryButton = document.getElementById('painting');
+const quizAreaContainer = document.getElementById('quiz-area-container');
+const questionPlaceholder = document.getElementById('question-placeholder');
+const titleName = document.getElementById("painting-name");
+const answerButtons = document.getElementById('answer-choices');
+const nextButton = document.getElementById('next-btn');
 
 // variables to get their value defined within functions as I go along
+let correctAnswer;
 let randomQuestion;
 let currentQuestionIndex;
 let shuffledQuestions;
@@ -107,18 +113,21 @@ function startGame(id){
         artistCategoryButton.classList.add('hide');
         periodCategoryButton.classList.add('hide');
         paintingCategoryButton.classList.add('hide');
+        quizAreaContainer.classList.remove('hide');
         randomQuestion = artistQuestions;
         getRandomQuestion();        
     } else if (id === "period") {
         artistCategoryButton.classList.add('hide');
         periodCategoryButton.classList.add('hide');
         paintingCategoryButton.classList.add('hide');
+        quizAreaContainer.classList.remove('hide');
         randomQuestion = periodQuestions;
         getRandomQuestion();
     } else if (id === "painting") {
         artistCategoryButton.classList.add('hide');
         periodCategoryButton.classList.add('hide');
         paintingCategoryButton.classList.add('hide');
+        quizAreaContainer.classList.remove('hide');
         randomQuestion = paintingQuestions;
         getRandomQuestion();
     }
@@ -151,10 +160,37 @@ function showQuestion() {
 /** Function that populates Question area container based on chosen category
  * and applies a class name to the correct answer
  */
-function displayQuestion() {}
+function displayQuestion(randomQuestion) {
+    titleName.innerText = randomQuestion.question;
+    questionPlaceholder.setAttribute("src", randomQuestion.imageUrl);
+    questionPlaceholder.alt = 'Question Image';
+    randomQuestion.answers.forEach(answer => {
+        const button = document.createElement('button');
+        button.innerText = answer.text;
+        button.classList.add('btn');
+        if (answer.correct) {
+            button.id = "correct";
+        } 
+
+        // create an event listener to answer buttons for when the user clicks each button then the following action follows
+        button.addEventListener('click', userAnswer);
+        answerButtons.appendChild(button);
+    });
+}
 
 /** Function that allows the user to select their answer button */
-function userAnswer(){}
+function userAnswer(event){
+    quizAreaContainer.classList.add('no-more-answer');
+    correctAnswer = document.getElementById("correct");
+    const clickedButton = event.target;
+    correctAnswer.classList.add("correct");
+    if (clickedButton === correctAnswer) {
+        // incrementScore();
+    } else {
+        this.classList.add("incorrect");
+    }
+    nextButton.classList.remove('hide');
+}
 
 /**Function that generates 10 questions */
 function nextQuestion(){}
