@@ -79,6 +79,8 @@ let questionNumberCount = 0;
 
 /** This section was inspired by Love Maths project */
 
+// Event Listeners
+nextButton.addEventListener('click', handleNextButtonClick);
 // DOM content loaded event listener & each category iteration using a for loop
 document.addEventListener("DOMContentLoaded", function () {
     let buttons = document.getElementsByTagName("button");
