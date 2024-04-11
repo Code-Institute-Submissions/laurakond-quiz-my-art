@@ -27,7 +27,6 @@ let shuffledQuestions;
 let score = 0;
 let questionNumberCount = 0;
 
-
 /** This section was inspired by Love Maths project */
 
 // Event Listeners
@@ -43,10 +42,9 @@ document.addEventListener("DOMContentLoaded", function () {
             startGame(categoryType);
         });
     }
-});
+})
 
-
-/** Initialises category selection to start the game */
+/** Functon that initialises category selection to start the game */
 function startGame(id) {
     if (id === "artist") {
         artistQuestion();
@@ -55,21 +53,19 @@ function startGame(id) {
     } else if (id === "painting") {
         paintingQuestion();
     }
-
 }
 
-// Function that replaces main Logo with one letter once inside a category game
+/** Function that replaces main Logo with one letter once inside a category game */
 function logoSign() {
     logo.classList.add("hide");
     document.getElementById("logo-letter").classList.remove("hide");
-
 }
 
 /** The below used https://www.youtube.com/watch?v=riDzcEQbX6k
  * as a guide and idea on how to populate questions using JS
  */
 
-/**Function that generates random questions in each category */
+/** Function that generates random questions in each category */
 function getRandomQuestion() {
     shuffledQuestions = randomQuestion.sort(() => Math.random() - 0.5);
     // setting the index to 0 as the questions start at the first question of the array
@@ -118,9 +114,9 @@ function userAnswer(event) {
     nextButton.classList.remove('hide');
 }
 
-/**Function that generates 10 questions */
+/** Function that generates 10 questions */
 function nextQuestion() {
-    // check that current question index below10
+    // check that current question index below 10
     if (currentQuestionIndex < 9) {
         resetQuestion();
         currentQuestionIndex++;
@@ -145,7 +141,7 @@ function resetQuestion() {
 /** Function that shows which question the user is at against the total number of questions */
 function incrementQuestionNumber() {
     questionNumberCount++;
-    document.getElementById('question-number').innerHTML = questionNumberCount;
+    questionNumber.innerHTML = questionNumberCount;
 }
 
 /** Function that controls next button */
@@ -190,7 +186,7 @@ function scoreBoard() {
     quizAreaContainer.classList.add('hide');
     nextButton.classList.add('hide');
     resultPage.classList.remove('hide');
-
+    // Return to home page button
     homePageButton.addEventListener('click', resetGame);
 }
 
