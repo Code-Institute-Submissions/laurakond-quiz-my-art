@@ -62,11 +62,13 @@
 const artistCategoryButton = document.getElementById('artist');
 const periodCategoryButton = document.getElementById('period');
 const paintingCategoryButton = document.getElementById('painting');
+const categoryHeading = document.getElementById('category-heading');
 const quizAreaContainer = document.getElementById('quiz-area-container');
 const questionPlaceholder = document.getElementById('question-placeholder');
 const titleName = document.getElementById("painting-name");
 const answerButtons = document.getElementById('answer-choices');
 const nextButton = document.getElementById('next-btn');
+const resultPage = document.getElementById('score-result-container');
 
 // variables to get their value defined within functions as I go along
 let correctAnswer;
@@ -116,6 +118,7 @@ function startGame(id){
         periodCategoryButton.classList.add('hide');
         paintingCategoryButton.classList.add('hide');
         quizAreaContainer.classList.remove('hide');
+        categoryHeading.innerText = "Who painted it?";
         randomQuestion = artistQuestions;
         getRandomQuestion();        
     } else if (id === "period") {
@@ -123,6 +126,7 @@ function startGame(id){
         periodCategoryButton.classList.add('hide');
         paintingCategoryButton.classList.add('hide');
         quizAreaContainer.classList.remove('hide');
+        categoryHeading.innerText = "Which period or art movement does the work belong to?";
         randomQuestion = periodQuestions;
         getRandomQuestion();
     } else if (id === "painting") {
@@ -130,6 +134,7 @@ function startGame(id){
         periodCategoryButton.classList.add('hide');
         paintingCategoryButton.classList.add('hide');
         quizAreaContainer.classList.remove('hide');
+        categoryHeading.innerText = "Name the painting";
         randomQuestion = paintingQuestions;
         getRandomQuestion();
     }
@@ -195,10 +200,28 @@ function userAnswer(event){
 }
 
 /**Function that generates 10 questions */
-function nextQuestion(){}
+function nextQuestion(){
+    // check that current question index below10
+    if (currentQuestionIndex < 9) {
+        resetQuestion();
+        currentQuestionIndex++;
+        showQuestion();
+    } else {
+        scoreBoard();
+    }
+}
 
 /** Function that resets the Question area section for the next question */
-function resetQuestion(){}
+function resetQuestion(){
+    nextButton.classList.add('hide');
+    quizAreaContainer.classList.remove('pointer-block');
+
+    // will remove previous answer options
+    while (answerButtons.firstChild) {
+        answerButtons.removeChild(answerButtons.firstChild);
+    }
+    resultPage.addEventListener('click', scoreBoard);
+}
 
 /** Function that shows which question the user is at against the total number of questions */
 function incrementQuestionNumber(){}
@@ -207,7 +230,10 @@ function incrementQuestionNumber(){}
 function currentQuestionNumber(){}
 
 /** Function that controls next button */
-function handleNextButtonClick(){}
+function handleNextButtonClick(){
+    incrementQuestionNumber();
+    nextQuestion();
+}
 
 /** Function that will calculate the score as the quiz progresses. 
  * But will not display until the end 
