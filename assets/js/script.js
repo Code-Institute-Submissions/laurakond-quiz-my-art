@@ -120,6 +120,7 @@ function startGame(id){
         quizAreaContainer.classList.remove('hide');
         categoryHeading.innerText = "Who painted it?";
         randomQuestion = artistQuestions;
+        incrementQuestionNumber();
         getRandomQuestion();        
     } else if (id === "period") {
         artistCategoryButton.classList.add('hide');
@@ -128,6 +129,7 @@ function startGame(id){
         quizAreaContainer.classList.remove('hide');
         categoryHeading.innerText = "Which period or art movement does the work belong to?";
         randomQuestion = periodQuestions;
+        incrementQuestionNumber();
         getRandomQuestion();
     } else if (id === "painting") {
         artistCategoryButton.classList.add('hide');
@@ -136,6 +138,7 @@ function startGame(id){
         quizAreaContainer.classList.remove('hide');
         categoryHeading.innerText = "Name the painting";
         randomQuestion = paintingQuestions;
+        incrementQuestionNumber();
         getRandomQuestion();
     }
     
@@ -224,10 +227,10 @@ function resetQuestion(){
 }
 
 /** Function that shows which question the user is at against the total number of questions */
-function incrementQuestionNumber(){}
-
-/** Shows which question the user is at against the total number of questions */
-function currentQuestionNumber(){}
+function incrementQuestionNumber(){
+    questionNumberCount++;
+    document.getElementById('question-number').innerHTML = questionNumberCount;
+}
 
 /** Function that controls next button */
 function handleNextButtonClick(){
