@@ -59,6 +59,7 @@
 // })
 
 // Static variables used for accessing DOM
+const logo = document.getElementById('logo');
 const artistCategoryButton = document.getElementById('artist');
 const periodCategoryButton = document.getElementById('period');
 const paintingCategoryButton = document.getElementById('painting');
@@ -124,7 +125,8 @@ function startGame(id){
         categoryHeading.innerText = "Who painted it?";
         randomQuestion = artistQuestions;
         incrementQuestionNumber();
-        getRandomQuestion();        
+        getRandomQuestion();
+        logoSign();        
     } else if (id === "period") {
         artistCategoryButton.classList.add('hide');
         periodCategoryButton.classList.add('hide');
@@ -134,6 +136,7 @@ function startGame(id){
         randomQuestion = periodQuestions;
         incrementQuestionNumber();
         getRandomQuestion();
+        logoSign();
     } else if (id === "painting") {
         artistCategoryButton.classList.add('hide');
         periodCategoryButton.classList.add('hide');
@@ -143,8 +146,16 @@ function startGame(id){
         randomQuestion = paintingQuestions;
         incrementQuestionNumber();
         getRandomQuestion();
+        logoSign();
     }
     
+}
+
+// Function that replaces main Logo with one letter once inside a category game
+function logoSign(){
+    logo.classList.add("hide");
+    document.getElementById("logo-letter").classList.remove("hide");
+
 }
 
 /**function to enable each category that the player chooses to play */
