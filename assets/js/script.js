@@ -71,6 +71,7 @@ const nextButton = document.getElementById('next-btn');
 const resultPage = document.getElementById('score-result-container');
 const questionNumber = document.getElementById("question-number");
 const totalScoreCount = document.getElementById("score");
+const homePageButton = document.getElementById('play-again-btn');
 
 // variables to get their value defined within functions as I go along
 let correctAnswer;
@@ -266,11 +267,14 @@ function scoreBoard(){
     quizAreaContainer.classList.add('hide');
     nextButton.classList.add('hide');
     resultPage.classList.remove('hide');
+    
     homePageButton.addEventListener('click', resetGame);
 }
 
 /**Function that resets the game */
-function resetGame(){}
+function resetGame(){
+    window.location.reload();
+}
 
 /**
  * Checks the user's answer against the correct answer
