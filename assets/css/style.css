@@ -38,11 +38,27 @@ p {
 
 /* Header style */
 header {
-    display: flex;
+    /* display: flex; */
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
+    background-color: yellow;
+}
+
+header a {
+    text-decoration: none;
+}
+
+#logo {
+    /* font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    font-style: normal; */
+    text-align: center;
+}
+
+#logo-letter {
+    text-align: left;
+    padding-left: 0.55rem;
 }
 
 /* Main content */
@@ -190,7 +206,12 @@ main {
 
 /* Footer */
 footer {
-    text-align: center;
     display: flex;
     flex-direction: column;
+    text-align: center;
+    background-color: coral;
+}
+
+footer p {
+    text-align: left;
 }
