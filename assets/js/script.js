@@ -69,6 +69,8 @@ const titleName = document.getElementById("painting-name");
 const answerButtons = document.getElementById('answer-choices');
 const nextButton = document.getElementById('next-btn');
 const resultPage = document.getElementById('score-result-container');
+const questionNumber = document.getElementById("question-number");
+const totalScoreCount = document.getElementById("score");
 
 // variables to get their value defined within functions as I go along
 let correctAnswer;
@@ -195,7 +197,7 @@ function userAnswer(event){
     const clickedButton = event.target;
     correctAnswer.classList.add("correct");
     if (clickedButton === correctAnswer) {
-        // incrementScore();
+        incrementScore();
     } else {
         this.classList.add("incorrect");
     }
@@ -241,16 +243,31 @@ function handleNextButtonClick(){
 /** Function that will calculate the score as the quiz progresses. 
  * But will not display until the end 
  */
-function incrementScore(){}
+function incrementScore(){
+    score++;
+    // score = parseInt(playerScore.innerText);
+    document.getElementById("player-score").innerHTML = score;
+}
 
 /** Function that calculates the total score of correctly answered questions */
-function totalScore(){}
+function totalScore(){
+    totalScoreCount.innerHTML = score;
+}
 
 /**Function that generates appropriate text based on total score */
 function displayScoreText(){}
 
 /** Function that opens the Score/final page after the completion of the quiz */
-function scoreBoard(){}
+function scoreBoard(){
+    totalScore();
+    const resultText = document.getElementById("result-description");
+    resultText.textContent = displayScoreText();
+    // Displays or hides appropriate sections
+    quizAreaContainer.classList.add('hide');
+    nextButton.classList.add('hide');
+    resultPage.classList.remove('hide');
+    homePageButton.addEventListener('click', resetGame);
+}
 
 /**Function that resets the game */
 function resetGame(){}
