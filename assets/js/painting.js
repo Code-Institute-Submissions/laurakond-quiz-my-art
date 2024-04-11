@@ -202,4 +202,4 @@ const paintingQuestions = [
             { text: 'Self-portrait at 26, 1497', correct: false }
         ]
     }
-]
+];

@@ -202,4 +202,4 @@ const periodQuestions = [
             { text: 'Pop art', correct: true }
         ]
     }
-]
+];

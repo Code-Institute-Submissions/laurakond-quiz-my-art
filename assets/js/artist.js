@@ -202,4 +202,4 @@ const artistQuestions = [
             { text: 'Mark Rothko', correct: true }
         ]
     }
-]
+];

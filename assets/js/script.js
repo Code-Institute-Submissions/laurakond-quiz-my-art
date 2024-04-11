@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
             startGame(categoryType);
         });
     }
-})
+});
 
 /** Functon that initialises category selection to start the game */
 function startGame(id) {
