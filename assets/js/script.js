@@ -256,7 +256,17 @@ function totalScore(){
 }
 
 /**Function that generates appropriate text based on total score */
-function displayScoreText(){}
+function displayScoreText(){
+    if (score === 10) {
+        return "You are the master of the Arts. Everyone should bow to your prowess in Art History knowledge.";
+    } else if (score >= 6 && score < 10) {
+        return "You are on your way to becoming a great connoiseur of the Arts! Keep at it and you will one day reach the height of your knowledge.";
+    } else if (score < 6 && score >= 4) {
+        return "Some book and cramming time would do you good.";
+    } else {
+        return "There are no words to describe your lack of knowledge in Art history. Go back and study more!";
+    }
+}
 
 /** Function that opens the Score/final page after the completion of the quiz */
 function scoreBoard(){
@@ -267,7 +277,7 @@ function scoreBoard(){
     quizAreaContainer.classList.add('hide');
     nextButton.classList.add('hide');
     resultPage.classList.remove('hide');
-    
+
     homePageButton.addEventListener('click', resetGame);
 }
 
