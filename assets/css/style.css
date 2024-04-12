@@ -372,15 +372,25 @@ footer p {
     main {
         margin-top: 44px;
     }
+
+    /* Button display */
+
+    /* The following grid template was created using example https://codepen.io/MattWindle/pen/perZRG */
+
+    #answer-choices {
+        display: grid;
+        grid-template-columns: 200px 200px;
+        grid-row: auto auto;
+        grid-column-gap: 2rem;
+        /* grid-row-gap: ; */
+    }
+
 }
 
 /* Media query for large devices (laptops and desktops,992px and up) */
 @media screen and (min-width: 992px) {
 
-    .btn-grid {
-        display: grid;
-    }
-
+    /* Button hover over effect */
     .btn:hover {
         background-color: coral;
     }
