@@ -110,7 +110,7 @@ I used [Google fonts](https://fonts.google.com/) to source fonts for the website
 
 ## Features
 
-The website is comprised of blank pages: a Home page, a blank page, a blank page and an Error 404 page. The latter is hidden from the user, and is only visible when a wrong website address is entered. 
+The website has three categories to choose from that the user can decide what area of art knowledge they would like to test, a total score page, a button that prompts to play the quiz again and a 404 error page. The latter is only visible when a wrong website address is entered or an error occurs.  
 
 All features are fully responsive on mobile, tablets/iPads, laptops and desktops. 
 
@@ -118,12 +118,10 @@ All features are fully responsive on mobile, tablets/iPads, laptops and desktops
 
 **The Header**
 
-![header-feature-desktop](link)
-
-
-    ![header-feature-mobile](link)
-
-    ![header-feature-mobile2](link)
+![header-feature-desktop](assets/documentation/features/header-feature-desktop.jpg)
+- Featured in all pages, the header is fully responsive and displays the website's Logo. Once inside the game it transitions into a shortened version of the logo as to not occupy entire space. 
+- Once inside the game it transitions into a shortened version of the logo as to not occupy entire space. 
+- The header also allows the user to return to the Home page upon clicking the Logo or the letter "Q".
 
 <br>
 
@@ -131,18 +129,44 @@ All features are fully responsive on mobile, tablets/iPads, laptops and desktops
 
 ![enter image description here](link)
 
+- Featured in all the pages, the footer section displays the name of the creator, and on larger screens also shows that it is created for educational purposes only as part of Code Institute Web development programme. It also contains links to the developer's social media sites. Both links open in a new tab to allow easy navigation for the user.
 
 <br>
 
 **The Home page**
 
-
+- The Homepage is simple and displays three different categories:
+	- "Who painted it?" 
+	- "Name that Painting?" 
+	- "When was it created?". 
+The names of the categories are simple, allowing the user to identify the topic of the quiz straight away.
 
 <br>  
 
-**History & Technique page**. This page is split into three sections including a list of cross-stitching steps to follow and a video. 
+**Three Quiz Categories** 
 
+- Each category displays ten questions that are randomly selected from three different question pools. This prevents repetition of questions in case the user goes to the same category again.  
+- Each category's question is displayed once the page is loaded with a quick explanation of how to play just underneath it. 
+- A question count is displayed just above the image of the art work which allows the user to follow their progress and know which question prompt they are at. 
+- Below the displayed question image, the user will find a hint whether it is a title, an artist's name or a full title, artist's name and the date of the painting depending on the category that is selected. 
+- The four answer options below the image question image and a prompt are generated using JavaScript, and allows the user to select only one answer. Upon selection of the answer, the game will automatically accept it as a final answer and will block the user from changing their answer choice.
+- The button will automatically change color dependent whether the answer choice was correct or not. If the user's guess was incorrect, the correct answer will be highlighted allowing for the user to find out what it was.
 
+<br>
+
+**Next Button** 
+- The Next button is hidden until the answer is selected, and then displays at the bottom of the screen just above the footer of the page. Once clicked it will take the user to the next question and hide again until the next answer is selected. 
+
+  ![history section](assets/documentation/features/history-page/history-section.jpg)
+
+<br>
+
+**The Score Page** 
+- Following the history section, this section gives a general overview of different aspects to consider when starting to cross-stitch. 
+
+  ![technique section](assets/documentation/features/history-page/technique-section.jpg)
+
+- **The five-step cross-stitch list**. This sub-section provides the user with a detailed break down list of how to start cross-stitching and gives tips for best practices. The list is interactive and can be expanded and minimized by clicking on a "Click here" arrow which provides further engagement with the content.
 
 <br>
 
