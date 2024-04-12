@@ -198,8 +198,8 @@ The names of the categories are simple, allowing the user to identify the topic 
 
 ### Languages used
 
-HTML and CSS languages were used for creating this website.
-Markdown was used for creating the README file.
+- HTML, CSS and JavaScript languages were used for creating this website.
+- Markdown language was used for creating the README file.
 
 ### Frameworks, Libraries and Programs used
 
@@ -213,7 +213,7 @@ The following resources were used to help implement the website:
 - [Favicon](https://favicon.io/) for generating a favicon
 - Google Chrome DevTools for testing, troubleshooting and brainstorming code solutions
 - [Am I Responsive?](https://ui.dev/amiresponsive) website for showing the website's responsiveness on different devices
-- [Pixelied](https://pixelied.com/), [ILoveIMG](https://www.iloveimg.com/), Gimp, [Tiny PNG](https://tinypng.com/) for resizing, compressing and editing images
+- [Pixelied](https://pixelied.com/), [ILoveIMG](https://www.iloveimg.com/), Gimp, for resizing, compressing and editing images
 - [Coolors](https://coolors.co/) for generating the color palette
 - WCAG color contrast checker for website accessibilty
 
@@ -223,7 +223,7 @@ The following resources were used to help implement the website:
 
 This website was deployed using GitHub pages. The steps to deploy are as follows:
 
-1. Login to GitHub and navigate to the repository page (Cross-Stitch-Art), click on the chosen repository.
+1. Login to GitHub and navigate to the repository page (quiz-my-art), click on the chosen repository.
 2. Once inside the repository, click on the "Settings" tab above the repository title.
 3. Select "Pages" tab on the left side navigation menu.
 4. In the "Source" section (middle of the screen), select "main" or "master" branch, then "root" folder and click "save" button.
@@ -311,7 +311,14 @@ All HTML pages and CSS file were tested against W3C Markup and CSS validation se
 
 ## Credits
 
-The following resources have been used in preparation to and while creating the Quiz My Art website:
+The following resources have been used in preparation to and while creating the Quiz My Art website.
+
+- Web Dev Simplified: https://www.youtube.com/watch?v=riDzcEQbX6k
+- GreatStack: https://www.youtube.com/watch?v=PBcqGxrr9g8
+- How to Become a Developer: https://www.youtube.com/watch?v=MgeQa7qXIwI 
+- James Q Quick: https://www.youtube.com/watch?v=rFWbAj40JrQ&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=5
+
+
 
 ### Content
 
@@ -324,8 +331,7 @@ The following resources have been used in preparation to and while creating the 
 
 #### Images
 
- 
-#### Video
+- Images were sourced from wikipedia.org website.
 
 ### General resources
 
@@ -336,6 +342,11 @@ The following resources have been used in preparation to and while creating the 
 
 My thanks goes to my mentor, [Martina Terlevic](https://github.com/SephTheOverwitch), for providing guidance, and support on all things code and project.
 
+A big shout-out to [Vernell Clark](https://github.com/VCGithubCode) for his increadible patience, support and guidance on how to work with JavaScript.
+
+Also a bit thanks goes to [Jamie Connell](https://github.com/GreenNinjaBoy) for helping out with sticky bits when creating the game.
+
+Also a big thank you goes to the Code Institute Slack comminuty who provided the energy and kept my morale up.
 
 ### Code inspiration
 
