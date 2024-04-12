@@ -86,19 +86,38 @@ main {
     /* Pushing footer down by making the main content to take up the surplus.
  This code part is taken from my Project portfolio 1 */
     flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-top: 40px;
 }
 
 /* Landing page */
 
-/* Styles shared between pages */
-
 #categories-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding: 100px 0; */
+    /* these added for creating a box effect */
+    padding: 3rem;
+    background-color: orange;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 5px black;
 }
+
+.landing-btn{
+    text-align: center;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Styles shared between pages */
 
 #categories,
 #answer-choice {
@@ -108,8 +127,6 @@ main {
     align-items: center;
     margin: auto;
 }
-
-
 
 
 /* Quiz Area */
@@ -245,7 +262,7 @@ footer p {
     display: flex;
     align-self: center;
     gap: 1.4rem;
-    padding: 0 0.5rem;
+    padding-left: 0.5rem;
 }
 
 #social-media i {

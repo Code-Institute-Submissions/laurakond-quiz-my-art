@@ -5,6 +5,7 @@
 
 // Static variables used for accessing DOM
 const logo = document.getElementById('logo');
+const categoriesContainer = document.getElementById('categories-container');
 const artistCategoryButton = document.getElementById('artist');
 const periodCategoryButton = document.getElementById('period');
 const paintingCategoryButton = document.getElementById('painting');
@@ -197,6 +198,7 @@ function resetGame() {
 
 /** Function that initialises artist question category */
 function artistQuestion() {
+    categoriesContainer.style.display = "none";
     artistCategoryButton.classList.add('hide');
     periodCategoryButton.classList.add('hide');
     paintingCategoryButton.classList.add('hide');
@@ -210,6 +212,7 @@ function artistQuestion() {
 
 /** Function that initialises period question category */
 function periodQuestion() {
+    categoriesContainer.style.display = "none";
     artistCategoryButton.classList.add('hide');
     periodCategoryButton.classList.add('hide');
     paintingCategoryButton.classList.add('hide');
@@ -223,6 +226,7 @@ function periodQuestion() {
 
 /** Function that initialises painting question category*/
 function paintingQuestion() {
+    categoriesContainer.style.display = "none";
     artistCategoryButton.classList.add('hide');
     periodCategoryButton.classList.add('hide');
     paintingCategoryButton.classList.add('hide');
