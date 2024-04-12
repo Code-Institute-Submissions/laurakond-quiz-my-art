@@ -103,7 +103,7 @@ function displayQuestion(randomQuestion) {
 
 /** Function that allows the user to select their answer button */
 function userAnswer(event) {
-    quizAreaContainer.classList.add("pointer-block");
+    answerButtons.classList.add("pointer-block");
     correctAnswer = document.getElementById("correct");
     const clickedButton = event.target;
     correctAnswer.classList.add("correct");
@@ -112,7 +112,8 @@ function userAnswer(event) {
     } else {
         this.classList.add("incorrect");
     }
-    nextButton.classList.remove('hide');
+    nextButton.style.display = "flex";
+    // nextButton.classList.remove('hide');
 }
 
 /** Function that generates 10 questions */
@@ -129,8 +130,9 @@ function nextQuestion() {
 
 /** Function that resets the Question area section for the next question */
 function resetQuestion() {
-    nextButton.classList.add('hide');
-    quizAreaContainer.classList.remove('pointer-block');
+    // nextButton.classList.add('hide');
+    nextButton.style.display = "none";
+    answerButtons.classList.remove('pointer-block');
 
     // will remove previous answer options
     while (answerButtons.firstChild) {
