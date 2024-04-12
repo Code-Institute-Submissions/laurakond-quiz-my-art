@@ -29,7 +29,9 @@ h3 {
 }
 
 img {
-    width: 100%;
+    /* width: 100%; */
+    max-width: 100%;
+    max-height: 100%;
 }
 
 p {
@@ -156,7 +158,11 @@ main {
 }
 
 /* JS populated question/image area styles */
-#image-container {}
+#image-container {
+    display: flex;
+    justify-content: center;
+    object-fit: scale-down;
+}
 
 #painting-name {
     font-size: 1.1rem;
@@ -373,25 +379,32 @@ footer p {
         margin-top: 44px;
     }
 
-    /* Button display */
+    #image-container {
+        /* display: flex; */
+        /* justify-content: center; */
+        /* object-fit: scale-down; */
+        width: 500px;
+        height: 500px;
+    }
+        /* Button display */
 
-    /* The following grid template was created using example https://codepen.io/MattWindle/pen/perZRG */
+        /* The following grid template was created using example https://codepen.io/MattWindle/pen/perZRG */
 
-    #answer-choices {
-        display: grid;
-        grid-template-columns: 200px 200px;
-        grid-row: auto auto;
-        grid-column-gap: 2rem;
-        /* grid-row-gap: ; */
+        #answer-choices {
+            display: grid;
+            grid-template-columns: 200px 200px;
+            grid-row: auto auto;
+            grid-column-gap: 2rem;
+            /* grid-row-gap: ; */
+        }
+
     }
 
-}
+    /* Media query for large devices (laptops and desktops,992px and up) */
+    @media screen and (min-width: 992px) {
 
-/* Media query for large devices (laptops and desktops,992px and up) */
-@media screen and (min-width: 992px) {
-
-    /* Button hover over effect */
-    .btn:hover {
-        background-color: coral;
+        /* Button hover over effect */
+        .btn:hover {
+            background-color: coral;
+        }
     }
-}
