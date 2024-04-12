@@ -36,24 +36,6 @@ p {
     text-align: center;
 }
 
-/* JS related content styling */
-
-.hide {
-    display: none;
-}
-
-.pointer-block {
-    pointer-events: none;
-}
-
-.correct {
-    background-color: green;
-}
-
-.incorrect {
-    background-color: red;
-}
-
 /* Header style */
 header {
     /* display: flex; */
@@ -93,6 +75,30 @@ main {
     margin-top: 40px;
 }
 
+/* Styles shared between pages */
+
+#categories,
+#answer-choices {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.btn {
+    width: 13rem;
+    height: 3.2rem;
+    text-align: center;
+    border-radius: 0.75rem;
+    border: none;
+    cursor: pointer;
+    margin: 0 auto 20px;
+    padding: 0.2rem 0.5rem;
+    background-color: aqua;
+}
+
+
 /* Landing page */
 
 #categories-container {
@@ -107,7 +113,7 @@ main {
     box-shadow: 0 0 10px 5px black;
 }
 
-.landing-btn{
+.landing-btn {
     text-align: center;
     width: 150px;
     border: 0;
@@ -117,49 +123,89 @@ main {
     cursor: pointer;
 }
 
-/* Styles shared between pages */
-
-#categories,
-#answer-choice {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
-
-
 /* Quiz Area */
 
 #quiz-area-container {
-    flex-direction: column;
-    width: 90%;
+    /* width: 90%; */
     max-width: 600px;
-    margin: auto auto 0;
-    /* border-radius: 10px; */
-    padding: 30px;
+    /* margin: auto auto 0; */
+    border-radius: 10px;
+    padding: 0.75rem;
 }
 
-/* Main menu(button) style */
+#quiz-area-container>p {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    padding-top: 1rem;
+}
+
+.rules-description {
+    padding-bottom: 0.75rem;
+}
+
+#category-heading {
+    padding-bottom: 0.7rem;
+}
+
+/* Category title & static rules styles */
+#question-container>p {
+    text-align: right;
+    font-weight: 700;
+    padding-bottom: 0.20rem;
+}
+
+/* JS populated question/image area styles */
+#image-container {}
+
+#painting-name {
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 0.5rem 0 0.7rem;
+}
 
 .btn {
     /* display: block; */
-    margin: 20px auto;
+    /* margin: 20px auto; */
 }
 
-.btn:hover {
-    background-color: coral;
-}
+/* Next button */
 
 #next-btn {
     text-align: center;
     /* display: flex; */
     justify-content: center;
     align-items: center;
-    /* width: 150px; */
-    /* padding: 10px; */
-    /* margin: auto; */
+    width: 150px;
+    padding: 10px;
+    margin: auto;
     cursor: pointer;
+}
+
+/* Play again button */
+
+#play-again-btn {
+    display: flex;
+    justify-content: center;
+}
+
+/* JS related content styling */
+
+.hide {
+    display: none;
+}
+
+.pointer-block {
+    pointer-events: none;
+}
+
+.correct {
+    background-color: green;
+}
+
+.incorrect {
+    background-color: red;
 }
 
 /* Artist question, Painting, Period and Score pages */
@@ -240,7 +286,7 @@ footer p {
     text-align: left;
 }
 
-#footer-container{
+#footer-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -258,7 +304,7 @@ footer p {
     display: none;
 }
 
-#social-media{
+#social-media {
     display: flex;
     align-self: center;
     gap: 1.4rem;
@@ -283,7 +329,7 @@ footer p {
     #logo-letter {
         display: none;
     }
-    
+
 }
 
 /* Media query for mobiles from 462px and up*/
@@ -298,15 +344,15 @@ footer p {
 
 
 /* Media query for large devices (laptops and desktops,675px and up) */
-@media screen and (min-width: 675px){
+@media screen and (min-width: 675px) {
     /* Footer */
 
-    #footer-container{
+    #footer-container {
         display: flex;
         justify-content: center;
         /* margin: 0.5rem; */
     }
-    
+
     #footer-info {
         /* width: 80%; */
         justify-content: center;
@@ -316,7 +362,7 @@ footer p {
 /* Media query for large devices (laptops and desktops,768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
-    
+
     #logo {
         font-size: 220%;
     }
@@ -325,5 +371,17 @@ footer p {
 
     main {
         margin-top: 44px;
+    }
+}
+
+/* Media query for large devices (laptops and desktops,992px and up) */
+@media screen and (min-width: 992px) {
+
+    .btn-grid {
+        display: grid;
+    }
+
+    .btn:hover {
+        background-color: coral;
     }
 }
