@@ -144,7 +144,7 @@ const periodQuestions = [
     },
     {
         question: "Dante Rossetti, Proserpine, 1874",
-        imageUrl: "assets/images/period-images/pre-raphaelites-dante-rossetti1874.webp",
+        imageUrl: "assets/images/period-images/pre-raphaelites-dante-rossetti-proserpine-1874-cropped.webp",
         answers: [
             { text: 'Victorian art', correct: false },
             { text: 'Impressionism', correct: false },
