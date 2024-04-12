@@ -29,9 +29,8 @@ h3 {
 }
 
 img {
-    /* width: 100%; */
-    max-width: 100%;
-    max-height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
 
 p {
@@ -161,7 +160,9 @@ main {
 #image-container {
     display: flex;
     justify-content: center;
-    object-fit: scale-down;
+    /* object-fit: scale-down; */
+    max-width: 500px;
+    max-height: 500px;
 }
 
 #painting-name {
@@ -185,7 +186,7 @@ main {
     align-items: center;
     width: 150px;
     padding: 10px;
-    margin: auto;
+    margin: 1rem;
     cursor: pointer;
 }
 
@@ -380,31 +381,27 @@ footer p {
     }
 
     #image-container {
-        /* display: flex; */
-        /* justify-content: center; */
-        /* object-fit: scale-down; */
-        width: 500px;
-        height: 500px;
+        max-width: 500px;
+        max-height: 500px;
     }
-        /* Button display */
+    /* Button display */
+    /* The following grid template was created using example https://codepen.io/MattWindle/pen/perZRG */
 
-        /* The following grid template was created using example https://codepen.io/MattWindle/pen/perZRG */
-
-        #answer-choices {
-            display: grid;
-            grid-template-columns: 200px 200px;
-            grid-row: auto auto;
-            grid-column-gap: 2rem;
-            /* grid-row-gap: ; */
-        }
-
+    #answer-choices {
+        display: grid;
+        grid-template-columns: 200px 200px;
+        grid-row: auto auto;
+        grid-column-gap: 2rem;
+        /* grid-row-gap: ; */
     }
 
-    /* Media query for large devices (laptops and desktops,992px and up) */
-    @media screen and (min-width: 992px) {
+}
 
-        /* Button hover over effect */
-        .btn:hover {
-            background-color: coral;
-        }
+/* Media query for large devices (laptops and desktops,992px and up) */
+@media screen and (min-width: 992px) {
+
+    /* Button hover over effect */
+    .btn:hover {
+        background-color: coral;
     }
+}
