@@ -48,21 +48,25 @@
         <!-- Main quiz area -->
         <!-- All of the quiz area (apart from rules) will be populated with JavaScript -->
         <div id="quiz-area-container" class="hide">
-            <h2 id="category-heading">Who Painted it?</h2>
-            <!-- One static paragraph defining the rules -->
-            <p>Choose one right answer from the provided options below.</p>
+            <div class="rules-description">
+                <h2 id="category-heading">Who Painted it?</h2>
+                <!-- One static paragraph defining the rules -->
+                <p>Choose one right answer from the provided options below.</p>
+            </div>
             <div id="question-container">
                 <!-- Question number area -->
                 <p><span id="question-number">0</span>/10</p>
                 <!-- Hidden player score that will feed to the total score -->
                 <p class="hide"><span id="player-score">0</span></p>
                 <!-- Paragraph container -->
-                <div id="painting-name"></div>
+                <!-- <div id="painting-name"></div> -->
                 <!-- Image container -->
                 <div id="image-container">
                     <!-- Image source and alt attribute will be populated with JavaScript -->
                     <img id="question-placeholder" src="#" alt="#">
                 </div>
+                <!-- Paragraph container -->
+                <div id="painting-name"></div>
                 <!-- Answer options area -->
                 <div id="answer-choices">
                     <!-- <button class="btn">Answer 1</button>
