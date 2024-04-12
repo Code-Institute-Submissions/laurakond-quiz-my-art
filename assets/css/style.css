@@ -127,7 +127,7 @@ main {
 /* Quiz Area */
 
 #quiz-area-container {
-    /* width: 90%; */
+    width: 90%;
     max-width: 600px;
     /* margin: auto auto 0; */
     border-radius: 10px;
@@ -150,10 +150,20 @@ main {
 }
 
 /* Category title & static rules styles */
+
+#question-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgoldenrodyellow;
+}
+
 #question-container>p {
     text-align: right;
     font-weight: 700;
     padding-bottom: 0.20rem;
+    /* margin-right: 3rem; */
 }
 
 /* JS populated question/image area styles */
@@ -384,6 +394,7 @@ footer p {
         max-width: 500px;
         max-height: 500px;
     }
+
     /* Button display */
     /* The following grid template was created using example https://codepen.io/MattWindle/pen/perZRG */
 
