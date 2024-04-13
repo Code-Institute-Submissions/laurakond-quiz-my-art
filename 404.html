@@ -12,6 +12,12 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <!-- Google fonts placed here to avoid error in css -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
     <!-- CSS style sheet -->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Quiz My Art</title>
@@ -28,38 +34,47 @@
     <main>
         <!-- 404 container -->
         <div id="error-message-container">
-        <div id="error-message">
-            <div id="message-content">
-             <h2>404</h2>
-             <p><i class="fa-solid fa-heart-crack"></i></p>
-             <h3>Oops..!</h3>
-             <p>We run out of creative juice.</p> <br>
-             <p><a href="index.html">Click here</a> to return to home page.</p>
+            <div id="error-message">
+                <div id="message-content">
+                    <h2>404</h2>
+                    <!-- <div id="error-image"> -->
+                        <img src="assets/images/error-page-brushes.webp" alt="Image of paintbrushes">
+                    <!-- </div> -->
+                    <!-- <p><i class="fa-solid fa-heart-crack"></i></p> -->
+                    <h3>Oops..!</h3>
+                    <p>We run out of creative juice.</p> <br>
+                    <p><a href="index.html">Click here</a> to return to home page.</p>
+                </div>
             </div>
         </div>
-    </div>
     </main>
     <!-- Footer section -->
     <footer>
         <!-- Copyright -->
-        <div id="footer-info">
-            <p>© Laura Kondrataite</p>
-            <P>Created as part of Code Institute programme.</p>
-        </div>
-        <!-- Social media section -->
-        <div id="social-media">
-            <a href="https://github.com/laurakond" aria-label="Visit my GitHub profile (opens a new window)"
-                target="_blank" rel="noopener"><i class="fa-brands fa-square-github"></i></a>
-            <a href="https://www.linkedin.com/in/laurakondrataite/"
-                aria-label="Visit my LinkedIn profile (opens a new window)" target="_blank"><i
-                    class="fa-brands fa-linkedin" rel="noopener"></i></a>
+        <div id="footer-container">
+            <div id="footer-info">
+                <p>© Created by Laura Kondrataite <span> for educational purposes only.</span></p>
+            </div>
+            <!-- Social media section -->
+            <div id="social-media">
+                <a href="https://github.com/laurakond" aria-label="Visit my GitHub profile (opens a new window)"
+                    target="_blank" rel="noopener"><i class="fa-brands fa-square-github"></i></a>
+                <a href="https://www.linkedin.com/in/laurakondrataite/"
+                    aria-label="Visit my LinkedIn profile (opens a new window)" target="_blank"><i
+                        class="fa-brands fa-linkedin" rel="noopener"></i></a>
+            </div>
         </div>
     </footer>
 
     <!-- Font Awesome script link -->
     <script src="https://kit.fontawesome.com/b3fd759711.js" crossorigin="anonymous"></script>
+    <!-- Object questions Javascript link -->
+    <script src="assets/js/artist.js"></script>
+    <script src="assets/js/period.js"></script>
+    <script src="assets/js/painting.js"></script>
     <!-- JavaScript link -->
     <script src="assets/js/script.js"></script>
+
 </body>
 
 </html>
