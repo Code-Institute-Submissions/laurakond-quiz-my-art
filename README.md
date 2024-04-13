@@ -325,13 +325,14 @@ The following resources have been used in preparation to and while creating the 
 
 
 ### Used code
-
+https://developer.mozilla.org/en-US/docs/Web/CSS/basic-shape/circle
 
 ### Media
 
 #### Images
 
 - Images were sourced from wikipedia.org website.
+- Favicon and error page image were taken from Pexels.com
 
 ### General resources
 
@@ -346,7 +347,9 @@ A big shout-out to [Vernell Clark](https://github.com/VCGithubCode) for his incr
 
 Also a bit thanks goes to [Jamie Connell](https://github.com/GreenNinjaBoy) for helping out with sticky bits when creating the game.
 
-Also a big thank you goes to the Code Institute Slack comminuty who provided the energy and kept my morale up.
+A big thank you goes to the Code Institute Tutor support & Slack community who provided the energy and kept my morale up.
+
+
 
 ### Code inspiration
 

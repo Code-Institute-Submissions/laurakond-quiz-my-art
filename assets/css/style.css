@@ -293,6 +293,7 @@ main {
 #message-content>img {
     width: 60%;
     /* object-fit: contain; */
+    /* Code taken from https://developer.mozilla.org/en-US/docs/Web/CSS/basic-shape/circle */
     clip-path: circle(50px);
     margin: 1rem auto;
 }

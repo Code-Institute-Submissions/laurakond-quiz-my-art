@@ -4,6 +4,7 @@
  */
 
 // Static variables used for accessing DOM
+const main = document.getElementById('main');
 const logo = document.getElementById('logo');
 const categoriesContainer = document.getElementById('categories-container');
 const artistCategoryButton = document.getElementById('artist');
@@ -210,7 +211,7 @@ function scoreBoard() {
     // resultPage.style.margin = '10px auto';
     // resultPage.style.padding = '2.5rem';
     // resultPage.style.backgroundColor="blue";
-    
+
     // Return to home page button
     homePageButton.addEventListener('click', resetGame);
 }
@@ -228,6 +229,8 @@ function artistQuestion() {
     paintingCategoryButton.classList.add('hide');
     quizAreaContainer.classList.remove('hide');
     categoryHeading.innerText = "Who painted it?";
+    // Main element flex style applied here which is dependent on the gameplay
+    main.style.justifyContent = "flex-start";
     randomQuestion = artistQuestions;
     incrementQuestionNumber();
     getRandomQuestion();
@@ -242,6 +245,8 @@ function periodQuestion() {
     paintingCategoryButton.classList.add('hide');
     quizAreaContainer.classList.remove('hide');
     categoryHeading.innerText = "Which period or art movement does the work belong to?";
+    // Main element flex style applied here which is dependent on the gameplay
+    main.style.justifyContent = "flex-start";
     randomQuestion = periodQuestions;
     incrementQuestionNumber();
     getRandomQuestion();
@@ -256,6 +261,8 @@ function paintingQuestion() {
     paintingCategoryButton.classList.add('hide');
     quizAreaContainer.classList.remove('hide');
     categoryHeading.innerText = "Name the painting";
+    // Main element flex style applied here which is dependent on the gameplay
+    main.style.justifyContent = "flex-start";
     randomQuestion = paintingQuestions;
     incrementQuestionNumber();
     getRandomQuestion();
