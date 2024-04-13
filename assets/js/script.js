@@ -200,6 +200,8 @@ function scoreBoard() {
     // Displays or hides appropriate sections
     quizAreaContainer.classList.add('hide');
     nextButton.classList.add('hide');
+    logo.classList.remove("hide");
+    document.getElementById("logo-letter").classList.add("hide");
     // resultPage.style.textAlign = 'center';
     resultPage.style.display = 'flex';
     // resultPage.style.maxWidth = '90%';
