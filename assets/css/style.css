@@ -203,7 +203,7 @@ main {
 }
 
 /* Score section style */
-#score-result-container{
+#score-result-container {
     text-align: center;
     max-width: 90%;
     gap: 1rem;
@@ -413,6 +413,25 @@ footer p {
 
     main {
         margin-top: 0;
+    }
+
+    #categories-container {
+        /* background: none; */
+        width: 47rem;
+        /* border: none; */
+        border-radius: none;
+        /* box-shadow: none; */
+        height: 350px;
+    }
+
+    #categories {
+        flex-direction: row;
+        gap: 4.75rem;
+    }
+
+    .landing-btn {
+        margin: auto;
+        height: 125px;
     }
 
     #image-container {
