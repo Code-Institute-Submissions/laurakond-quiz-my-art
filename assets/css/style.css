@@ -172,8 +172,8 @@ main {
     display: flex;
     justify-content: center;
     /* object-fit: scale-down; */
-    max-width: 500px;
-    max-height: 400px;
+    max-width: 400px;
+    max-height: 300px;
     background-color: darkslategrey;
 }
 
@@ -450,8 +450,8 @@ footer p {
     }
 
     #image-container {
-        max-width: 500px;
-        height: 400px;
+        max-width: 400px;
+        height: 300px;
     }
 
     /* Button display */
