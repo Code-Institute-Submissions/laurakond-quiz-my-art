@@ -64,7 +64,7 @@ const artistQuestions = [
     },
     {
         question: "Self-Portrait, 1669",
-        imageUrl: "assets/images/artist-images/rembrandt-self-portrait.webp",
+        imageUrl: "assets/images/artist-images/rembrandt-self-portrait1.webp",
         answers: [
             { text: 'Peter Paul Rubens', correct: false },
             { text: 'Claude Poussin', correct: false },
