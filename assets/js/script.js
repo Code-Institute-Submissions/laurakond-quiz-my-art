@@ -181,6 +181,18 @@ function displayScoreText() {
 }
 
 /** Function that opens the Score/final page after the completion of the quiz */
+// function scoreBoard() {
+//     totalScore();
+//     const resultText = document.getElementById("result-description");
+//     resultText.textContent = displayScoreText();
+//     // Displays or hides appropriate sections
+//     quizAreaContainer.classList.add('hide');
+//     nextButton.classList.add('hide');
+//     resultPage.classList.remove('hide');
+//     // Return to home page button
+//     homePageButton.addEventListener('click', resetGame);
+// }
+
 function scoreBoard() {
     totalScore();
     const resultText = document.getElementById("result-description");
@@ -188,7 +200,15 @@ function scoreBoard() {
     // Displays or hides appropriate sections
     quizAreaContainer.classList.add('hide');
     nextButton.classList.add('hide');
-    resultPage.classList.remove('hide');
+    // resultPage.style.textAlign = 'center';
+    resultPage.style.display = 'flex';
+    // resultPage.style.maxWidth = '90%';
+    // resultPage.style.gap = '1rem';
+    // resultPage.style.flexDirection = 'column';
+    // resultPage.style.margin = '10px auto';
+    // resultPage.style.padding = '2.5rem';
+    // resultPage.style.backgroundColor="blue";
+    
     // Return to home page button
     homePageButton.addEventListener('click', resetGame);
 }
