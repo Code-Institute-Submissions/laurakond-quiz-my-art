@@ -174,6 +174,7 @@ main {
     max-width: 400px;
     max-height: 300px;
     background-color: darkslategrey;
+    border: 1rem ridge brown;
     margin-bottom: 0.75rem;
 }
 
@@ -408,6 +409,18 @@ footer p {
         /* margin: auto; */
     }
 
+    #quiz-area-container {
+        padding: 0.75rem 0.75rem 2rem;
+        margin-bottom: 2rem;
+    }
+
+    #answer-choices {
+        display: grid;
+        grid-template-columns: 200px 200px;
+        grid-row: auto auto;
+        grid-column-gap: 2rem;
+        /* grid-row-gap: ; */
+    }
 
     /* Footer */
 
