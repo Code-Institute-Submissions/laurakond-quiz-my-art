@@ -6,7 +6,7 @@ const periodQuestions = [
         question: "Arshile Gorky, The Liver is the cock's comb, 1944",
         imageUrl: "assets/images/period-images/abstract-expressionism-arshile-gorky-1944.webp",
         answers: [
-            { text: 'Abstract expressionism', correct: true },
+            { text: 'Abstract Expressionism', correct: true },
             { text: 'Contemporary Art', correct: false },
             { text: 'Pop Art', correct: false },
             { text: 'Impressionism', correct: false }
@@ -19,7 +19,7 @@ const periodQuestions = [
             { text: 'Realism', correct: false },
             { text: 'Movement Art', correct: false },
             { text: 'Dada', correct: false },
-            { text: 'Abstract expressionism', correct: true }
+            { text: 'Abstract Expressionism', correct: true }
         ]
     },
     {
@@ -59,7 +59,7 @@ const periodQuestions = [
             { text: 'Nunu', correct: false },
             { text: 'Dada', correct: true },
             { text: 'Expressionism', correct: false },
-            { text: 'Abstract art', correct: false }
+            { text: 'Abstract Art', correct: false }
         ]
     },
     {
@@ -86,7 +86,7 @@ const periodQuestions = [
         question: "Mantegna, The Ceiling of the Marriage Chamber",
         imageUrl: "assets/images/period-images/Mantegna.webp",
         answers: [
-            { text: 'Gothic art', correct: false },
+            { text: 'Gothic Art', correct: false },
             { text: 'Dutch Renaissance', correct: false },
             { text: 'Rococo', correct: false },
             { text: 'Renaissance', correct: true }
@@ -96,10 +96,10 @@ const periodQuestions = [
         question: "Roy Lichtenstein, The Drowning Girl, 1963",
         imageUrl: "assets/images/period-images/pop-art-roy-lichtenstein1963.webp",
         answers: [
-            { text: 'Pop art', correct: true },
-            { text: 'Apropriation art', correct: false },
-            { text: 'Performance art', correct: false },
-            { text: 'Collage art', correct: false }
+            { text: 'Pop Art', correct: true },
+            { text: 'Appropriation Art', correct: false },
+            { text: 'Performance Art', correct: false },
+            { text: 'Collage Art', correct: false }
         ]
     },
     {
@@ -118,8 +118,8 @@ const periodQuestions = [
         answers: [
             { text: 'Baroque', correct: false },
             { text: 'Rococo', correct: true },
-            { text: 'History art', correct: false },
-            { text: 'Neo realism', correct: false }
+            { text: 'History Art', correct: false },
+            { text: 'Neo-Realism', correct: false }
         ]
     },
     {
@@ -138,7 +138,7 @@ const periodQuestions = [
         answers: [
             { text: 'Surrealism', correct: false },
             { text: 'Dada', correct: false },
-            { text: 'Movement art', correct: false },
+            { text: 'Movement Art', correct: false },
             { text: 'Futurism', correct: true }
         ]
     },
@@ -146,10 +146,10 @@ const periodQuestions = [
         question: "Dante Rossetti, Proserpine, 1874",
         imageUrl: "assets/images/period-images/pre-raphaelites-dante-rossetti-proserpine-1874-cropped.webp",
         answers: [
-            { text: 'Victorian art', correct: false },
+            { text: 'Victorian Art', correct: false },
             { text: 'Impressionism', correct: false },
-            { text: 'Pre-raphaelites', correct: true },
-            { text: 'Neo-classicism', correct: false }
+            { text: 'Pre-Raphaelites', correct: true },
+            { text: 'Neo-Classicism', correct: false }
         ]
     },
     {
@@ -196,10 +196,10 @@ const periodQuestions = [
         question: "Richard Hamilton, Collage, 1956",
         imageUrl: "assets/images/period-images/pop-art-richard-hamilton-1956.webp",
         answers: [
-            { text: 'Performance art', correct: false },
+            { text: 'Performance Art', correct: false },
             { text: 'Surrealism', correct: false },
             { text: 'Futurism', correct: false },
-            { text: 'Pop art', correct: true }
+            { text: 'Pop Art', correct: true }
         ]
     }
 ];
