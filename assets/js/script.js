@@ -230,7 +230,7 @@ function artistQuestion() {
     quizAreaContainer.classList.remove('hide');
     categoryHeading.innerText = "Who painted it?";
     // Main element flex style applied here which is dependent on the gameplay
-    main.style.justifyContent = "flex-start";
+    // main.style.justifyContent = "flex-start";
     randomQuestion = artistQuestions;
     incrementQuestionNumber();
     getRandomQuestion();
@@ -246,7 +246,7 @@ function periodQuestion() {
     quizAreaContainer.classList.remove('hide');
     categoryHeading.innerText = "Which period or art movement does the work belong to?";
     // Main element flex style applied here which is dependent on the gameplay
-    main.style.justifyContent = "flex-start";
+    // main.style.justifyContent = "flex-start";
     randomQuestion = periodQuestions;
     incrementQuestionNumber();
     getRandomQuestion();
@@ -262,7 +262,7 @@ function paintingQuestion() {
     quizAreaContainer.classList.remove('hide');
     categoryHeading.innerText = "Name the painting";
     // Main element flex style applied here which is dependent on the gameplay
-    main.style.justifyContent = "flex-start";
+    // main.style.justifyContent = "flex-start";
     randomQuestion = paintingQuestions;
     incrementQuestionNumber();
     getRandomQuestion();

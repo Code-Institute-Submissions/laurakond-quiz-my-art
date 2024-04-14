@@ -121,7 +121,7 @@ main {
 
 #quiz-area-container {
     width: 255px;
-    height: 920px;
+    height: 930px;
     max-width: 600px;
     border-radius: 10px;
     padding: 0.75rem;
@@ -141,6 +141,7 @@ main {
 
 #category-heading {
     padding: 0 0 0.7rem;
+    margin-top: 0.25rem;
 }
 
 /* Category title & static rules styles */
@@ -446,7 +447,7 @@ footer p {
 
     #quiz-area-container {
         padding: 0.75rem 0.75rem 2rem;
-        height: 800px;
+        height: 740px;
     }
 
     #answer-choices {
