@@ -100,12 +100,11 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* these added for creating a box effect */
     padding: 3rem;
-    background-color: orange;
+    background: linear-gradient(to right, #e3ed15c7, #936511);
     border: 1px solid black;
     border-radius: 2rem;
-    box-shadow: 0 0 10px 5px black;
+    box-shadow: 0 0 10px black;
 }
 
 #categories {
@@ -506,7 +505,7 @@ footer p {
     /* Main */
     #categories-container {
         background: none;
-        width: 40rem;
+        /* width: 40rem; */
         border: none;
         border-radius: none;
         box-shadow: none;
@@ -517,10 +516,18 @@ footer p {
     }
 
     .landing-btn {
-        margin: 2rem;
-        height: 8rem;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        height: 6rem;
         width: 13rem;
-        border: 2rem solid aqua;
+        padding: 0 2rem;
+        margin: 0;
+        /* text-align: center; */
+        border: 0.25rem solid black;
+        border-radius: 1rem;
+        box-shadow: grey 0 0 0 5px;
     }
 
     .rules-description p {
