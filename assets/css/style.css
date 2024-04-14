@@ -72,15 +72,6 @@ main {
 
 /* Styles shared between pages */
 
-/* #categories {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 1.25rem;
-    margin: auto;
-} */
-
 .btn {
     width: 208px;
     height: 52px;
@@ -169,7 +160,7 @@ main {
     padding-bottom: 0.4rem;
 }
 
-/* JS populated question/image area styles */
+/* Question image area styles */
 #image-container {
     display: flex;
     justify-content: center;
@@ -504,11 +495,12 @@ footer p {
 
     /* Main */
     #categories-container {
-        background: none;
-        /* width: 40rem; */
+        background: linear-gradient(to right, #e3ed15c7, #936511);
+        height: 13rem;
         border: none;
         border-radius: none;
-        box-shadow: none;
+        box-shadow: 0 2px 10px black;
+        padding: 2rem;
     }
 
     #categories {
@@ -520,13 +512,12 @@ footer p {
         text-align: center;
         align-items: center;
         justify-content: center;
-        height: 6rem;
+        height: 8rem;
         width: 13rem;
         padding: 0 2rem;
         margin: 0;
-        /* text-align: center; */
         border: 0.25rem solid black;
-        border-radius: 1rem;
+        border-radius: 2rem;
         box-shadow: grey 0 0 0 5px;
     }
 
