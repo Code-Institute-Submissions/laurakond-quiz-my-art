@@ -485,7 +485,8 @@ footer p {
 
     #quiz-area-container {
         padding: 0.75rem 0.75rem 2rem;
-        margin-bottom: 2rem;
+        height: 800px;
+        /* margin-bottom: 2rem; */
     }
 
     #answer-choices {
@@ -514,6 +515,10 @@ footer p {
 @media screen and (min-width: 768px) {
 
     /* Header */
+
+    /* header {
+        display: none;
+    } */
 
     #logo {
         font-size: 220%;
@@ -547,6 +552,11 @@ footer p {
         border: 2rem solid aqua;
     }
 
+    .rules-description p {
+        display: flex;
+        width: 500px;
+    }
+
     #image-container {
         max-width: 400px;
         height: 300px;
@@ -572,4 +582,11 @@ footer p {
     .btn:hover {
         background-color: coral;
     }
+
+    /* Main */
+
+    #quiz-area-container{
+        max-width: 800px;
+    }
+
 }
