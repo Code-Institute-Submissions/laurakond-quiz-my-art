@@ -39,12 +39,9 @@ p {
 
 /* Header style */
 header {
-    /* display: flex; */
     position: fixed;
     z-index: 100;
     width: 100%;
-    /* justify-content: center;
-    align-items: center; */
     background-color: yellow;
 }
 
@@ -53,9 +50,6 @@ header a {
 }
 
 #logo {
-    /* font-family: "Cormorant Garamond", serif;
-    font-weight: 700;
-    font-style: normal; */
     text-align: center;
 }
 
@@ -126,11 +120,9 @@ main {
 /* Quiz Area */
 
 #quiz-area-container {
-    /* width: 90%; */
     width: 255px;
     height: 920px;
     max-width: 600px;
-    /* margin: auto auto 0; */
     border-radius: 10px;
     padding: 0.75rem;
     background-color: lightgoldenrodyellow;
@@ -165,14 +157,12 @@ main {
     text-align: right;
     font-weight: 700;
     padding-bottom: 0.4rem;
-    /* margin-right: 3rem; */
 }
 
 /* JS populated question/image area styles */
 #image-container {
     display: flex;
     justify-content: center;
-    /* object-fit: scale-down; */
     width: 235px;
     height: 300px;
     max-width: 400px;
@@ -186,8 +176,6 @@ main {
     font-size: 1.08rem;
     font-weight: 700;
     text-align: center;
-    /* padding: 0.5rem 0 0.7rem; */
-    /* padding: 0.1rem 0.2rem 0.6rem; */
     padding: 0.1rem 0.4rem 0.6rem;
 }
 
@@ -200,21 +188,14 @@ main {
 }
 
 /* Next button */
-
-/* #next-btn-div{
-    background-color: lightgoldenrodyellow;
-} */
-
 #next-btn {
     text-align: center;
-    /* display: flex; */
     justify-content: center;
     align-items: center;
     width: 150px;
     padding: 10px;
     margin: 0.1rem auto 1rem;
     cursor: pointer;
-    /* visibility: hidden; */
 }
 
 /* Score section style */
@@ -306,7 +287,6 @@ main {
 
 #message-content>img {
     width: 60%;
-    /* object-fit: contain; */
     /* Code taken from https://developer.mozilla.org/en-US/docs/Web/CSS/basic-shape/circle */
     clip-path: circle(50px);
     margin: 1rem auto;
@@ -348,7 +328,6 @@ footer p {
 #footer-info {
     display: flex;
     flex-wrap: wrap;
-    /* width: 50%; */
 }
 
 #footer-info span {
@@ -364,7 +343,6 @@ footer p {
 
 #social-media i {
     font-size: 1.75rem;
-    /* padding: 0 0.5rem; */
 }
 
 
@@ -387,7 +365,7 @@ footer p {
         height: 925px;
     }
 
-    #image-container{
+    #image-container {
         width: 275px;
     }
 
@@ -395,43 +373,31 @@ footer p {
         width: 288px;
         padding: 0.1rem 0.7rem 0.6rem;
     }
-
-    #next-btn{
-        /* margin-top: 0.75rem;*/
-         /* margin: 0.1rem auto 1rem; */
-    }
-
-/* footer */
-/* footer {
-    margin-top: 0.25rem;
-} */
-
 }
+
 /* Media query for mobiles from 425px and up*/
 @media screen and (min-width: 425px) {
 
-/* Main */
+    /* Main */
+    #quiz-area-container {
+        width: 90%;
+    }
 
-#quiz-area-container {
-    width: 90%;
-}
+    .rules-description {
+        padding-bottom: 1rem;
+        text-align: center;
+        width: 360px;
+        margin: auto;
+    }
 
-.rules-description {
-    padding-bottom: 1rem;
-    text-align: center;
-    width: 360px;
-    margin: auto;
-}
+    #image-container {
+        width: 340px;
+    }
 
-#image-container{
-    width: 340px;
-}
-
-#painting-name{
-    width: 310px;
-    padding: 0.1rem 0 0.6rem;
-}
-
+    #painting-name {
+        width: 310px;
+        padding: 0.1rem 0 0.6rem;
+    }
 }
 
 /* Media query for mobiles from 462px and up*/
@@ -441,18 +407,17 @@ footer p {
     #footer-info span {
         display: inline;
     }
-
 }
 
+/* Media query for tablet devices from 520px and up*/
 @media screen and (min-width: 520px) {
 
-
+    /* Main */
     .rules-description {
         width: 400px;
-        
     }
 
-    #image-container{
+    #image-container {
         width: 400px;
     }
 
@@ -466,12 +431,9 @@ footer p {
 @media screen and (min-width: 675px) {
 
     /* Header */
-
     header {
-        /* display: flex; */
         position: relative;
     }
-
 
     /* Main */
     main {
@@ -480,33 +442,44 @@ footer p {
 
     #score-result-container {
         max-width: 600px;
-        /* margin: auto; */
     }
 
     #quiz-area-container {
         padding: 0.75rem 0.75rem 2rem;
         height: 800px;
-        /* margin-bottom: 2rem; */
     }
 
     #answer-choices {
-        display: grid;
-        grid-template-columns: 200px 200px;
-        grid-row: auto auto;
-        grid-column-gap: 2rem;
-        /* grid-row-gap: ; */
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        align-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    #answer-choices>.btn {
+        margin: 0;
+        width: 208px;
+        height: 52px;
+        text-align: center;
+        border-radius: 0.75rem;
+        border: none;
+        cursor: pointer;
+        padding: 0.2rem 0.5rem;
+    }
+
+    #next-btn {
+        margin: 1.2rem auto;
     }
 
     /* Footer */
-
     #footer-container {
         display: flex;
         justify-content: center;
-        /* margin: 0.5rem; */
     }
 
     #footer-info {
-        /* width: 80%; */
         justify-content: center;
     }
 }
@@ -515,34 +488,21 @@ footer p {
 @media screen and (min-width: 768px) {
 
     /* Header */
-
-    /* header {
-        display: none;
-    } */
-
     #logo {
         font-size: 220%;
     }
 
     /* Main */
-
-    main {
-        /* margin-top: 2rem; */
-        /* justify-content: flex-start; */
-    }
-
     #categories-container {
         background: none;
         width: 40rem;
         border: none;
         border-radius: none;
         box-shadow: none;
-        /* height: 350px; */
     }
 
     #categories {
         flex-direction: row;
-        /* gap: 4.75rem; */
     }
 
     .landing-btn {
@@ -561,18 +521,6 @@ footer p {
         max-width: 400px;
         height: 300px;
     }
-
-    /* Button display */
-    /* The following grid template was created using example https://codepen.io/MattWindle/pen/perZRG */
-
-    #answer-choices {
-        display: grid;
-        grid-template-columns: 200px 200px;
-        grid-row: auto auto;
-        grid-column-gap: 2rem;
-        /* grid-row-gap: ; */
-    }
-
 }
 
 /* Media query for large devices (laptops and desktops,992px and up) */
@@ -584,9 +532,32 @@ footer p {
     }
 
     /* Main */
-
-    #quiz-area-container{
+    #quiz-area-container {
         max-width: 800px;
     }
 
+    #answer-choices {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        align-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        margin: 1rem 3rem;
+    }
+
+    #answer-choices>.btn {
+        margin: 0;
+        width: 230px;
+        height: 52px;
+        text-align: center;
+        border-radius: 0.75rem;
+        border: none;
+        cursor: pointer;
+        padding: 0.2rem 0.5rem;
+    }
+
+    #next-btn {
+        margin: 0.1rem auto;
+    }
 }
