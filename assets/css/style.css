@@ -72,13 +72,14 @@ main {
 
 /* Styles shared between pages */
 
-#categories {
+/* #categories {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
+    gap: 1.25rem;
     margin: auto;
-}
+} */
 
 .btn {
     width: 208px;
@@ -103,8 +104,17 @@ main {
     padding: 3rem;
     background-color: orange;
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 2rem;
     box-shadow: 0 0 10px 5px black;
+}
+
+#categories {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.75rem;
+    margin: auto;
 }
 
 .landing-btn {
@@ -112,8 +122,8 @@ main {
     width: 150px;
     border: 0;
     padding: 10px;
-    margin: 20px auto 0;
-    border-radius: 4px;
+    margin: auto;
+    border-radius: 8rem;
     cursor: pointer;
 }
 
