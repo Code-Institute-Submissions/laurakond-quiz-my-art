@@ -73,7 +73,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 38.5px;
 }
 
 /* Styles shared between pages */
@@ -87,8 +87,8 @@ main {
 }
 
 .btn {
-    width: 13rem;
-    height: 3.2rem;
+    width: 208px;
+    height: 52px;
     text-align: center;
     border-radius: 0.75rem;
     border: none;
@@ -126,7 +126,9 @@ main {
 /* Quiz Area */
 
 #quiz-area-container {
-    width: 90%;
+    /* width: 90%; */
+    width: 255px;
+    height: 920px;
     max-width: 600px;
     /* margin: auto auto 0; */
     border-radius: 10px;
@@ -146,7 +148,7 @@ main {
 }
 
 #category-heading {
-    padding: 0 1rem 0.7rem;
+    padding: 0 0 0.7rem;
 }
 
 /* Category title & static rules styles */
@@ -162,7 +164,7 @@ main {
 #question-container>p {
     text-align: right;
     font-weight: 700;
-    padding-bottom: 0.20rem;
+    padding-bottom: 0.4rem;
     /* margin-right: 3rem; */
 }
 
@@ -171,18 +173,22 @@ main {
     display: flex;
     justify-content: center;
     /* object-fit: scale-down; */
+    width: 235px;
+    height: 300px;
     max-width: 400px;
     max-height: 300px;
     background-color: darkslategrey;
-    border: 1rem ridge brown;
+    border: 0.75rem ridge brown;
     margin-bottom: 0.75rem;
 }
 
 #painting-name {
-    font-size: 1.1rem;
+    font-size: 1.08rem;
     font-weight: 700;
     text-align: center;
-    padding: 0.5rem 0 0.7rem;
+    /* padding: 0.5rem 0 0.7rem; */
+    /* padding: 0.1rem 0.2rem 0.6rem; */
+    padding: 0.1rem 0.4rem 0.6rem;
 }
 
 #answer-choices {
@@ -206,7 +212,7 @@ main {
     align-items: center;
     width: 150px;
     padding: 10px;
-    margin: auto;
+    margin: 0.1rem auto 1rem;
     cursor: pointer;
     /* visibility: hidden; */
 }
@@ -375,6 +381,57 @@ footer p {
         display: none;
     }
 
+    /* main */
+    #quiz-area-container {
+        width: 330px;
+        height: 925px;
+    }
+
+    #image-container{
+        width: 275px;
+    }
+
+    #painting-name {
+        width: 288px;
+        padding: 0.1rem 0.7rem 0.6rem;
+    }
+
+    #next-btn{
+        /* margin-top: 0.75rem;*/
+         /* margin: 0.1rem auto 1rem; */
+    }
+
+/* footer */
+/* footer {
+    margin-top: 0.25rem;
+} */
+
+}
+/* Media query for mobiles from 425px and up*/
+@media screen and (min-width: 425px) {
+
+/* Main */
+
+#quiz-area-container {
+    width: 90%;
+}
+
+.rules-description {
+    padding-bottom: 1rem;
+    text-align: center;
+    width: 360px;
+    margin: auto;
+}
+
+#image-container{
+    width: 340px;
+}
+
+#painting-name{
+    width: 310px;
+    padding: 0.1rem 0 0.6rem;
+}
+
 }
 
 /* Media query for mobiles from 462px and up*/
@@ -387,6 +444,23 @@ footer p {
 
 }
 
+@media screen and (min-width: 520px) {
+
+
+    .rules-description {
+        width: 400px;
+        
+    }
+
+    #image-container{
+        width: 400px;
+    }
+
+    #painting-name {
+        width: 380px;
+        padding: 0.1rem 0 0.6rem;
+    }
+}
 
 /* Media query for large devices (laptops and desktops,675px and up) */
 @media screen and (min-width: 675px) {
