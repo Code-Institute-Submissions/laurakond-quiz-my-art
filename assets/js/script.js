@@ -228,7 +228,7 @@ function artistQuestion() {
     periodCategoryButton.classList.add('hide');
     paintingCategoryButton.classList.add('hide');
     quizAreaContainer.classList.remove('hide');
-    categoryHeading.innerText = "Who painted it?";
+    categoryHeading.innerText = "Who crafted it?";
     // Main element flex style applied here which is dependent on the gameplay
     // main.style.justifyContent = "flex-start";
     randomQuestion = artistQuestions;
@@ -260,7 +260,7 @@ function paintingQuestion() {
     periodCategoryButton.classList.add('hide');
     paintingCategoryButton.classList.add('hide');
     quizAreaContainer.classList.remove('hide');
-    categoryHeading.innerText = "Name the painting";
+    categoryHeading.innerText = "Name that Painting";
     // Main element flex style applied here which is dependent on the gameplay
     // main.style.justifyContent = "flex-start";
     randomQuestion = paintingQuestions;
