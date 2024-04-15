@@ -13,7 +13,6 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
-    letter-spacing: 0.5px;
 }
 
 /* General styles */
@@ -26,6 +25,7 @@ h1 {
 h2,
 h3, p {
     text-align: center;
+    /* letter-spacing: 1px; */
 }
 
 img {
@@ -74,7 +74,8 @@ main {
 /* Shared styles */
 .btn {
     width: 208px;
-    height: 60px;
+    height: 58px;
+    letter-spacing: 1px;
     /* text-align: center; */
     border-radius: 0.8rem;
     border: none;
@@ -118,7 +119,7 @@ main {
 /* Quiz Area */
 #quiz-area-container {
     width: 255px;
-    height: 930px;
+    height: 950px;
     max-width: 600px;
     border-radius: 10px;
     padding: 0.75rem;
@@ -469,7 +470,7 @@ footer p {
     }
 
     #next-btn {
-        margin: 1.5rem auto 1.2rem;
+        margin: 1.2rem auto;
     }
 
     #score-result-container {
@@ -570,7 +571,7 @@ footer p {
     }
 
     #next-btn {
-        /* margin: 0.18rem auto; */
+        margin: 0.18rem auto;
     }
 }
 
