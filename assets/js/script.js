@@ -4,7 +4,6 @@
  */
 
 // Static variables used for accessing DOM
-const main = document.getElementById('main');
 const logo = document.getElementById('logo');
 const categoriesContainer = document.getElementById('categories-container');
 const artistCategoryButton = document.getElementById('artist');
@@ -21,7 +20,7 @@ const questionNumber = document.getElementById("question-number");
 const totalScoreCount = document.getElementById("score");
 const homePageButton = document.getElementById('play-again-btn');
 
-// variables to get their value defined within functions as I go along
+// variables that will get their value defined/calculated as the quiz progresses
 let correctAnswer;
 let randomQuestion;
 let currentQuestionIndex;
@@ -77,7 +76,6 @@ function getRandomQuestion() {
 
 /** Function that generate a question in the getRandomQuestion function above*/
 function showQuestion() {
-    // new function that shows the question above
     displayQuestion(randomQuestion[currentQuestionIndex]);
 }
 
@@ -96,7 +94,7 @@ function displayQuestion(randomQuestion) {
             button.id = "correct";
         }
 
-        // create an event listener to answer buttons for when the user clicks each button then the following action follows
+        // creates an event listener to answer buttons for when the user clicks each button then the following action follows
         button.addEventListener('click', userAnswer);
         answerButtons.appendChild(button);
     });
@@ -114,12 +112,11 @@ function userAnswer(event) {
         this.classList.add("incorrect");
     }
     nextButton.style.display = "flex";
-    // nextButton.classList.remove('hide');
 }
 
 /** Function that generates 10 questions */
 function nextQuestion() {
-    // check that current question index below 10
+    // checks that current question index below 10
     if (currentQuestionIndex < 9) {
         resetQuestion();
         currentQuestionIndex++;
@@ -131,11 +128,10 @@ function nextQuestion() {
 
 /** Function that resets the Question area section for the next question */
 function resetQuestion() {
-    // nextButton.classList.add('hide');
     nextButton.style.display = "none";
     answerButtons.classList.remove('pointer-block');
 
-    // will remove previous answer options
+    // removes previous answer options
     while (answerButtons.firstChild) {
         answerButtons.removeChild(answerButtons.firstChild);
     }
@@ -159,7 +155,6 @@ function handleNextButtonClick() {
  */
 function incrementScore() {
     score++;
-    // score = parseInt(playerScore.innerText);
     document.getElementById("player-score").innerHTML = score;
 }
 
@@ -171,28 +166,15 @@ function totalScore() {
 /**Function that generates appropriate text based on total score */
 function displayScoreText() {
     if (score === 10) {
-        return "You are the master of the Arts. Everyone should bow to your prowess in Art History knowledge.";
+        return "You are the Master of the Arts! Everyone bows to your prowess in Art History knowledge.";
     } else if (score >= 6 && score < 10) {
-        return "You are on your way to becoming a great connoiseur of the Arts! Keep at it and you will one day reach the height of your knowledge.";
+        return "You are on your way to becoming a great connoiseur of the Arts! Keep at it and you will one day reach the epitome of Art History knowledge.";
     } else if (score < 6 && score >= 4) {
         return "Some book and cramming time would do you good.";
     } else {
-        return "There are no words to describe your lack of knowledge in Art history. Go back and study more!";
+        return "There are no words to describe your lack of knowledge in Art History. Go back and study more!";
     }
 }
-
-/** Function that opens the Score/final page after the completion of the quiz */
-// function scoreBoard() {
-//     totalScore();
-//     const resultText = document.getElementById("result-description");
-//     resultText.textContent = displayScoreText();
-//     // Displays or hides appropriate sections
-//     quizAreaContainer.classList.add('hide');
-//     nextButton.classList.add('hide');
-//     resultPage.classList.remove('hide');
-//     // Return to home page button
-//     homePageButton.addEventListener('click', resetGame);
-// }
 
 function scoreBoard() {
     totalScore();
@@ -203,14 +185,7 @@ function scoreBoard() {
     nextButton.classList.add('hide');
     logo.classList.remove("hide");
     document.getElementById("logo-letter").classList.add("hide");
-    // resultPage.style.textAlign = 'center';
     resultPage.style.display = 'flex';
-    // resultPage.style.maxWidth = '90%';
-    // resultPage.style.gap = '1rem';
-    // resultPage.style.flexDirection = 'column';
-    // resultPage.style.margin = '10px auto';
-    // resultPage.style.padding = '2.5rem';
-    // resultPage.style.backgroundColor="blue";
 
     // Return to home page button
     homePageButton.addEventListener('click', resetGame);
@@ -223,14 +198,14 @@ function resetGame() {
 
 /** Function that initialises artist question category */
 function artistQuestion() {
+    // Displays or hides appropriate sections
     categoriesContainer.style.display = "none";
     artistCategoryButton.classList.add('hide');
     periodCategoryButton.classList.add('hide');
     paintingCategoryButton.classList.add('hide');
     quizAreaContainer.classList.remove('hide');
+    // Changes category heading content based on the chosen category
     categoryHeading.innerText = "Who crafted it?";
-    // Main element flex style applied here which is dependent on the gameplay
-    // main.style.justifyContent = "flex-start";
     randomQuestion = artistQuestions;
     incrementQuestionNumber();
     getRandomQuestion();
@@ -239,14 +214,14 @@ function artistQuestion() {
 
 /** Function that initialises period question category */
 function periodQuestion() {
+    // Displays or hides appropriate sections
     categoriesContainer.style.display = "none";
     artistCategoryButton.classList.add('hide');
     periodCategoryButton.classList.add('hide');
     paintingCategoryButton.classList.add('hide');
     quizAreaContainer.classList.remove('hide');
+    // Changes category heading content based on the chosen category
     categoryHeading.innerText = "Which period or art movement does the work belong to?";
-    // Main element flex style applied here which is dependent on the gameplay
-    // main.style.justifyContent = "flex-start";
     randomQuestion = periodQuestions;
     incrementQuestionNumber();
     getRandomQuestion();
@@ -255,14 +230,14 @@ function periodQuestion() {
 
 /** Function that initialises painting question category*/
 function paintingQuestion() {
+    // Displays or hides appropriate sections
     categoriesContainer.style.display = "none";
     artistCategoryButton.classList.add('hide');
     periodCategoryButton.classList.add('hide');
     paintingCategoryButton.classList.add('hide');
     quizAreaContainer.classList.remove('hide');
+    // Changes category heading content based on the chosen category
     categoryHeading.innerText = "Name that Painting";
-    // Main element flex style applied here which is dependent on the gameplay
-    // main.style.justifyContent = "flex-start";
     randomQuestion = paintingQuestions;
     incrementQuestionNumber();
     getRandomQuestion();
