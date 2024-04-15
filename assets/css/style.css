@@ -13,6 +13,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
+    background-color: #F1F7ED;
 }
 
 /* General styles */
@@ -20,6 +21,13 @@ h1 {
     font-family: "Cormorant Garamond", serif;
     font-weight: 700;
     font-style: normal;
+    /* color: #002A32; */
+}
+
+h1,
+h2,
+h3, button {
+    color: #002A32;
 }
 
 h2,
@@ -44,10 +52,11 @@ header {
     position: fixed;
     z-index: 100;
     width: 100%;
-    background-color: yellow;
+    background-color: #F1F7ED;
 }
 
 header a {
+    color: #002A32;
     text-decoration: none;
 }
 
@@ -83,7 +92,7 @@ main {
     cursor: pointer;
     margin: 0 auto 20px;
     padding: 0.2rem 0.5rem;
-    background-color: aqua;
+    background-color: #F1F7ED;
 }
 
 /* Landing page */
@@ -92,10 +101,10 @@ main {
     justify-content: center;
     align-items: center;
     padding: 3rem;
-    background: linear-gradient(to right, #e3ed15c7, #936511);
-    border: 1px solid black;
+    background: #002A32;
+    /* border: 1px solid black; */
     border-radius: 2rem;
-    box-shadow: 0 0 10px black;
+    box-shadow: 0 0 20px #002a32;
 }
 
 #categories {
@@ -171,7 +180,7 @@ main {
     max-width: 400px;
     max-height: 300px;
     background-color: darkslategrey;
-    border: 0.75rem ridge brown;
+    border: 0.75rem ridge #361F27;
     margin-bottom: 0.75rem;
 }
 
@@ -201,7 +210,7 @@ main {
     margin: 0.1rem auto 1rem;
     border-radius: 0.8rem;
     border: 0;
-    background-color: #936511;
+    background-color: #F1F7ED;
     /* cursor: pointer; */
 }
 
@@ -213,14 +222,16 @@ main {
     flex-direction: column;
     margin: auto;
     padding: 2.5rem;
-    background-color: blue;
-    border: 1px solid black;
-    border-radius: 5px;
-    box-shadow: 0 0 10px 5px black;
+    background-color: #002A32;
+    /* border: 1px solid black; */
+    border-radius: 2rem;
+    box-shadow: 0 0 20px #002a32;
+    color: #F1F7ED;;
 }
 
 #score-content>h2 {
     padding: 1rem 1rem 0;
+    color: #F1F7ED;;
 }
 
 #score-content>p {
@@ -311,7 +322,8 @@ footer {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    background-color: coral;
+    background-color: #002A32;
+    color: #F1F7ED;
 }
 
 footer p {
@@ -344,6 +356,7 @@ footer p {
 
 #social-media i {
     font-size: 1.75rem;
+    color: #F1F7ED;
 }
 
 
@@ -499,11 +512,11 @@ footer p {
 
     /* Landing page */
     #categories-container {
-        background: linear-gradient(to right, #e3ed15c7, #936511);
+        background-color: #002A32;
         height: 13rem;
         /* border: none; */
-        border-radius: none;
-        box-shadow: 0 2px 10px black;
+        border-radius: 2rem;
+        box-shadow: 0 0 20px #002a32;
         padding: 2rem;
     }
 
@@ -521,7 +534,7 @@ footer p {
         padding: 0 2rem;
         margin: 0;
         border-radius: 2rem;
-        box-shadow: grey 0 0 0 5px;
+        /* box-shadow: grey 0 0 0 5px; */
     }
 
     /* Quiz Area */
