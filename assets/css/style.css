@@ -46,6 +46,7 @@ button {
     text-align: center;
     cursor: pointer;
     /* color: #002A32; */
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
 }
 
 /* Header style */
@@ -569,11 +570,6 @@ footer p {
     #result-description {
         font-size: 1.1rem;
     }
-
-    /* footer */
-    footer {
-        font-size: 1.1rem;
-    }
 }
 
 /* Media query for large devices (laptops and desktops,992px and up) */
@@ -581,7 +577,8 @@ footer p {
 
     /* Button hover over effect */
     .btn:hover {
-        background-color: coral;
+        background-color: #540B0E;
+        color: #F3F7F5;
     }
 
     /* Quiz Area */
