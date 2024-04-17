@@ -555,7 +555,7 @@ footer p {
 @media screen and (min-width: 992px) {
 
     /* Button hover over effect */
-    .btn:hover,.error-button:hover {
+    .btn:hover,.error-button:hover, #play-again-btn:hover {
         background-color: #540B0E;
         color: #F3F7F5;
     }
