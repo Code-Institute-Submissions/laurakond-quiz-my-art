@@ -125,7 +125,7 @@ main {
     margin: auto;
 }
 
-.landing-btn, .error-button {
+.landing-btn, #error-button {
     /* text-align: center; */
     width: 150px;
     /* border: 0; */
@@ -336,9 +336,10 @@ main {
     font-weight: bold;
 }
 
-.error-button{
+#error-button{
     width: 175px;
     display: flex;
+    line-height: 1.25rem;
 }
 
 /* Footer */

@@ -19,6 +19,7 @@ const resultPage = document.getElementById('score-result-container');
 const questionNumber = document.getElementById("question-number");
 const totalScoreCount = document.getElementById("score");
 const homePageButton = document.getElementById('play-again-btn');
+const errorBtn = document.getElementById('error-button');
 
 // variables that will get their value defined/calculated as the quiz progresses
 let correctAnswer;
@@ -32,6 +33,12 @@ let questionNumberCount = 0;
 
 // Event Listeners
 nextButton.addEventListener('click', handleNextButtonClick);
+errorBtn.addEventListener('click', returnHome);
+
+function returnHome(){
+        window.location.replace("index.html");
+        console.log("error button");
+}
 
 // DOM content loaded event listener & each category iteration using a for loop
 document.addEventListener("DOMContentLoaded", function () {
