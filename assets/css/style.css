@@ -125,7 +125,7 @@ main {
     margin: auto;
 }
 
-.landing-btn {
+.landing-btn, .error-button {
     /* text-align: center; */
     width: 150px;
     /* border: 0; */
@@ -307,7 +307,7 @@ main {
     font-size: 110%;
     border-radius: 1.5rem;
     box-shadow: 0 0 20px #540B0E;
-    padding: 1.2rem;
+    padding: 2rem 1.2rem;
     background-color: #E09F3E;
 }
 
@@ -326,7 +326,7 @@ main {
 
 #message-content>p {
     /* text-align: center; */
-    padding: 10px;
+    padding: 1rem 1rem 0.5rem;
 }
 
 #message-content a {
@@ -334,6 +334,11 @@ main {
     color: #100007;
     /* color: #D36D0D; */
     font-weight: bold;
+}
+
+.error-button{
+    width: 175px;
+    display: flex;
 }
 
 /* Footer */
