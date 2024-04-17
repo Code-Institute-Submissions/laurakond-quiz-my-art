@@ -28,11 +28,10 @@ let shuffledQuestions;
 let score = 0;
 let questionNumberCount = 0;
 
-/** This section was inspired by Love Maths project */
-
 // Event Listeners
 nextButton.addEventListener('click', handleNextButtonClick);
 
+/** This section was inspired by Love Maths project */
 // DOM content loaded event listener & each category iteration using a for loop
 document.addEventListener("DOMContentLoaded", function () {
     let buttons = document.getElementsByTagName("button");
@@ -94,7 +93,7 @@ function displayQuestion(randomQuestion) {
             button.id = "correct";
         }
 
-        // creates an event listener to answer buttons for when the user clicks each button then the following action follows
+        // creates an event listener for answer buttons for when the user clicks each button
         button.addEventListener('click', userAnswer);
         answerButtons.appendChild(button);
     });
@@ -116,7 +115,7 @@ function userAnswer(event) {
 
 /** Function that generates 10 questions */
 function nextQuestion() {
-    // checks that current question index below 10
+    // ensures that only 10 questions are displayed
     if (currentQuestionIndex < 9) {
         resetQuestion();
         currentQuestionIndex++;
@@ -243,6 +242,3 @@ function paintingQuestion() {
     getRandomQuestion();
     logoSign();
 }
-
-
-
