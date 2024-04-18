@@ -30,7 +30,7 @@ let score = 0;
 let questionNumberCount = 0;
 
 // Event Listeners
-nextButton.addEventListener('click', handleNextButtonClick);
+// nextButton.addEventListener('click', handleNextButtonClick);
 
 /** This section was inspired by Love Maths project */
 // DOM content loaded event listener & each category iteration using a for loop
@@ -113,7 +113,9 @@ function userAnswer(event) {
     } else {
         this.classList.add("incorrect");
     }
+    
     nextButton.style.display = "flex";
+    nextButton.addEventListener('click', handleNextButtonClick);
 }
 
 /** Function that generates 10 questions */
