@@ -47,7 +47,7 @@ button {
 /* Header style */
 header {
     position: fixed;
-    z-index: 100;
+    z-index: 10;
     width: 100%;
     background-color: #F3F7F5;
     font-size: 115%;

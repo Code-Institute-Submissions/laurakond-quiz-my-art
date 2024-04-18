@@ -29,9 +29,6 @@ let shuffledQuestions;
 let score = 0;
 let questionNumberCount = 0;
 
-// Event Listeners
-// nextButton.addEventListener('click', handleNextButtonClick);
-
 /** This section was inspired by Love Maths project */
 // DOM content loaded event listener & each category iteration using a for loop
 document.addEventListener("DOMContentLoaded", function () {
