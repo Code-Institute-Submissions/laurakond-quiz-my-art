@@ -61,7 +61,8 @@ header {
     background-color: #F3F7F5;
     font-size: 115%;
     padding-bottom: 0.25rem;
-    box-shadow: 0 0 10px #540B0E;
+    box-shadow: none;
+    /* 0 0 10px #540B0E; */
 }
 
 #logo {
@@ -457,7 +458,8 @@ footer p {
     /* Header */
     header {
         position: relative;
-        box-shadow: none;
+        /* used !important to override style set in JS */
+        box-shadow: none !important;
     }
 
     /* Main */

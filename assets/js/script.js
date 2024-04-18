@@ -4,6 +4,7 @@
  */
 
 // Static variables used for accessing DOM
+const header = document.getElementById('header');
 const logo = document.getElementById('logo');
 const categoriesContainer = document.getElementById('categories-container');
 const artistCategoryButton = document.getElementById('artist');
@@ -59,6 +60,8 @@ function startGame(id) {
 function logoSign() {
     logo.classList.add("hide");
     document.getElementById("logo-letter").classList.remove("hide");
+    // apply border style to header once inside each category
+    header.style.boxShadow ="0 0 10px #540B0E";
 }
 
 /** The below used https://www.youtube.com/watch?v=riDzcEQbX6k
