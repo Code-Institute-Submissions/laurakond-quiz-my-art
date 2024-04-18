@@ -50,7 +50,7 @@ button {
     text-align: center;
     cursor: pointer;
     /* The below box shadow code was taken from https://getcssscan.com/css-buttons-examples*/
-    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px, rgba(0, 0, 0, .14) 0 6px 10px 0, rgba(0, 0, 0, .12) 0 1px 18px 0;
+    box-shadow: rgba(16, 0, 7, .2) 0 3px 5px -1px, rgba(16, 0, 7, .14) 0 6px 10px 0, rgba(16, 0, 7, .12) 0 1px 18px 0;
 }
 
 /* Header style */
@@ -317,7 +317,7 @@ main {
     border-radius: 0.9rem;
     background-color: #F3F7F5;
     color: #100007;
-    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px, rgba(0, 0, 0, .14) 0 6px 10px 0, rgba(0, 0, 0, .12) 0 1px 18px 0;
+    box-shadow: rgba(16, 0, 7, .2) 0 3px 5px -1px, rgba(16, 0, 7, .14) 0 6px 10px 0, rgba(16, 0, 7, .12) 0 1px 18px 0;
 }
 
 /* Footer */
