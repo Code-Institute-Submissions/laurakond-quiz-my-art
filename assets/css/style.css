@@ -14,6 +14,7 @@ body {
     font-weight: 400;
     font-style: normal;
     background-color: #F3F7F5;
+    color: #100007;
 }
 
 /* General styles */
@@ -21,13 +22,6 @@ h1 {
     font-family: "Cormorant Garamond", serif;
     font-weight: 700;
     font-style: normal;
-}
-
-h1,
-h2,
-h3,
-p {
-    color: #100007;
 }
 
 h2,
@@ -62,7 +56,6 @@ header {
     font-size: 115%;
     padding-bottom: 0.25rem;
     box-shadow: none;
-    /* 0 0 10px #540B0E; */
 }
 
 #logo {
@@ -129,7 +122,6 @@ main {
     margin: auto;
     border-radius: 0.9rem;
     background-color: #F3F7F5;
-    color: #100007;
     font-size: 1rem;
 }
 
@@ -194,7 +186,6 @@ main {
     font-weight: 700;
     text-align: center;
     padding-top: 0.1rem;
-    color: #100007;
 }
 
 /* Answer buttons */
@@ -230,7 +221,6 @@ main {
     background-color: #E09F3E;
     border-radius: 2rem;
     box-shadow: 0 0 20px #540B0E;
-    color: #100007;
 }
 
 #score-content>h2 {
@@ -247,7 +237,6 @@ main {
     width: 150px;
     align-self: center;
     margin: 20px;
-    color: #100007;
     background-color: #F3F7F5;
     font-size: 1rem;
 }
@@ -333,7 +322,6 @@ footer {
     justify-content: center;
     text-align: center;
     background-color: #E09F3E;
-    color: #100007;
 }
 
 footer p {
@@ -486,9 +474,6 @@ footer p {
     #answer-choices>.btn {
         margin: 0;
         width: 260px;
-        height: 55px;
-        border-radius: 0.9rem;
-        padding: 0.2rem 0.5rem;
         font-size: 0.9rem;
     }
 
