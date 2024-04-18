@@ -388,7 +388,6 @@ footer p {
     /* Quiz Area*/
     #quiz-area-container {
         width: 330px;
-        /* height: 960px; */
     }
 
     #image-container {
@@ -487,10 +486,11 @@ footer p {
     /* Had to place the .btn as otherwise the code was breaking the styling */
     #answer-choices>.btn {
         margin: 0;
-        width: 255px;
+        width: 260px;
         height: 55px;
         border-radius: 0.9rem;
         padding: 0.2rem 0.5rem;
+        font-size: 0.9rem;
     }
 
     #next-btn {
