@@ -149,7 +149,7 @@ main {
 }
 
 .rules-description {
-    padding: 0.5rem 0 2rem;
+    padding: 0.5rem 0 1.2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -157,7 +157,7 @@ main {
 }
 
 #category-heading {
-    padding: 0.7rem 0;
+    padding-bottom: 0.7rem;
     margin-top: 0.25rem;
 }
 
@@ -193,7 +193,7 @@ main {
     letter-spacing: 0.5px;
     font-weight: 700;
     text-align: center;
-    padding: 0.1rem 0 0.6rem;
+    padding-top: 0.1rem;
     color: #100007;
 }
 
@@ -466,8 +466,8 @@ footer p {
 
     /* Quiz Area */
     #quiz-area-container {
-        padding: 0.75rem 0.75rem 2rem;
-        height: 800px;
+        padding: 0 0.75rem 2rem;
+        height: 760px;
     }
 
     .rules-description p {
