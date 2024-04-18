@@ -61,7 +61,7 @@ function logoSign() {
     logo.classList.add("hide");
     document.getElementById("logo-letter").classList.remove("hide");
     // apply border style to header once inside each category
-    header.style.boxShadow ="0 0 10px #540B0E";
+    header.style.boxShadow = "0 0 10px #540B0E";
 }
 
 /** The below used https://www.youtube.com/watch?v=riDzcEQbX6k
