@@ -293,7 +293,7 @@ main {
 }
 
 #message-content>p {
-    padding: 1rem 0 ;
+    padding: 1rem 0;
 }
 
 .error-button {
@@ -513,21 +513,13 @@ footer p {
 /* Media query for large devices (laptops and desktops,768px and up) */
 @media screen and (min-width: 768px) {
 
-    /* General */
+    /* Shared */
     h2,
     h3 {
         font-size: 1.40rem;
     }
 
-    #category-heading>p,
-    .rules-description>p,
-    #question-container>p,
-    #painting-name,
-    .landing-btn,
-    #score-content>p,
-    #result-description,
-    #play-again-btn,
-    #message-content>p, footer {
+    p, #painting-name, .btn, #answer-choices>.btn, #next-btn, #play-again-btn, .error-button {
         font-size: 1.1rem;
     }
 
@@ -586,11 +578,6 @@ footer p {
         padding: 0;
     }
 
-    #answer-choices>.btn,
-    #next-btn {
-        font-size: 1.1rem;
-    }
-
     #next-btn {
         width: 150px;
         height: 55px;
@@ -602,57 +589,55 @@ footer p {
     }
 
     .error-button {
-        font-size: 1.23rem;
-        text-align: center;
         width: 220px;
         height: 65px;
     }
 }
 
-    /* Media query for large devices (laptops and desktops,992px and up) */
-    @media screen and (min-width: 992px) {
+/* Media query for large devices (laptops and desktops,992px and up) */
+@media screen and (min-width: 992px) {
 
-        /* Button hover over effect */
-        .btn:hover,
-        .error-button:hover,
-        #play-again-btn:hover {
-            background-color: #540B0E;
-            color: #F3F7F5;
-        }
-
-        /* Quiz Area */
-        #category-heading {
-            width: 800px;
-            padding-bottom: 1rem;
-        }
-
-        #quiz-area-container {
-            max-width: 800px;
-            height: 840px;
-        }
-
-        .rules-description {
-            padding: 0.5rem 0 0;
-            margin: 0 auto 1.5rem;
-        }
-
-        #question-container {
-            margin: 0;
-        }
-
-        #image-container {
-            width: 500px;
-            height: 400px;
-        }
-
-        #answer-choices {
-            gap: 20px;
-            align-content: center;
-            flex-wrap: wrap;
-            margin: 0.5rem 1rem;
-        }
-
-        #next-btn {
-            margin: 0.78rem auto;
-        }
+    /* Button hover over effect */
+    .btn:hover,
+    .error-button:hover,
+    #play-again-btn:hover {
+        background-color: #540B0E;
+        color: #F3F7F5;
     }
+
+    /* Quiz Area */
+    #category-heading {
+        width: 800px;
+        padding-bottom: 1rem;
+    }
+
+    #quiz-area-container {
+        max-width: 800px;
+        height: 840px;
+    }
+
+    .rules-description {
+        padding: 0.5rem 0 0;
+        margin: 0 auto 1.5rem;
+    }
+
+    #question-container {
+        margin: 0;
+    }
+
+    #image-container {
+        width: 500px;
+        height: 400px;
+    }
+
+    #answer-choices {
+        gap: 20px;
+        align-content: center;
+        flex-wrap: wrap;
+        margin: 0.5rem 1rem;
+    }
+
+    #next-btn {
+        margin: 0.78rem auto;
+    }
+}
