@@ -413,15 +413,6 @@ footer p {
     }
 }
 
-/* Media query for mobiles from 462px and up*/
-@media screen and (min-width: 462px) {
-
-    /* Footer */
-    #footer-info span {
-        display: inline;
-    }
-}
-
 /* Media query for tablet devices from 600px and up*/
 @media screen and (min-width: 600px) {
 
@@ -450,6 +441,12 @@ footer p {
 
     #painting-name {
         width: 380px;
+    }
+
+    
+    /* Footer */
+    #footer-info span {
+        display: inline;
     }
 }
 
