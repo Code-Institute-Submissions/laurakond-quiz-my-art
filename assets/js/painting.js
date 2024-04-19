@@ -158,7 +158,7 @@ const paintingQuestions = [
         answers: [
             { text: 'The Lomellini family, 1623', correct: false },
             { text: 'Lord John Stuart and his Brother, Lord Bernard Stuart, c. 1638', correct: false },
-            { text: 'Charles I in Three Positions, 1635-36)', correct: false },
+            { text: 'Charles I in Three Positions, 1635-36', correct: false },
             { text: 'Charles I at the Hunt, c. 1635', correct: true }
         ]
     },
