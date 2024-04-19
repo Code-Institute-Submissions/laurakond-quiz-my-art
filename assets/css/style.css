@@ -403,7 +403,7 @@ footer p {
         padding: 0.1rem 0 0.6rem;
     }
 
-    .btn{
+    .btn {
         width: 245px;
     }
 }
@@ -422,13 +422,21 @@ footer p {
 
     /* Quiz Area */
 
+    .landing-btn {
+        width: 150px;
+    }
+
     #category-heading {
         padding-bottom: 1.2rem;
     }
 
+    #quiz-area-container {
+        height: 960px;
+    }
+
     .rules-description {
         width: 500px;
-        margin: 1rem auto;
+        margin: 0 auto 1rem;
     }
 
     #image-container {
