@@ -514,20 +514,16 @@ footer p {
 
     /* Quiz Area */
     #quiz-area-container{
-        padding: 1rem 0.75rem 2rem;
         height: 900px;
     }
+
+    #rules-description{
+        margin: 0 auto 1rem;
+    }
+
     #image-container {
         width: 500px;
         height: 400px;
-    }
-
-    #answer-choices {
-        margin-top: 1rem;
-    }
-
-    #next-btn {
-        margin-top: 2.5rem;
     }
 
     /* Score area */
