@@ -509,8 +509,12 @@ footer p {
 @media screen and (min-width: 768px) {
 
     /* General */
+    h2 {
+        font-size: 1.75em;
+    }
 
     #category-heading>p,
+    .rules-description,
     #question-container>p,
     #painting-name {
         font-size: 1.25em;
@@ -518,7 +522,7 @@ footer p {
 
     /* Header */
     #logo {
-        font-size: 220%;
+        font-size: 225%;
     }
 
     /* Landing page */
@@ -548,8 +552,12 @@ footer p {
         height: 900px;
     }
 
-    #rules-description {
-        margin: 0 auto 1rem;
+    .rules-description {
+        margin: 0 auto;
+    }
+
+    #question-container {
+        margin: 0;
     }
 
     #image-container {
@@ -559,7 +567,18 @@ footer p {
 
     #painting-name {
         width: auto;
-        height: 2.7rem;
+        height: 35px;
+        padding: 0;
+    }
+
+    #answer-choices>.btn, #next-btn {
+        font-size: 1.1em;
+    }
+
+
+    #next-btn {
+        width: 150px;
+        height: 50px;
     }
 
     /* Score area */
