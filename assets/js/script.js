@@ -123,6 +123,8 @@ function nextQuestion() {
         currentQuestionIndex++;
         showQuestion();
     } else {
+        // remove box shadow style once out of the quiz
+        header.style.boxShadow = "none";
         scoreBoard();
     }
 }
