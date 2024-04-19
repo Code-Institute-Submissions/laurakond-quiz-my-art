@@ -427,7 +427,7 @@ footer p {
 
     /* Quiz Area */
 
-    .btn{
+    .btn {
         width: 265px;
     }
 
@@ -507,6 +507,14 @@ footer p {
 
 /* Media query for large devices (laptops and desktops,768px and up) */
 @media screen and (min-width: 768px) {
+
+    /* General */
+
+    #category-heading>p,
+    #question-container>p,
+    #painting-name {
+        font-size: 1.25em;
+    }
 
     /* Header */
     #logo {
