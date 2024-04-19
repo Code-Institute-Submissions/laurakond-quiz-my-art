@@ -379,8 +379,8 @@ footer p {
     }
 }
 
-/* Media query for mobiles from 425px and up*/
-@media screen and (min-width: 425px) {
+/* Media query for mobiles from 412px and up*/
+@media screen and (min-width: 412px) {
 
     /* Quiz Area */
     #quiz-area-container {
@@ -411,12 +411,18 @@ footer p {
     }
 }
 
-/* Media query for tablet devices from 520px and up*/
-@media screen and (min-width: 520px) {
+/* Media query for tablet devices from 600px and up*/
+@media screen and (min-width: 600px) {
 
     /* Quiz Area */
+
+    #category-heading{
+        padding-bottom: 1.2rem;
+    }
+
     .rules-description {
         width: 400px;
+        margin: 1rem auto 0.75rem;
     }
 
     #image-container {
