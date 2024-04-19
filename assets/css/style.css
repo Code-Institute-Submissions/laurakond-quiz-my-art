@@ -80,7 +80,7 @@ main {
 
 /* Shared styles */
 .btn {
-    width: 208px;
+    width: 215px;
     height: 58px;
     font-size: 0.85rem;
     letter-spacing: 1px;
@@ -156,6 +156,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 1rem;
 }
 
 #question-container>p {
@@ -200,7 +201,7 @@ main {
     justify-content: center;
     align-items: center;
     padding: 14px;
-    margin: 0.1rem auto 1rem;
+    margin: 0.5rem auto 1rem;
     border-radius: 0.8rem;
     border: 0;
     background-color: #540B0E;
@@ -385,6 +386,7 @@ footer p {
     /* Quiz Area */
     #quiz-area-container {
         width: 90%;
+        height: 960;
     }
 
     .rules-description {
