@@ -561,7 +561,7 @@ footer p {
     }
 
     #category-heading {
-        width: 800px;
+        width: 700px;
         padding-bottom: 1rem;
     }
 
@@ -590,10 +590,6 @@ footer p {
         padding: 0;
     }
 
-    /* #answer-choices {
-        margin: 0.5rem 1rem;
-    } */
-
     #next-btn {
         width: 150px;
         height: 55px;
@@ -620,40 +616,4 @@ footer p {
         background-color: #540B0E;
         color: #F3F7F5;
     }
-
-    /* Quiz Area */
-    /* #category-heading {
-        width: 800px;
-        padding-bottom: 1rem;
-    } */
-/* 
-    #quiz-area-container {
-        max-width: 800px;
-        height: 840px;
-    } */
-
-    /* .rules-description {
-        padding: 0.5rem 0 0;
-        margin: 0 auto 1.5rem;
-    } */
-
-    /* #question-container {
-        margin: 0;
-    } */
-/* 
-    #image-container {
-        width: 500px;
-        height: 400px;
-    } */
-/* 
-    #answer-choices {
-        gap: 20px;
-        align-content: center;
-        flex-wrap: wrap;
-        margin: 0.5rem 1rem;
-    } */
-
-    /* #next-btn {
-        margin: 0.78rem auto;
-    } */
 }
