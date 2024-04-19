@@ -179,7 +179,7 @@ main {
 
 #painting-name {
     font-size: 1.08rem;
-    height: 52px;
+    height: 50px;
     letter-spacing: 0.5px;
     font-weight: 700;
     text-align: center;
@@ -386,7 +386,7 @@ footer p {
     /* Quiz Area */
 
     .btn {
-        width: 255px;
+        width: 245px;
     }
 
     .landing-btn {
@@ -413,10 +413,23 @@ footer p {
     }
 }
 
+/* Media query for mobiles from 462px and up*/
+@media screen and (min-width: 462px) {
+
+    /* Footer */
+    #footer-info span {
+        display: inline;
+    }
+}
+
 /* Media query for tablet devices from 600px and up*/
 @media screen and (min-width: 600px) {
 
     /* Quiz Area */
+
+    .btn{
+        width: 265px;
+    }
 
     .landing-btn {
         width: 150px;
@@ -441,12 +454,6 @@ footer p {
 
     #painting-name {
         width: 380px;
-    }
-
-    
-    /* Footer */
-    #footer-info span {
-        display: inline;
     }
 }
 
@@ -530,7 +537,7 @@ footer p {
 
     /* Quiz Area */
     #quiz-area-container {
-        height: 880px;
+        height: 900px;
     }
 
     #rules-description {
