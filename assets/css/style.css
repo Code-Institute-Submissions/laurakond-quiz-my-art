@@ -402,6 +402,10 @@ footer p {
         width: 310px;
         padding: 0.1rem 0 0.6rem;
     }
+
+    .btn{
+        width: 245px;
+    }
 }
 
 /* Media query for mobiles from 462px and up*/
