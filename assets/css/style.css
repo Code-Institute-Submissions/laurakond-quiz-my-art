@@ -384,6 +384,15 @@ footer p {
 @media screen and (min-width: 412px) {
 
     /* Quiz Area */
+
+    .btn {
+        width: 245px;
+    }
+
+    .landing-btn {
+        width: 150px;
+    }
+
     #quiz-area-container {
         width: 90%;
         height: 960;
@@ -401,10 +410,6 @@ footer p {
     #painting-name {
         width: 310px;
         padding: 0.1rem 0 0.6rem;
-    }
-
-    .btn {
-        width: 245px;
     }
 }
 
