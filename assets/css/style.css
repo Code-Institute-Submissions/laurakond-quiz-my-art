@@ -533,7 +533,7 @@ footer p {
 
     /* Quiz Area */
     #quiz-area-container {
-        height: 900px;
+        height: 880px;
     }
 
     #rules-description {
@@ -543,6 +543,11 @@ footer p {
     #image-container {
         width: 500px;
         height: 400px;
+    }
+
+    #painting-name {
+        width: auto;
+        height: 2.7rem;
     }
 
     /* Score area */
@@ -564,7 +569,6 @@ footer p {
     #question-container {
         margin: 2rem 0;
     }
-
 }
 
 /* Media query for large devices (laptops and desktops,992px and up) */
@@ -601,11 +605,6 @@ footer p {
     #image-container {
         width: 500px;
         height: 400px;
-    }
-
-    #painting-name {
-        width: auto;
-        height: 2.7rem;
     }
 
     #answer-choices {
