@@ -516,19 +516,19 @@ footer p {
     /* General */
     h2,
     h3 {
-        font-size: 1.3em;
+        font-size: 1.40rem;
     }
 
     #category-heading>p,
-    .rules-description,
+    .rules-description>p,
     #question-container>p,
     #painting-name,
     .landing-btn,
     #score-content>p,
     #result-description,
     #play-again-btn,
-    #message-content>p {
-        font-size: 1.1em;
+    #message-content>p, footer {
+        font-size: 1.1rem;
     }
 
     /* Header */
@@ -588,7 +588,7 @@ footer p {
 
     #answer-choices>.btn,
     #next-btn {
-        font-size: 1.1em;
+        font-size: 1.1rem;
     }
 
     #next-btn {
@@ -602,7 +602,7 @@ footer p {
     }
 
     .error-button {
-        font-size: 1.1em;
+        font-size: 1.23rem;
         text-align: center;
         width: 220px;
         height: 65px;
