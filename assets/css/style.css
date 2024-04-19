@@ -608,21 +608,6 @@ footer p {
     }
 }
 
-    /* Media query for larger tablet devices (laptops and desktops,800px and up) */
-    @media screen and (min-width: 800px) {
-        .rules-description {
-            margin: 1rem auto 2.5rem;
-        }
-
-        #quiz-area-container {
-            height: 950px;
-        }
-
-        #question-container {
-            margin: 2rem 0;
-        }
-    }
-
     /* Media query for large devices (laptops and desktops,992px and up) */
     @media screen and (min-width: 992px) {
 
@@ -642,7 +627,6 @@ footer p {
 
         #quiz-area-container {
             max-width: 800px;
-            height: 840px;
         }
 
         .rules-description {
