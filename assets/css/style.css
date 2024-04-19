@@ -514,7 +514,7 @@ footer p {
     /* General */
     h2,
     h3 {
-        font-size: 1.75em;
+        font-size: 1.3em;
     }
 
     #category-heading>p,
@@ -527,7 +527,7 @@ footer p {
     #play-again-btn,
     #message-content>p,
     .error-button {
-        font-size: 1.25em;
+        font-size: 1.1em;
     }
 
     /* Header */
@@ -559,7 +559,7 @@ footer p {
 
     /* Quiz Area */
     #quiz-area-container {
-        height: 915px;
+        height: 900px;
     }
 
     .rules-description {
