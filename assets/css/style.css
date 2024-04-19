@@ -293,7 +293,7 @@ main {
 }
 
 #message-content>p {
-    padding: 1rem 1rem 0.5rem;
+    padding: 1rem 0 ;
 }
 
 .error-button {
@@ -302,7 +302,6 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    line-height: 1.25rem;
     color: #100007;
     box-shadow: rgba(16, 0, 7, .2) 0 3px 5px -1px, rgba(16, 0, 7, .14) 0 6px 10px 0, rgba(16, 0, 7, .12) 0 1px 18px 0;
 }
@@ -456,7 +455,7 @@ footer p {
         width: 380px;
     }
 
-    #answer-choices{
+    #answer-choices {
         margin-top: 15px;
     }
 }
@@ -493,7 +492,7 @@ footer p {
         flex-wrap: wrap;
     }
 
-    /* Had to place the .btn as otherwise the code was breaking the styling */    
+    /* Had to place the .btn as otherwise the code was breaking the styling */
     #answer-choices>.btn {
         margin: 0;
         width: 310px;
@@ -513,14 +512,21 @@ footer p {
 @media screen and (min-width: 768px) {
 
     /* General */
-    h2 {
+    h2,
+    h3 {
         font-size: 1.75em;
     }
 
     #category-heading>p,
     .rules-description,
     #question-container>p,
-    #painting-name, .landing-btn, #play-again-btn {
+    #painting-name,
+    .landing-btn,
+    #score-content>p,
+    #result-description,
+    #play-again-btn,
+    #message-content>p,
+    .error-button {
         font-size: 1.25em;
     }
 
@@ -553,11 +559,15 @@ footer p {
 
     /* Quiz Area */
     #quiz-area-container {
-        height: 900px;
+        height: 915px;
     }
 
     .rules-description {
         margin: 0 auto;
+    }
+
+    .rules-description>p {
+        width: 600px;
     }
 
     #question-container {
@@ -575,81 +585,88 @@ footer p {
         padding: 0;
     }
 
-    #answer-choices>.btn, #next-btn {
+    #answer-choices>.btn,
+    #next-btn {
         font-size: 1.1em;
     }
-
 
     #next-btn {
         width: 150px;
         height: 55px;
     }
 
-    /* Score area */
-    #result-description {
-        font-size: 1.1rem;
+    /* 404 page */
+    #message-content {
+        padding: 2rem 3.75rem;
+    }
+
+    .error-button {
+        font-size: 1.15em;
+        text-align: center;
+        width: 190px;
+        height: 80px;
     }
 }
 
-/* Media query for larger tablet devices (laptops and desktops,800px and up) */
-@media screen and (min-width: 800px) {
-    .rules-description {
-        margin: 1rem auto 2.5rem;
+    /* Media query for larger tablet devices (laptops and desktops,800px and up) */
+    @media screen and (min-width: 800px) {
+        .rules-description {
+            margin: 1rem auto 2.5rem;
+        }
+
+        #quiz-area-container {
+            height: 950px;
+        }
+
+        #question-container {
+            margin: 2rem 0;
+        }
     }
 
-    #quiz-area-container {
-        height: 950px;
+    /* Media query for large devices (laptops and desktops,992px and up) */
+    @media screen and (min-width: 992px) {
+
+        /* Button hover over effect */
+        .btn:hover,
+        .error-button:hover,
+        #play-again-btn:hover {
+            background-color: #540B0E;
+            color: #F3F7F5;
+        }
+
+        /* Quiz Area */
+
+        #category-heading {
+            padding-bottom: 1rem;
+        }
+
+        #quiz-area-container {
+            max-width: 800px;
+            height: 840px;
+        }
+
+        .rules-description {
+            padding: 0.5rem 0 0;
+            margin: 0 auto 1.5rem;
+        }
+
+        #question-container {
+            margin: 0;
+        }
+
+        #image-container {
+            width: 500px;
+            height: 400px;
+        }
+
+        #answer-choices {
+            gap: 20px;
+            align-content: center;
+            flex-wrap: wrap;
+            margin: 0.5rem 1rem;
+        }
+
+        #next-btn {
+            margin: 0.78rem auto;
+        }
     }
-
-    #question-container {
-        margin: 2rem 0;
-    }
-}
-
-/* Media query for large devices (laptops and desktops,992px and up) */
-@media screen and (min-width: 992px) {
-
-    /* Button hover over effect */
-    .btn:hover,
-    .error-button:hover,
-    #play-again-btn:hover {
-        background-color: #540B0E;
-        color: #F3F7F5;
-    }
-
-    /* Quiz Area */
-
-    #category-heading {
-        padding-bottom: 1rem;
-    }
-
-    #quiz-area-container {
-        max-width: 800px;
-        height: 840px;
-    }
-
-    .rules-description {
-        padding: 0.5rem 0 0;
-        margin: 0 auto 1.5rem;
-    }
-
-    #question-container {
-        margin: 0;
-    }
-
-    #image-container {
-        width: 500px;
-        height: 400px;
-    }
-
-    #answer-choices {
-        gap: 20px;
-        align-content: center;
-        flex-wrap: wrap;
-        margin: 0.5rem 1rem;
-    }
-
-    #next-btn {
-        margin: 0.78rem auto;
-    }
-}
