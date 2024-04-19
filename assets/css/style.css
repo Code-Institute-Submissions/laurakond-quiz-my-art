@@ -169,8 +169,8 @@ main {
     justify-content: center;
     width: 235px;
     height: 300px;
-    max-width: 400px;
-    max-height: 300px;
+    max-width: 500px;
+    max-height: 400px;
     background-color: #002a32;
     border: 0.75rem ridge #7B5214;
     margin-bottom: 0.75rem;
@@ -518,8 +518,8 @@ footer p {
         height: 900px;
     }
     #image-container {
-        max-width: 500px;
-        height: 500px;
+        width: 500px;
+        height: 400px;
     }
 
     #answer-choices {
