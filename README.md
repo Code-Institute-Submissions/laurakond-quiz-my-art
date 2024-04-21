@@ -141,14 +141,14 @@ The following palette was used to ensure contrast is achieved between the main p
 - #9E2A2B - Auburn - for the box shadow effect around the above-mentioned container areas, the header shadow for smaller devices, and for the incorrect button shadow effect.
 - #540B0E - Chocolate cosmos - for the font color of the Logo and as a button background color for hover effect on larger devices.
 
-
 ![color-palette](assets/documentation/features-images/pp2-color-palette.webp)
 
 ### Font styles
 
 I used [Google fonts](https://fonts.google.com/) to source fonts for the website. These are:
 
-
+- Cormorant Garamond, serif by [Christian Thalmann](https://fonts.google.com/?query=Christian%20Thalmann)- was used as the Logo font.
+- Roboto, sans-serif by [Christian Robertson](https://fonts.google.com/?query=Christian%20Robertson) - was used as the main content font.
  
  [Return to Table of Contents](#table-of-contents)
 
