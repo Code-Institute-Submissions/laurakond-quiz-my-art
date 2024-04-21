@@ -49,6 +49,30 @@
 [Return to Table of Contents](#contents)
 
 
+### JS Hint Testing
+
+All JavaScript pages were tested with JsHint services. Initial tests of the code returned the following warnings:
+
+1) A couple of minor warnings of missing semicolons, which I corrected in the code subsequently (screenshot not taken).
+2) A warning about three undefined variables which I have removed from the code (screenshot not taken).    
+3) Three warnings of undefined variables.
+    - This was generated because I have chosen to create three additional JavaScript files each containing an appropriate question list, i.e. artistQuestions, periodQuestions, and paintingQuestions.
+    - The final screenshot of JSHint test run for the main script code: 
+![Script.js test code](assets/documentation/testing-images/jshint/jshint-testing.webp)
+
+4) The test run for each category file returned a warning of three unused variables: artistQuestions, periodQuestions and paintingQuestions. 
+    - As mentioned at point 3, this is due to the fact that I chose to create three separate JavaScript files that house each category of questions. 
+    - The test run of each JavaScript page can be found below:
+        - [artistQuestions](assets/documentation/testing-images\jshint/artist-questions-jshint.webp)
+        - [periodQuestions](assets/documentation/testing-images/jshint/artist-questions-jshint.webp)
+        - [paintingQuestions](assets/documentation/testing-images/jshint/artist-questions-jshint.webp)
+
+
+
+[Return to Table of Contents](#contents)
+
+
+
 ### Lighthouse
 
 
