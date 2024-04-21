@@ -45,12 +45,12 @@ Link to live page: [Quiz My Art](https://laurakond.github.io/quiz-my-art/)
 
 ### Target audience
 
-This quiz game is aimed towards anyone who enjoys participating in quiz games, want to learn something new and enjoy their time answering questions to varying degree of difficulty:
+This quiz game is aimed towards anyone who enjoys participating in quiz games, wants to learn something new and enjoys their time answering questions to varying degrees of difficulty:
 
 - People who are interested in and like art, art history and history.
 - People who want to test their art history knowledge.
-- People who would like to learn something new while taking part in interactive quiz game.
-- People who are intersted in quizes and trivia games.
+- People who would like to learn something new while taking part in an interactive quiz game.
+- People who are interested in quizzes and trivia games.
 
 
 ### User Stories
