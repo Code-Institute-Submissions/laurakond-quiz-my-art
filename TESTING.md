@@ -95,6 +95,41 @@ When testing the 404 page, the console was throwing the following error in Dev T
 - This was caused by the next button event listener in the main JavaScript file, which was placed outside any function, making it of global scope. 
     - I resolved this by moving the event listener inside the function that was calling the next button.
 
+**Jumping content in the main quiz area**
+
+Once inside each category of the quiz, I noticed that the content was jumping on the smaller devices screen. This was due to several factors within the code that are noted below:
+1. I decided to adjust the height of the main question container manually so that the display stays as consistent as possible. 
+    - I am aware that this is not the most optimal solution to solve the problem. Therefore, this will be addressed at the next development stage. 
+
+2. The image container kept changing dimensions (jumping) when different images were generated, i.e. moving between a landscape and a portrait image. 
+    - I set a maximum/minimum width and height for the image container to ensure that all the images fit within the frame.
+    - I used the "object-fit: contain;" on the image element to ensure that the image is not distorted or expands beyond the frame.  
+
+3. The generated content inside the line just below the image display (id name "painting-name") is not consistent in length, which creates an additional line of text on smaller devices.
+    - I resolved this by setting the exact height of the text container. 
+        - I refrained from altering the width on smaller devices as it would have come out of the container bounds. 
+
+4. The size of the answer buttons kept changing due to the generated content by JavaScript, which in turn made the content / page jump out of its place when the next button appeared. 
+    - The content generated inside the answer choices' buttons is not consistent in length, which creates an additional line of text inside the buttons, hence the jump of the content. 
+        - I resolved this by manually setting an exact height of the buttons and altering the height & width of it to suit the design / responsiveness of the website.
+
+5. On larger devices, the content was jumping due to the set width of certain containers, i.e. container with "rules-description" id.
+    - I resolved this by applying the width and height of the container based on the size of the screen.
+    - The jumping of the content that was caused by the buttons was resolved once I applied flex-box to the button container. 
+    - I was also able to keep the whole content of the website within the screen frame of larger devices.
+
+**Responsiveness**
+
+1. During the testing phase, I noticed that the layout of the website was distorted on larger devices. I adjusted the media queries based on most common device sizes, which seems to have resolved the majority of the issues, however, this has populated more code in the style.css file.
+
+**Other inconsistencies**
+
+1. Because the answer choice buttons were generated dynamically using JavaScript, they were not automatically picking up the font-family property from the body element in CSS file:
+	- I had to apply the font-family property directly to the ".btn" class for it to take effect.
+    
+2. Due to limited space within the answer button container (especially on smaller devices), the answer buttons that have more content within them are more compact.  
+
+
 ### Lighthouse
 
 
