@@ -58,6 +58,7 @@ All JavaScript pages were tested with JsHint services. Initial tests of the code
 3) Three warnings of undefined variables.
     - This was generated because I have chosen to create three additional JavaScript files each containing an appropriate question list, i.e. artistQuestions, periodQuestions, and paintingQuestions.
     - The final screenshot of JSHint test run for the main script code: 
+    
 ![Script.js test code](assets/documentation/testing-images/jshint/jshint-testing.webp)
 
 4) The test run for each category file returned a warning of three unused variables: artistQuestions, periodQuestions and paintingQuestions. 
@@ -163,17 +164,21 @@ Once inside each category of the quiz, I noticed that the content was jumping on
 #### The Home / landing page (one html page)
 
 - **Desktop test score:**
+
 ![desktop-main-page](assets/documentation/testing-images/lighthouse/lighthouse-index-desktop.webp)
 
 - **Mobile test score:**
+
 ![mobile-main-page](assets/documentation/testing-images/lighthouse/lighthouse-index-mobile.webp)
 
 #### 404 page
 
 - **Desktop test score:**
+
 ![404-desktop-page](assets/documentation/testing-images/lighthouse/lighthouse-404-desktop.webp)
 
 - **Mobile test score:**
+
 ![404-mobile-page](assets/documentation/testing-images/lighthouse/lighthouse-404-mobile.webp)
 
 [Return to Table of Contents](#contents)
@@ -213,10 +218,12 @@ I have followed good standard accessibility practices by including the following
 
 **The main page**
 The three alerts are referring to what appears to be the question number count, the hidden score calculation and the total score count that is displayed at the end of each quiz.  
+
 ![main page wave report](assets/documentation/testing-images/wave-desktop-main.webp)
 
 **The 404 page**
 The shown alert refers to "redundant link: Adjacent links go to the same URL". Both anchor tags, one in the header and one in the main body refer to the index.html link. 
+
 ![main page wave report](assets/documentation/testing-images/wave-desktop-404.webp)
 
 #### WCAG report
@@ -290,3 +297,5 @@ Once the website was complete, I went through each page/feature, ensuring that i
 | Devices up to 675px (675px not included): Header border shadow display disabled  | Click on the next button                     | At the end of the quiz, the next button even listener is trigerred and takes to the final score page. The border shadow display to the header is reset to none.                                                                                          | Pass      |
 
 [Return to Table of Contents](#contents)
+
+[Return to main README](README.md)
