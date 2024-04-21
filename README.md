@@ -384,13 +384,17 @@ See [TESTING.md](https://stackedit.io/app#testing) for full testing and validati
 
 ## Credits
 
-The following resources have been used in preparation to and while creating the Quiz My Art website.
+This project has proven to be a challenge, which required additional study and research time in order to become knowledgeable about the topic. Therefore, I have used a plethora of resources in order to understand the language. The following resources I have referred to in preparation for and while creating the Quiz My Art website:
 
-- Web Dev Simplified: https://www.youtube.com/watch?v=riDzcEQbX6k
-- GreatStack: https://www.youtube.com/watch?v=PBcqGxrr9g8
-- How to Become a Developer: https://www.youtube.com/watch?v=MgeQa7qXIwI 
-- James Q Quick: https://www.youtube.com/watch?v=rFWbAj40JrQ&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=5
+The main inspiration and an idea for a template came from the video below:
+- [Web Dev Simplified](https://www.youtube.com/watch?v=riDzcEQbX6k)
 
+Additional insight and ideas were gathered from the following videos:
+- [GreatStack](https://www.youtube.com/watch?v=PBcqGxrr9g8)
+- [How to Become a Developer](https://www.youtube.com/watch?v=MgeQa7qXIwI)
+- [James Q Quick](https://www.youtube.com/watch?v=rFWbAj40JrQ&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=5)
+
+I have also referred to the Code Institute's Love Maths walkthrough project as a baseline for understanding and implementing some parts of the code. These are noted in the JavaScript code.
 
 
 ### Content
