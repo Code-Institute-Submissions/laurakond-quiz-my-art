@@ -422,7 +422,32 @@ All the content, i.e. the questions, score descriptions and other (excluding the
 
 ### General resources
 
+#### Websites, articles, tutorials
+To implement a **grid layout** on the buttons on larger screens, I have read the following resources.
 
+- Developer Mozilla Org:
+    - [Basic concepts of grid layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout)
+    - [Grid area](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-area)
+- W3Schools:
+    - [CSS  grid-area  Property](https://www.w3schools.com/cssref/pr_grid-area.php)  
+    - [CSS  Grid Layout Module](https://www.w3schools.com/css/css_grid.asp) 
+
+Sorting out the **image display layout** and **aspect-ratio** has proven a big challenge. The following resources helped me to familiarise more with **aspect ratio** and **object-fit** properties.
+
+- Developer Mozilla Org:
+    - [Aspect ratio](https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio)
+    - [Object fit](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit)
+    - [How to fill a box with an image without distorting it](https://developer.mozilla.org/en-US/docs/Learn/CSS/Howto/Fill_a_box_with_an_image)
+- W3Schools:
+    - [# CSS  aspect-ratio  Property](https://www.w3schools.com/cssref/css_pr_aspect-ratio.php)
+- She Codes:
+    - [How to change the width of a container in CSS](https://www.shecodes.io/athena/72487-how-to-get-a-css-image-to-fit-in-a-container-like-fit-to-size#:~:text=To%20get%20a%20CSS%20image%20to%20fit%20into%20a%20container,if%20the%20container%20size%20changes.)
+    - [How to get a CSS Image to fit in a container like fit to size](https://www.shecodes.io/athena/72487-how-to-get-a-css-image-to-fit-in-a-container-like-fit-to-size#:~:text=To%20get%20a%20CSS%20image%20to%20fit%20into%20a%20container,if%20the%20container%20size%20changes.)
+
+I have read the following resources on how to use and implement **box shadow property**:
+
+- Developer Mozilla Org:
+    - [Box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow) 
 
 
 ### Acknowledgments
