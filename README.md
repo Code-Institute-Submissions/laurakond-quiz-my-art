@@ -415,8 +415,8 @@ All the content, i.e. the questions, score descriptions and other (excluding the
 
 #### Images
 
-- Images were sourced from wikipedia.org website.
-- Favicon and error page image were taken from Pexels.com
+- All images were sourced from [wikipedia.org](https://www.wikipedia.org/) website.
+- A few images, i.e. Frida Kahlo, Mark Rothlo, and Roy Lichtenstein, are of lower quality. In order to obtain higher resolution images, I would have needed to get in touch with the respective museums and art galleries for copyright reasons. Due to the time constraint of this project, I have decided to use the images I was able to source. 
 
 ### General resources
 
