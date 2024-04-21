@@ -84,7 +84,16 @@ Below are just a couple of examples of the elements and sections that I had to t
 - I had to target the .btn class within the answer button section specifically because the functionality of correct/incorrect answers (set with Javascript) had changed since I started applying the color palette.
 - In media queries, I had to target buttons and elements that are using/sharing .btn class specifically when setting the font size on larger devices because they did not respond to the change set against generic elements.
 
+#### Fixed Bugs
 
+**404-page error** 
+
+When testing the 404 page, the console was throwing the following error in Dev Tools. 
+
+![eventListener error](assets/documentation/testing-images/error-images/event-listener-error.webp)
+
+- This was caused by the next button event listener in the main JavaScript file, which was placed outside any function, making it of global scope. 
+    - I resolved this by moving the event listener inside the function that was calling the next button.
 
 ### Lighthouse
 
