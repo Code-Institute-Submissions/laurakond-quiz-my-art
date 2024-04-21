@@ -8,7 +8,6 @@
 - [W3C Validator testing](#w3c-validator-testing)
 - [JS Hint testing](#js-hint-testing)
 - [Bugs](#bugs)
-	- [Website development and related issues](#website-development-and-related-issues)
 	- [Fixed bugs](#fixed-bugs)
 	- [Unfixed bugs](#unfixed-bugs)
 - [Lighthouse](#lighthouse)
@@ -75,6 +74,7 @@ All JavaScript pages were tested with JsHint services. Initial tests of the code
 ### Bugs
 
 **Website development and related issues**
+
 When I started working on the project, my priority was to ensure that the quiz was fully functional. Therefore, I started working on JavaScript with a skeleton structure and a very basic design applied to the website. Once I was happy with how the website was working and that it was responding to button clicks correctly, I then shifted my focus to making it responsive and finally applying a color palette. 
 
 Because I have chosen to manipulate the website mainly through the use of Ids and with a few classes, this has proven a challenge when working with CSS as the Ids were overriding each other. I had to tweak html code in order to ensure that I achieved the required responsiveness of the website. I also realised that my applied code in CSS (due to its hierarchical functioning) was overriding some of the website functionality. Therefore, I had to find ways to solve this without going back and changing the JavaScript code. 
@@ -158,6 +158,8 @@ Once inside each category of the quiz, I noticed that the content was jumping on
 -  Upon further research into the matter, it appears that it is caused due to Github blocking data being gathered for FLoC. This does not affect the functionality of the website at all.
     - I found this information in GitHub community [discussion](https://github.com/orgs/community/discussions/52356).
 
+
+[Return to Table of Contents](#contents)
 
 ### Lighthouse
 
@@ -298,4 +300,4 @@ Once the website was complete, I went through each page/feature, ensuring that i
 
 [Return to Table of Contents](#contents)
 
-[Return to main README](README.md)
+[Return to the main README](README.md)

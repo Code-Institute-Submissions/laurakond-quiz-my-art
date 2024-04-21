@@ -275,6 +275,7 @@ Mobile design:
 ![mobile-buttons](assets/documentation/features-images/mobile/mobile-answer-next-buttons.webp)
 
 Tablet/desktop style:
+
 ![tablet-desktop-buttons](assets/documentation/features-images/desktop/desktop-answer-next-buttons.webp)
 
 
@@ -298,6 +299,7 @@ Tablet/desktop style:
 - On a laptop or desktop, the Play Again button changes color upon hover.
 
 Desktop design:
+
 ![desktop-play-again-button](assets/documentation/features-images/desktop/desktop-play-again-button.webp)
 
 <br>
