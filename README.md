@@ -255,7 +255,14 @@ The names of the categories are simple and allow the user to identify the topic 
 <br>
 
 **The Score Page** 
-- Following the history section, this section gives a general overview of different aspects to consider when starting to cross-stitch. 
+- The Score section is prompted once the user has finished answering the questions. It will display a total score of correct answers and will give a text prompt depending on the score count. 
+    - I chose to exclude the display of the score count as the user progresses, as it would have distracted from the quiz. This way, the user is likely to progress to the end of the quiz to find out their total score at the end.  
+    - I chose to include the text prompt based on the score count in order to customise the interaction and user experience. This will engage the user more and will encourage them to retake the quiz if the score was lower than the maximum. 
+    - There are four possible score outcomes: 
+        - 10 out of 10
+        - 6 - 9
+        - 4 - 5
+        - Lower than 4
 
   ![technique section](assets/documentation/features/history-page/technique-section.jpg)
 
