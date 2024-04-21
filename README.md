@@ -227,6 +227,31 @@ The names of the categories are simple and allow the user to identify the topic 
 
 <br>
 
+**Question count**
+
+- A question count is displayed just above the image of the artwork which allows the user to follow their progress and know which question prompt they are at.
+
+![short version](link)
+
+<br>
+
+**Question images**
+
+- Each quiz displays ten randomly chosen images from three different lists containing twenty questions each. This prevents question repetition in case the user chooses to play the same category straight away.- Below the displayed question image, the user will find more information referring to the shown image. This might be the title of the artwork, an artist's name or an artist's name with the artwork's title and date depending on the category that is selected.
+
+![short version](link)
+
+<br>
+
+**Four answer options**
+
+- The four answer options below the image and the prompt are generated using JavaScript, and allow the user to select only one answer. 
+- Upon selection of the answer, the game will automatically accept it as a final answer and will block the user from changing their answer choice.- The button will display a green border shadow effect around it if the answer is correct, and a red border shadow if the chosen answer is incorrect. If the user's guess was incorrect, the correct answer will be highlighted, allowing for the user to find out what it was.
+
+![short version](link)
+
+<br>
+
 **Next Button** 
 - The Next button is hidden until the answer is selected, and then displays at the bottom of the screen just above the footer of the page. Once clicked it will take the user to the next question and hide again until the next answer is selected. 
 
