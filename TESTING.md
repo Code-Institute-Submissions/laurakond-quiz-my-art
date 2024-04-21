@@ -126,8 +126,37 @@ Once inside each category of the quiz, I noticed that the content was jumping on
 
 1. Because the answer choice buttons were generated dynamically using JavaScript, they were not automatically picking up the font-family property from the body element in CSS file:
 	- I had to apply the font-family property directly to the ".btn" class for it to take effect.
-    
+
 2. Due to limited space within the answer button container (especially on smaller devices), the answer buttons that have more content within them are more compact.  
+
+#### Unfixed Bugs
+
+1. Because I adjusted the height of the screen manually, it has distorted the original height of the screen. This has caused a scroll bar to appear on larger devices such as tablets and some desktops.
+    - As mentioned in the Fixed bugs section, I am sure that there are more optimal ways of getting the content to stay in place, which I will be addressing at the next development stage.
+    - I wanted to have the image container become larger, i.e. 500px width and 400px height, on larger devices to stay consistent with the design / accessibility. This has made the quiz content container / area larger, hence the scroll bar when testing on laptop / desktop screens.
+        - This was a deliberate design choice to ensure that the image is clearly visible.
+    - I will be addressing the height and container fit within the screen at the next development stage.
+
+2.  On smaller devices, the distance between the next button and the footer is inconsistent. This is for a couple of reasons:
+    1. Manually set height that prevents the content jumping (as mentioned in the Fixed Bugs section).
+    2.  Each quiz generates different content that is of varying length. 
+        - For example, the "When was it created?" quiz category generates a longer introductory paragraph which is [wrapped between three lines](assets/documentation/features-images/mobile/mobile-three-line-category.webp) on smaller devices. Similarly, the title / artist / work of art descriptions, and answer choices all have custom content that is of not one set length. 
+        - All of these aspects have affected the overall height of the screen. I was unable to find a solution for  adjusting the height of each individual quiz category. Therefore, I chose to have one set height. 
+        - I prioritised making the content static and having a consistent space between the answer buttons and the Next button ensuring a good user experience. 
+    - I will be addressing all the mentioned bugs at the next development stage.
+
+3. The content generated within the container below the image (id name "painting-name"), is not displayed consistently. I tried applying different padding and margin settings so that it would start from one exact point, but it did not fix the problem. The inconsistency, I believe, is due to different content lengths, which makes it impossible to set it in a way that it would ensure the text is displayed in the same position. An example image can be seen [here](assets/documentation/features-images/mobile/mobile-title-name-example.webp). 
+    - This is something to address at the next development stage.
+
+4. When testing the website for responsiveness, I noticed that the color palette changes once a device is set to dark mode. 
+	- This design inconsistency was noticed towards the end of the testing phase and will be addressed at the next development stage.
+
+5. The message below appears when running the 404 page via Chrome DevTools.
+
+![Permission policy header](assets/documentation/testing-images/error-images/permission-policy-warning.webp)
+-  Upon further research into the matter, it appears that it is caused due to Github blocking data being gathered for FLoC. This does not affect the functionality of the website at all.
+    - I found this information in GitHub community [discussion](https://github.com/orgs/community/discussions/52356).
+
 
 
 ### Lighthouse
