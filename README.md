@@ -154,18 +154,28 @@ I used [Google fonts](https://fonts.google.com/) to source fonts for the website
 
 ## Features
 
-The website has three categories to choose from that the user can decide what area of art knowledge they would like to test, a total score page, a button that prompts to play the quiz again and a 404 error page. The latter is only visible when a wrong website address is entered or an error occurs.  
+The website offers three themes/topics to choose from:
+- Name the artist
+- Name the art movement or period
+- Name the painting
 
-All features are fully responsive on mobile, tablets/iPads, laptops and desktops. 
+There is also a Score page section that is visible upon completion of the game, and a 404 Error page, which is only visible when a wrong website address is entered or an error occurs.
+
+All features are fully responsive on mobiles, tablets/iPads, laptops and desktops. 
 
 ### Existing features
 
 **The Header**
 
-![header-feature-desktop](assets/documentation/features/header-feature-desktop.jpg)
-- Featured in all pages, the header is fully responsive and displays the website's Logo. Once inside the game it transitions into a shortened version of the logo as to not occupy entire space. 
-- Once inside the game it transitions into a shortened version of the logo as to not occupy entire space. 
-- The header also allows the user to return to the Home page upon clicking the Logo or the letter "Q".
+![header-feature-mobile](assets/documentation/features-images/mobile/mobile-header-landing-page-feature.webp)
+
+- Featured in all pages, the header is fully responsive and displays the website's logo. Once inside the quiz, it transitions into a shortened version displaying the letter "Q" so as to not occupy the entire space.
+	- This feature is only available on the smallest phones up to 375px (the latter not included).
+- The header allows the user to return to the Home page by clicking the Logo or the letter "Q".
+- A header border shadow is applied once the user is inside each quiz category, and reverts back to regular display when on the score page. 
+	- This feature is only availabe on devices up to 675px (the latter not included).
+	
+![header-shadow-effect](assets/documentation/features-images/mobile/header-shadow-effect.webp)
 
 <br>
 
