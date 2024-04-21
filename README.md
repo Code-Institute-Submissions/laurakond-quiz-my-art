@@ -210,7 +210,11 @@ The names of the categories are simple and allow the user to identify the topic 
 
 - Once on a desktop or laptop, the positioning of the categories becomes vertical to respond to the change of screen orientation.
 
+Mobile design:
+
 ![mobile-landing-page-feature](assets/documentation/features-images/mobile/mobile-landing-page-feature.webp)
+
+Desktop design:
 
 ![desktop-landing-page](assets/documentation/features-images/desktop/desktop-home-page.webp)
 
@@ -239,11 +243,16 @@ The names of the categories are simple and allow the user to identify the topic 
 - Each quiz displays ten randomly chosen images from three different lists containing twenty questions each. This prevents question repetition in case the user chooses to play the same category straight away.
 - Below the displayed question image, the user will find more information referring to the shown image. This might be the title of the artwork, an artist's name or an artist's name with the artwork's title and date depending on the category that is selected.
 
-The image below showcases all of the above mentioned features on a mobile screen.
-
 <br>
 
+Mobile design:
+
 ![mobile-quiz-category-feature](assets/documentation/features-images/mobile/mobile-category-instructions.webp)
+
+
+Desktop design:
+
+![desktop-quiz-category-feature](assets/documentation/features-images/desktop/desktop-full-page-feature.jpg)
 
 <br>
 
@@ -261,7 +270,7 @@ The image below showcases all of the above mentioned features on a mobile screen
 
 Two images below showcase both the answer buttons and the next button features. 
 
-Mobile style:
+Mobile design:
 
 ![mobile-buttons](assets/documentation/features-images/mobile/mobile-answer-next-buttons.webp)
 
@@ -281,14 +290,14 @@ Tablet/desktop style:
         - 4 - 5
         - Lower than 4
 
-![score-7](assets/documentation/features-images/mobile/mobile-score-page.webp)
+![mobile-score-7](assets/documentation/features-images/mobile/mobile-score-page.webp)
 
 **Play Again Button**
 
 - The Play Again button is displayed in the Score section and will take the user back to the main page once clicked.
 - On a laptop or desktop, the Play Again button changes color upon hover.
 
-Desktop style:
+Desktop design:
 ![desktop-play-again-button](assets/documentation/features-images/desktop/desktop-play-again-button.webp)
 
 <br>
@@ -298,7 +307,7 @@ Desktop style:
 - An error page has been included in case there are any bugs that prevent the website or links from working properly. 
 - The page has an anchor tag that has been styled to look like a button to indicate intended action. Upon clicking it, the link will take the user back to the Home page of the website. It also displays a feature image that was used as a Fav Icon to allow design continuity. 
 
-  ![ 404-page](assets/documentation/features-images/mobile/404-page.webp)
+![ 404-page](assets/documentation/features-images/mobile/404-page.webp)
 
 <br>
 
