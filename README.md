@@ -402,7 +402,14 @@ I have also referred to the Code Institute's Love Maths walkthrough project as a
 All the content, i.e. the questions, score descriptions and other (excluding the names of the artists, artworks' titles), was produced by me.  
 
 ### Used code
-https://developer.mozilla.org/en-US/docs/Web/CSS/basic-shape/circle
+- I used the following code to implement a circle styling the error page image. The link to the code can be found [here](https://developer.mozilla.org/en-US/docs/Web/CSS/basic-shape/circle): `clip-path: circle(50px);`
+- I used the following code to apply the box shadow effect to all the buttons in my project:
+`box-shadow: rgba(0, 0, 0, .2) 0  3px  5px  -1px, rgba(0, 0, 0, .14) 0  6px  10px  0, rgba(0, 0, 0, .12) 0  1px  18px  0;`
+
+    - The style used was Google button 17. The link to the website is [here](https://getcssscan.com/css-buttons-examples). 
+    - **To note:** I have appropriated this code and used #100007 - Licorice in rgba color code in order to keep the shadow color within the chosen project palette.
+- Some of the code applied to general styles for CSS was taken from my PP1 project. This is noted by comments in the CSS file. 
+- The 404-page template was taken from my Cross Stitch Art portfolio project and was adjusted accordingly to fit the brief of this project.
 
 ### Media
 
