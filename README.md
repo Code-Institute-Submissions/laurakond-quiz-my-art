@@ -423,6 +423,7 @@ All the content, i.e. the questions, score descriptions and other (excluding the
 ### General resources
 
 #### Websites, articles, tutorials
+
 To implement a **grid layout** on the buttons on larger screens, I have read the following resources.
 
 - Developer Mozilla Org:
@@ -450,10 +451,15 @@ I have read the following resources on how to use and implement **box shadow pro
     - [Box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow) 
 
 #### Repositories
+
 I used the MDN repository to get an idea of how to use **object-fit property** when writing code:
 - [MDN - css examples](https://github.com/mdn/css-examples/blob/main/object-fit-gallery/style.css)
 - [CSS examples website](https://mdn.github.io/css-examples/)
 - [MDN object fit basics](https://mdn.github.io/css-examples/object-fit-basics/)
+
+#### Video tutorials
+
+I referred to the [Dev Dreamer](https://www.youtube.com/watch?v=d_3fKSHwq_g) video to learn more about **borders and border-radius properties**. 
 
 
 ### Acknowledgments
