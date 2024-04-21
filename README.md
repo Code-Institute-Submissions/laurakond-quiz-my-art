@@ -418,6 +418,8 @@ All the content, i.e. the questions, score descriptions and other (excluding the
 - All images were sourced from [wikipedia.org](https://www.wikipedia.org/) website.
 - A few images, i.e. Frida Kahlo, Mark Rothlo, and Roy Lichtenstein, are of lower quality. In order to obtain higher resolution images, I would have needed to get in touch with the respective museums and art galleries for copyright reasons. Due to the time constraint of this project, I have decided to use the images I was able to source. 
 
+- Favicon and 404-page images were sourced from [Pexels.com](https://www.pexels.com/).
+
 ### General resources
 
 
