@@ -211,12 +211,19 @@ The names of the categories are simple and allow the user to identify the topic 
 
 **Three Quiz Categories** 
 
-- Each category displays ten questions that are randomly selected from three different question pools. This prevents repetition of questions in case the user goes to the same category again.  
-- Each category's question is displayed once the page is loaded with a quick explanation of how to play just underneath it. 
-- A question count is displayed just above the image of the art work which allows the user to follow their progress and know which question prompt they are at. 
-- Below the displayed question image, the user will find a hint whether it is a title, an artist's name or a full title, artist's name and the date of the painting depending on the category that is selected. 
-- The four answer options below the image question image and a prompt are generated using JavaScript, and allows the user to select only one answer. Upon selection of the answer, the game will automatically accept it as a final answer and will block the user from changing their answer choice.
-- The button will automatically change color dependent whether the answer choice was correct or not. If the user's guess was incorrect, the correct answer will be highlighted allowing for the user to find out what it was.
+**Category title and instructions**
+- Once inside each category quiz, the category/quiz name is shown at the top of the page, clearly indicating which question the user has chosen to play. 
+
+- Just under it, I have included a brief sentence explaining how to play the quiz. 
+
+    - I have deliberately chosen to include these instructions inside each category, as the nature of the quiz is intuitive. The instruction reinforces the understanding on how a multiple-choice quiz works. 
+
+    - This also allows the user to go back to the instructions at any given time and remind themselves if needed.
+
+    - I felt that there was no need to have a separate page created for what could be shown in the main area of the quiz.
+
+**Mobile**
+![mobile-quiz-category-feature]()
 
 <br>
 
