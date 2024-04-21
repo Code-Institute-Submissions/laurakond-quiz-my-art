@@ -175,7 +175,6 @@ All features are fully responsive on mobiles, tablets/iPads, laptops and desktop
 
 ![header-feature-mobile](assets/documentation/features-images/mobile/mobile-header-landing-page-feature.webp)
 
-**Inside quiz category**
 ![header-shadow-effect](assets/documentation/features-images/mobile/header-shadow-effect.webp)
 
 <br>
@@ -185,10 +184,8 @@ All features are fully responsive on mobiles, tablets/iPads, laptops and desktop
 - Featured throughout, the footer displays the name of the creator. Once on a larger screen, it expands to show a disclosure that the project is created for educational purposes only as part of the Code Institute's Web Development programme. 
 - It also contains links to the developer's social media sites. Both links open in a new tab to allow easy navigation for the user.
 
-**Mobile**
 ![mobile-footer-feature](assets/documentation/features-images/mobile/mobile-footer-feature.webp)
 
-**Larger screens**
 ![mobile-footer-feature](assets/documentation/features-images/desktop/large-screen-footer.webp)
 
 <br>
@@ -202,8 +199,6 @@ All features are fully responsive on mobiles, tablets/iPads, laptops and desktop
 - "Name that painting"
 
 The names of the categories are simple and allow the user to identify the topic of the quiz straight away.
-
-**Mobile**
 
 ![mobile-landing-page-feature](assets/documentation/features-images/mobile/mobile-landing-page-feature.webp)
 
@@ -222,7 +217,6 @@ The names of the categories are simple and allow the user to identify the topic 
 
     - I felt that there was no need to have a separate page created for what could be shown in the main area of the quiz.
 
-**Mobile**
 ![mobile-quiz-category-feature]()
 
 <br>
