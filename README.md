@@ -266,7 +266,10 @@ The names of the categories are simple and allow the user to identify the topic 
 
   ![technique section](assets/documentation/features/history-page/technique-section.jpg)
 
-- **The five-step cross-stitch list**. This sub-section provides the user with a detailed break down list of how to start cross-stitching and gives tips for best practices. The list is interactive and can be expanded and minimized by clicking on a "Click here" arrow which provides further engagement with the content.
+**Play Again Button**
+- The Play Again button is displayed in the Score section and will take the user back to the main page once clicked.
+
+![404 error page](link)
 
 <br>
 
