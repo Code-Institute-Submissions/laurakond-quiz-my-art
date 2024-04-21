@@ -2,7 +2,7 @@
 
 (By Laura Kondrataite)
 
-![Quiz My Art responsiveness on various screens](link)
+![Quiz My Art responsiveness on various screens](assets/documentation/features-images/am-i-responsive.webp)
 
 Quiz My Art is an interactive quiz website that tests the user's art history knowledge. It is an image-based quiz which provides a more engaging and visual appeal to the user.
 
