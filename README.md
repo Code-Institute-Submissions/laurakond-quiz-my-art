@@ -399,7 +399,7 @@ I have also referred to the Code Institute's Love Maths walkthrough project as a
 
 ### Content
 
-
+All the content, i.e. the questions, score descriptions and other (excluding the names of the artists, artworks' titles), was produced by me.  
 
 ### Used code
 https://developer.mozilla.org/en-US/docs/Web/CSS/basic-shape/circle
