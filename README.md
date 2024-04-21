@@ -71,21 +71,62 @@ This quiz game is aimed towards anyone who enjoys participating in quiz games, w
 - Have a variety of questions that do not repeat.
 - Challenge myself by answering the questions without multiple choice options.
 
+### Website Structure
+
+The website follows a one-page structure with multiple sections that are accessible by applying JavaScript functionality. Upon loading the screen, the user is taken to a Home or landing page that offers three different categories to choose from. The page shows and, or hides specific sections dependent on button prompts.
 
 ### Wireframes
-The following wireframe mockups show initial idea of how the website would look on three different devices: mobile, tablets and laptops/desktops.
+The following wireframe mockups show the initial idea of how the website would look on three different devices: mobile, tablet/iPad and laptop/desktops. They also convey an idea of how the user will navigate between different sections of the page which are prompted using JavaScript.
+
+The final version bears slight differences to the wireframes:
+- One of the categories was initially planned to be text based. However, upon further reflection, I decided to have three image categories in order to provide consistency to the quiz. The topic of the category was adapted to focus on art movements and periods instead of the time when the artists lived.
+- I decided to adjust the logo of the website to display one letter "Q" on smaller devices such as smaller mobile phones. This feature is visible inside each category upon selection of the quiz theme (shown in the features section below).
+- I decided to keep the header displaying the main Logo throughout the game.
+- I decided to include a "next button" below the answer choice buttons.
+- The Bonus round was not implemented due to time constraints and was moved to the future development stage.
+- I changed the display of the landing page for the tablet and desktop screens.
 
 #### Mobile 
 
-![mobile-wireframe](link)
+**Landing page**
+
+![mobile-landing-page-wireframe](assets/documentation/wireframes/mobile-landing-page-wireframe.webp)
+
+**Each quiz category page**:
+
+![mobile-artist-category-wireframe](assets/documentation/wireframes/mobile-artist-category-wireframe.webp)
+
+![mobile-period-category-wireframe](assets/documentation/wireframes/mobile-period-category-wireframe.webp)
+
+![mobile-painting-category-wireframe](assets/documentation/wireframes/mobile-painting-category-wireframe.webp)
+
+**Score page**
+
+![mobile-score-page-wireframe](assets\documentation\wireframes\mobile-score-display-wireframe.webp)
+
+**404 page**
+
+![mobile-404-wireframe](assets/documentation/wireframes/mobile-404-wireframe.webp)
 
 #### Tablet
 
-![tablet-wireframe](link)
-  
-  #### Laptop/Desktop
+**Landing page**
 
-![desktop wireframe](link)
+![tablet-landing-page-wireframe](assets/documentation/wireframes/tablet-landing-page-wireframe.webp)
+
+**Quiz category**
+
+![tablet-quiz-category-wireframe](assets/documentation/wireframes/tablet-quiz-category-wireframe.webp)
+  
+#### Laptop/Desktop
+
+**Landing page**
+
+![desktop-landing-page-wireframe](assets/documentation/wireframes/desktop-landing-page-wireframe.webp)
+
+**Quiz category**
+
+![dekstop-quiz-category-wireframe](assets/documentation/wireframes/desktop-quiz-category-wireframe.webp)
 
 ### Color palette
 
