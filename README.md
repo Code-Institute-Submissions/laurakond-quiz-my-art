@@ -326,9 +326,12 @@ The following resources were used to help implement the website:
 - [Favicon](https://favicon.io/) for generating a favicon
 - Google Chrome DevTools for testing, troubleshooting and brainstorming code solutions
 - [Am I Responsive?](https://ui.dev/amiresponsive) website for showing the website's responsiveness on different devices
+- [Responsive Design Checker](https://responsivedesignchecker.com/) website for checking responsiveness on different devices
 - [Pixelied](https://pixelied.com/), [ILoveIMG](https://www.iloveimg.com/), Gimp, for resizing, compressing and editing images
 - [Coolors](https://coolors.co/) for generating the color palette
 - WCAG color contrast checker for website accessibilty
+- Wave evaluation tool for giving visual feedback about the accessibility of the website
+- [Contrast Grid](https://contrast-grid.eightshapes.com/) to test chosen color palette
 
  [Return to Table of Contents](#table-of-contents)
 
