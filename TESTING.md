@@ -241,3 +241,28 @@ The website has been extensively tested using the following browsers and devices
  
 [Return to Table of Contents](#contents)
 
+### Responsiveness Testing
+I used Google Chrome Dev Tools and the [Resposive Design Checker](https://responsivedesignchecker.com/) for making sure that my website was fully responsive on various devices. 
+-	Upon first check I had to go back and correct the code in order to ensure it is working correctly (see Bugs section in the main README.md).
+
+[Return to Table of Contents](#contents)
+
+### User Testing
+
+#### During the Development 
+
+I deployed the website as soon as possible and have been continuously testing throughout the development stage in order to fix any errors. It was also tested by numerous friends, and a handful of students from the Code Institute during the development stage. 
+
+- No obvious functional (JavaScript) bugs or errors were present once the website has been completed.
+
+
+
+#### Post Development
+
+Once the website was completed, it was tested by numerous friends using different devices, such as mobiles, tablets/iPads, and desktops. 
+-    No errors regarding the functionality of the website were noted.
+-    There were some inconsistencies with how the website appeared on different devices, which I addressed at a later stage (see the [Fixed Bugs section](#fixed-bugs)).
+
+
+
+[Return to Table of Contents](#contents)
