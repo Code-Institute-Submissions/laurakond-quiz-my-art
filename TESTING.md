@@ -43,7 +43,10 @@
 	- The screenshot of the final test run can be found [here](assets/documentation/testing-images/w3school/w3c-404-no-error.webp).
 
 
+**CSS**
+- No errors were found when passing through the official W3C CSS validator. The screenshot of the test result can be found [here](assets/documentation/testing-images/w3school/w3c-css.webp).
 
+[Return to Table of Contents](#contents)
 
 
 ### Lighthouse
