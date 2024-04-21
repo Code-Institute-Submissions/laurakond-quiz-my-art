@@ -191,16 +191,21 @@ All features are fully responsive on mobiles, tablets/iPads, laptops and desktop
 **Larger screens**
 ![mobile-footer-feature](assets/documentation/features-images/desktop/large-screen-footer.webp)
 
-
 <br>
 
 **The Home page**
 
-- The Homepage is simple and displays three different categories:
-	- "Who painted it?" 
-	- "Name that Painting?" 
-	- "When was it created?". 
-The names of the categories are simple, allowing the user to identify the topic of the quiz straight away.
+- The Home page displays three different quiz categories that the user can choose from. They are placed in a container to capture the user's attention. These categories are:
+
+- "Who crafted it?"
+- "When was it created?"
+- "Name that painting"
+
+The names of the categories are simple and allow the user to identify the topic of the quiz straight away.
+
+**Mobile**
+
+![mobile-landing-page-feature](assets/documentation/features-images/mobile/mobile-landing-page-feature.webp)
 
 <br>  
 
