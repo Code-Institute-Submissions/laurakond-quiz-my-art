@@ -252,8 +252,9 @@ The names of the categories are simple and allow the user to identify the topic 
 
 <br>
 
-**Next Button** 
-- The Next button is hidden until the answer is selected, and then displays at the bottom of the screen just above the footer of the page. Once clicked it will take the user to the next question and hide again until the next answer is selected. 
+**The Next Button** 
+- The Next button is hidden until the answer is selected, and it is displayed below the answer buttons and above the footer at the bottom of the screen. Once clicked, it will take the user to the next question and hide again until the next answer is selected.
+- It is displayed in a different color from the rest of the buttons in order to attract attention and indicate the next step after the answer-choice button is clicked.   
 
   ![history section](assets/documentation/features/history-page/history-section.jpg)
 
