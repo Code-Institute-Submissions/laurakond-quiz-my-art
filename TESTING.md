@@ -158,55 +158,25 @@ Once inside each category of the quiz, I noticed that the content was jumping on
     - I found this information in GitHub community [discussion](https://github.com/orgs/community/discussions/52356).
 
 
-
 ### Lighthouse
 
+#### The Home / landing page (one html page)
 
-#### The Home page
+- **Desktop test score:**
+![desktop-main-page](assets/documentation/testing-images/lighthouse/lighthouse-index-desktop.webp)
 
-	- **Desktop test score:**
-
-      ![Home page desktop](link)
-
-	- **Mobile test score:**
-  
-      ![Home page mobile](link)
-
-#### Blank page
-
-  
-	- **Desktop test score:**
-	
-      ![History page desktop](link)
-
-	- **Mobile test score:**
-
-      ![History page mobile](link)
-
-#### Blank page
-
-
-	- **Desktop test score:**
-
-	    ![Portfolio page desktop](link)
-
-	- **Mobile test score:**
-
-	    ![Portfolio page mobile](link)
+- **Mobile test score:**
+![mobile-main-page](assets/documentation/testing-images/lighthouse/lighthouse-index-mobile.webp)
 
 #### 404 page
 
+- **Desktop test score:**
+![404-desktop-page](assets/documentation/testing-images/lighthouse/lighthouse-404-desktop.webp)
 
+- **Mobile test score:**
+![404-mobile-page](assets/documentation/testing-images/lighthouse/lighthouse-404-mobile.webp)
 
-  - **Desktop test score:**
-  
-    ![error page desktop](link)
-
-  - **Mobile test score:**
-    
-    ![error page mobile](link)
-
- [Return to Table of Contents](#table-of-contents)
+[Return to Table of Contents](#contents)
 
 
  
