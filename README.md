@@ -349,6 +349,24 @@ It might take a few minutes to generate the "live" website link.
 
 The live link to Quiz My Art can be found here: [Quiz My Art](https://laurakond.github.io/quiz-my-art/).  
 
+### Local Development
+
+#### How to Fork
+To fork the repository:
+1. Follow steps 1 & 2 as above. 
+2. Once inside the chosen repository, click the "fork" button in the top right corner above the "About section".
+
+#### How to Clone
+To clone the repository:
+1.  Follow steps 1 & 2 as in the deployment section above.
+2.  Click on the "Code" button (often a bright color that stands out) in the top right corner just above the "commits" history. 
+    - Select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+3.  Open the terminal in your chosen code editor and change the current working directory to the location you want to use for the cloned directory.
+4.  Type 'git clone' into the terminal and then paste the copied link and press enter.
+
+[Return to Table of Contents](#table-of-contents)
+
+
 
 ## Testing 
 
