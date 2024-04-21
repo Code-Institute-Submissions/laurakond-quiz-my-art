@@ -273,13 +273,9 @@ The names of the categories are simple and allow the user to identify the topic 
 
 <br>
 
-**Portfolio Gallery** page is divided into two sections that allow the user to easily identify the type of cross-stitch projects are currently underway and which are completed. 
-
-
-<br>
-
-**404 Error page** has been included in case there are any bugs that prevent the website or links from working properly. 
-- The page has a stylised link that clearly indicates interactivity and takes the user back to the Home page of the website. 
+**404 Error page** 
+- An error page has been included in case there are any bugs that prevent the website or links from working properly. 
+- The page has an anchor tag that has been styled to look like a button to indicate intended action. Upon clicking it, the link will take the user back to the Home page of the website. It also displays a feature image that was used as a Fav Icon to allow design continuity. 
 
   ![ 404 error page](link)
 
