@@ -167,6 +167,8 @@ The website offers three themes/topics to choose from:
 
 There is also a Score page section that is visible upon completion of the game, and a 404 Error page, which is only visible when a wrong website address is entered or an error occurs.
 
+When on a desktop or laptop, all buttons have a hover over effect that changes color to indicate interactivity.
+
 All features are fully responsive on mobiles, tablets/iPads, laptops and desktops. 
 
 ### Existing features
@@ -206,7 +208,12 @@ All features are fully responsive on mobiles, tablets/iPads, laptops and desktop
 
 The names of the categories are simple and allow the user to identify the topic of the quiz straight away.
 
+- Once on a desktop or laptop, the positioning of the categories becomes vertical to respond to the change of screen orientation.
+
 ![mobile-landing-page-feature](assets/documentation/features-images/mobile/mobile-landing-page-feature.webp)
+
+![desktop-landing-page](assets/documentation/features-images/desktop/desktop-home-page.webp)
+
 
 <br>  
 
@@ -223,32 +230,28 @@ The names of the categories are simple and allow the user to identify the topic 
 
     - I felt that there was no need to have a separate page created for what could be shown in the main area of the quiz.
 
-![mobile-quiz-category-feature]()
-
-<br>
-
 **Question count**
 
 - A question count is displayed just above the image of the artwork which allows the user to follow their progress and know which question prompt they are at.
 
-![short version](link)
+**Question images**
+
+- Each quiz displays ten randomly chosen images from three different lists containing twenty questions each. This prevents question repetition in case the user chooses to play the same category straight away.
+- Below the displayed question image, the user will find more information referring to the shown image. This might be the title of the artwork, an artist's name or an artist's name with the artwork's title and date depending on the category that is selected.
+
+The image below showcases all of the above mentioned features on a mobile screen.
 
 <br>
 
-**Question images**
-
-- Each quiz displays ten randomly chosen images from three different lists containing twenty questions each. This prevents question repetition in case the user chooses to play the same category straight away.- Below the displayed question image, the user will find more information referring to the shown image. This might be the title of the artwork, an artist's name or an artist's name with the artwork's title and date depending on the category that is selected.
-
-![short version](link)
+![mobile-quiz-category-feature](assets/documentation/features-images/mobile/mobile-category-instructions.webp)
 
 <br>
 
 **Four answer options**
 
 - The four answer options below the image and the prompt are generated using JavaScript, and allow the user to select only one answer. 
-- Upon selection of the answer, the game will automatically accept it as a final answer and will block the user from changing their answer choice.- The button will display a green border shadow effect around it if the answer is correct, and a red border shadow if the chosen answer is incorrect. If the user's guess was incorrect, the correct answer will be highlighted, allowing for the user to find out what it was.
-
-![short version](link)
+- Upon selection of the answer, the game will automatically accept it as a final answer and will block the user from changing their answer choice.
+- The button will display a green border shadow effect around it if the answer is correct, and a red border shadow if the chosen answer is incorrect. If the user's guess was incorrect, the correct answer will be highlighted, allowing for the user to find out what it was.
 
 <br>
 
@@ -256,7 +259,15 @@ The names of the categories are simple and allow the user to identify the topic 
 - The Next button is hidden until the answer is selected, and it is displayed below the answer buttons and above the footer at the bottom of the screen. Once clicked, it will take the user to the next question and hide again until the next answer is selected.
 - It is displayed in a different color from the rest of the buttons in order to attract attention and indicate the next step after the answer-choice button is clicked.   
 
-  ![history section](assets/documentation/features/history-page/history-section.jpg)
+Two images below showcase both the answer buttons and the next button features. 
+
+Mobile style:
+
+![mobile-buttons](assets/documentation/features-images/mobile/mobile-answer-next-buttons.webp)
+
+Tablet/desktop style:
+![tablet-desktop-buttons](assets/documentation/features-images/desktop/desktop-answer-next-buttons.webp)
+
 
 <br>
 
@@ -270,13 +281,15 @@ The names of the categories are simple and allow the user to identify the topic 
         - 4 - 5
         - Lower than 4
 
-  ![technique section](assets/documentation/features/history-page/technique-section.jpg)
+![score-7](assets/documentation/features-images/mobile/mobile-score-page.webp)
 
 **Play Again Button**
 
 - The Play Again button is displayed in the Score section and will take the user back to the main page once clicked.
+- On a laptop or desktop, the Play Again button changes color upon hover.
 
-![404 error page](link)
+Desktop style:
+![desktop-play-again-button](assets/documentation/features-images/desktop/desktop-play-again-button.webp)
 
 <br>
 
@@ -285,7 +298,7 @@ The names of the categories are simple and allow the user to identify the topic 
 - An error page has been included in case there are any bugs that prevent the website or links from working properly. 
 - The page has an anchor tag that has been styled to look like a button to indicate intended action. Upon clicking it, the link will take the user back to the Home page of the website. It also displays a feature image that was used as a Fav Icon to allow design continuity. 
 
-  ![ 404 error page](link)
+  ![ 404-page](assets/documentation/features-images/mobile/404-page.webp)
 
 <br>
 
