@@ -370,7 +370,11 @@ To clone the repository:
 
 ## Testing 
 
-The website has been tested on Mozilla Firefox desktop, Internet Explorer desktop, Safari mobile, Google Chrome desktop and mobile. 
+The website has been tested on Mozilla Firefox desktop, Internet Explorer desktop, Safari mobile, Google Chrome desktop and mobile, Samsung Galaxy Tab 8, and Google Chrome Dev.
+
+See [TESTING.md](https://stackedit.io/app#testing) for full testing and validation information.
+
+[Return to Table of Contents](#table-of-contents)
 
 ###  W3C Validator Testing
 
