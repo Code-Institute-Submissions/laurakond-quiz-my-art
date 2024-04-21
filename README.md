@@ -108,7 +108,7 @@ The final version bears slight differences to the wireframes:
 
 **Score page**
 
-![mobile-score-page-wireframe](assets\documentation\wireframes\mobile-score-display-wireframe.webp)
+![mobile-score-page-wireframe](assets/documentation/wireframes/mobile-score-display-wireframe.webp)
 
 **404 page**
 
