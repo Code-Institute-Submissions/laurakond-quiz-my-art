@@ -449,6 +449,12 @@ I have read the following resources on how to use and implement **box shadow pro
 - Developer Mozilla Org:
     - [Box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow) 
 
+#### Repositories
+I used the MDN repository to get an idea of how to use **object-fit property** when writing code:
+- [MDN - css examples](https://github.com/mdn/css-examples/blob/main/object-fit-gallery/style.css)
+- [CSS examples website](https://mdn.github.io/css-examples/)
+- [MDN object fit basics](https://mdn.github.io/css-examples/object-fit-basics/)
+
 
 ### Acknowledgments
 
