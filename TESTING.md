@@ -225,3 +225,18 @@ The shown alert refers to "redundant link: Adjacent links go to the same URL". B
 	- the answer buttons' and the footer's color contrasts return a fail against tritanopia filter. The image showing this can be found [here](assets/documentation/testing-images/wcag-tritanopia.webp).    
 
 [Return to Table of Contents](#contents)
+
+### Browser Testing
+The website has been extensively tested using the following browsers and devices:
+- Google Chrome browser on desktop, tablet (Samsung Galaxy tab 8) and mobile (iPhone7)
+![google chrome](assets/documentation/testing-images/device-screenshots/google-chrome.webp)
+- Mozilla Firefox browser
+![firefox](assets/documentation/testing-images/device-screenshots/firefox.webp)
+- Internet Explorer browser 
+![Explorer](assets/documentation/testing-images/device-screenshots/explorer.webp)
+- Safari browser on a mobile device (iPhone 7, iPhone 12 Pro Max, iPhone XS Max)
+![Safari](assets/documentation/testing-images/device-screenshots/safari-test.webp)
+- Google Chrome Dev browser
+![Chrome dev](assets/documentation/testing-images/device-screenshots/google-chrome-dev.webp)
+ 
+[Return to Table of Contents](#contents)
