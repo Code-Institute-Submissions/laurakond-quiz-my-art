@@ -1,3 +1,51 @@
+# Testing readme for "Quiz My Art" project
+(By Laura Kondrataite)
+
+## Contents
+
+[Testing](#testing)
+
+- [W3C Validator testing](#w3c-validator-testing)
+- [JS Hint testing](#js-hint-testing)
+- [Bugs](#bugs)
+	- [Website development and related issues](#website-development-and-related-issues)
+	- [Fixed bugs](#fixed-bugs)
+	- [Unfixed bugs](#unfixed-bugs)
+- [Lighthouse](#lighthouse)
+- [User stories testing](#user-stories-testing)
+- [Accessibility](#accessibility)
+- [Browser testing](#browser-testing)
+- [Responsiveness testing](#responsiveness-testing)
+- [User testing](#user-testing)
+- [Manual testing](#manual-testing)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ###  W3C Validator Testing
 
 All HTML pages and CSS file were tested against W3C Markup and CSS validation services.
