@@ -279,7 +279,21 @@ The names of the categories are simple and allow the user to identify the topic 
 
   ![ 404 error page](link)
 
+<br>
+
 ### Features Left to Implement
+
+- The Quiz category, which allows the user to test their knowledge by entering a full artist name, title of the artwork and the date.  
+
+    - The functionality will be created using JavaScript by comparing the right answers with the user's input.
+
+- A link to external sources that allows the users to read about each artist/work of art if they wish to do so. 
+
+    - This would be provided either as a separate section on the Total score page or a completely separate page itself.
+
+- Redesign the current Home page for the desktop to make it into three separate containers of their own.
+
+[Return to Table of Contents](#table-of-contents)
 
 
 ### Accessibility
