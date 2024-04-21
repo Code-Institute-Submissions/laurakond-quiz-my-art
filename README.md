@@ -372,7 +372,6 @@ To clone the repository:
 [Return to Table of Contents](#table-of-contents)
 
 
-
 ## Testing 
 
 The website has been tested on Mozilla Firefox desktop, Internet Explorer desktop, Safari mobile, Google Chrome desktop and mobile, Samsung Galaxy Tab 8, and Google Chrome Dev.
