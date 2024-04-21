@@ -178,6 +178,24 @@ Once inside each category of the quiz, I noticed that the content was jumping on
 
 [Return to Table of Contents](#contents)
 
+### User stories testing
+
+| User Story                                                                                         | Completed | Action                              |
+| -------------------------------------------------------------------------------------------------- | --------- | ----------------------------------- |
+| As a first time user, I want to clearly understand how the quiz works and what it is about.        | Yes       |                                     |
+| As a first time user, I want to be able to read instructions before the start of the quiz.         | Yes       | This has been implemented on a partial basis. Instead of creating a separate instructions section, they are displayed inside each category quiz. This is covered in the Features section in the main README file.                                    |
+| As a first time user, I want to be able to start the quiz when I am ready.                         | Yes       |                                     |
+| As a user, I want to test my art history knowledge by completing a quiz.                            | Yes       |                                     |
+| As a user, I want to choose a category or difficulty of the quiz                                    | Yes       |                                     |
+| As a user, I want to have multiple choice answers to pick from.                                   | Yes       |                                     |
+| As a user, I want to see how many questions there are in total per round and which question I am at | Yes       |                                     |
+| As a user, I want to instantly see if my choice was correct.                                        | Yes       |                                     |
+| As a user, I want to find out my final score                                                        | Yes       |                                     |
+| As a user, I want to be able to take the quiz again after the completion                            | Yes       |                                     |
+| As a user, I want to have a variety of questions that do not repeat                                 | Yes       |                                     |
+| As a user, I want to challenge myself by answering the questions without multiple choice options.   | No        | Moved to the next development phase 
+
+
 
  
 ### Accessibility
