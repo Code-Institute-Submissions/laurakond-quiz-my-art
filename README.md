@@ -167,23 +167,30 @@ All features are fully responsive on mobiles, tablets/iPads, laptops and desktop
 
 **The Header**
 
-![header-feature-mobile](assets/documentation/features-images/mobile/mobile-header-landing-page-feature.webp)
-
 - Featured in all pages, the header is fully responsive and displays the website's logo. Once inside the quiz, it transitions into a shortened version displaying the letter "Q" so as to not occupy the entire space.
 	- This feature is only available on the smallest phones up to 375px (the latter not included).
 - The header allows the user to return to the Home page by clicking the Logo or the letter "Q".
 - A header border shadow is applied once the user is inside each quiz category, and reverts back to regular display when on the score page. 
 	- This feature is only availabe on devices up to 675px (the latter not included).
-	
+
+![header-feature-mobile](assets/documentation/features-images/mobile/mobile-header-landing-page-feature.webp)
+
+**Inside quiz category**
 ![header-shadow-effect](assets/documentation/features-images/mobile/header-shadow-effect.webp)
 
 <br>
 
 **The Footer**
 
-![enter image description here](link)
+- Featured throughout, the footer displays the name of the creator. Once on a larger screen, it expands to show a disclosure that the project is created for educational purposes only as part of the Code Institute's Web Development programme. 
+- It also contains links to the developer's social media sites. Both links open in a new tab to allow easy navigation for the user.
 
-- Featured in all the pages, the footer section displays the name of the creator, and on larger screens also shows that it is created for educational purposes only as part of Code Institute Web development programme. It also contains links to the developer's social media sites. Both links open in a new tab to allow easy navigation for the user.
+**Mobile**
+![mobile-footer-feature](assets/documentation/features-images/mobile/mobile-footer-feature.webp)
+
+**Larger screens**
+![mobile-footer-feature](assets/documentation/features-images/desktop/large-screen-footer.webp)
+
 
 <br>
 
