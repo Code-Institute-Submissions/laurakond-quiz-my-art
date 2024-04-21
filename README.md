@@ -464,13 +464,15 @@ I referred to the [Dev Dreamer](https://www.youtube.com/watch?v=d_3fKSHwq_g) vid
 
 ### Acknowledgments
 
-My thanks goes to my mentor, [Martina Terlevic](https://github.com/SephTheOverwitch), for providing guidance, and support on all things code and project.
+My thanks goes to my mentor, [Martina Terlevic](https://github.com/SephTheOverwitch), for providing guidance, reassurance and support on all things code and project.
 
-A big shout-out to [Vernell Clark](https://github.com/VCGithubCode) for his increadible patience, support and guidance on how to work with JavaScript.
+A big shout-out to [Vernell Clark](https://github.com/VCGithubCode) for his increadible patience, support and guidance on how to work with JavaScript and the rest of the project. This encouraging words have kept me going to the end of this project.
 
-Also a bit thanks goes to [Jamie Connell](https://github.com/GreenNinjaBoy) for helping out with sticky bits when creating the game.
+Also a bit thanks goes to [Jamie Connell](https://github.com/GreenNinjaBoy) for helping out with sticky bits when creating the code.
 
-A big thank you goes to the Code Institute Tutor support & Slack community who provided the energy and kept my morale up.
+A big thank you goes to the Code Institute Tutor Support (Roman and Thomas) for helping me to find alternative ways of how to solve specific problems I encountered. 
+
+And a thank you goes to the Slack community who provided with the energy and kept my morale up during this project.
 
 
 
