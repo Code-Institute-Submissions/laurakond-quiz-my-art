@@ -81,6 +81,7 @@ This quiz game is aimed towards anyone who enjoys participating in quiz games, w
 The website follows a one-page structure with multiple sections that are accessible by applying JavaScript functionality. Upon loading the screen, the user is taken to a Home or landing page that offers three different categories to choose from. The page shows and, or hides specific sections dependent on button prompts.
 
 ### Wireframes
+
 The following wireframe mockups show the initial idea of how the website would look on three different devices: mobile, tablet/iPad and laptop/desktops. They also convey an idea of how the user will navigate between different sections of the page which are prompted using JavaScript.
 
 The final version bears slight differences to the wireframes:
@@ -272,6 +273,7 @@ The names of the categories are simple and allow the user to identify the topic 
   ![technique section](assets/documentation/features/history-page/technique-section.jpg)
 
 **Play Again Button**
+
 - The Play Again button is displayed in the Score section and will take the user back to the main page once clicked.
 
 ![404 error page](link)
@@ -279,6 +281,7 @@ The names of the categories are simple and allow the user to identify the topic 
 <br>
 
 **404 Error page** 
+
 - An error page has been included in case there are any bugs that prevent the website or links from working properly. 
 - The page has an anchor tag that has been styled to look like a button to indicate intended action. Upon clicking it, the link will take the user back to the Home page of the website. It also displays a feature image that was used as a Fav Icon to allow design continuity. 
 
@@ -299,18 +302,6 @@ The names of the categories are simple and allow the user to identify the topic 
 - Redesign the current Home page for the desktop to make it into three separate containers of their own.
 
 [Return to Table of Contents](#table-of-contents)
-
-
-### Accessibility
-
-  - I have followed good standard accessibility practices by including the following:
-	  - I used semantic HTML.
-	  - I included descriptive atl attributes to used images. 
-	  - I marked the current page with the "current" attribute to ensure that screen readers indicate it to the users.
-	  - I provided descriptive information for the screen readers where icons were used.
-	  - I ensured that sufficient color contrast is provided when choosing the color palette.    
-
- [Return to Table of Contents](#table-of-contents)
 
 ## Tools and Technologies
 
@@ -371,7 +362,6 @@ To clone the repository:
 
 [Return to Table of Contents](#table-of-contents)
 
-
 ## Testing 
 
 The website has been tested on Mozilla Firefox desktop, Internet Explorer desktop, Safari mobile, Google Chrome desktop and mobile, Samsung Galaxy Tab 8, and Google Chrome Dev.
@@ -379,8 +369,6 @@ The website has been tested on Mozilla Firefox desktop, Internet Explorer deskto
 See [TESTING.md](https://stackedit.io/app#testing) for full testing and validation information.
 
 [Return to Table of Contents](#table-of-contents)
-
-
 
 ## Credits
 
@@ -396,12 +384,12 @@ Additional insight and ideas were gathered from the following videos:
 
 I have also referred to the Code Institute's Love Maths walkthrough project as a baseline for understanding and implementing some parts of the code. These are noted in the JavaScript code.
 
-
 ### Content
 
 All the content, i.e. the questions, score descriptions and other (excluding the names of the artists, artworks' titles), was produced by me.  
 
 ### Used code
+
 - I used the following code to implement a circle styling the error page image. The link to the code can be found [here](https://developer.mozilla.org/en-US/docs/Web/CSS/basic-shape/circle): `clip-path: circle(50px);`
 - I used the following code to apply the box shadow effect to all the buttons in my project:
 `box-shadow: rgba(0, 0, 0, .2) 0  3px  5px  -1px, rgba(0, 0, 0, .14) 0  6px  10px  0, rgba(0, 0, 0, .12) 0  1px  18px  0;`
@@ -483,9 +471,3 @@ I have referred to the following repositories and projects when sourcing guidanc
 - [Jamie Connell](https://github.com/GreenNinjaBoy) - for project ideas & inspiration.
     
 [Return to Table of Contents](#table-of-contents)
-
-### Code inspiration
-
- 
-
- [Return to Table of Contents](#table-of-contents)

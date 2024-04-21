@@ -66,3 +66,16 @@ All HTML pages and CSS file were tested against W3C Markup and CSS validation se
     ![error page mobile](link)
 
  [Return to Table of Contents](#table-of-contents)
+
+
+ 
+### Accessibility
+
+  - I have followed good standard accessibility practices by including the following:
+	  - I used semantic HTML.
+	  - I included descriptive atl attributes to used images. 
+	  - I marked the current page with the "current" attribute to ensure that screen readers indicate it to the users.
+	  - I provided descriptive information for the screen readers where icons were used.
+	  - I ensured that sufficient color contrast is provided when choosing the color palette.    
+
+ [Return to Table of Contents](#table-of-contents)
