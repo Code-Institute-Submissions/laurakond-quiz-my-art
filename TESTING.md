@@ -195,16 +195,33 @@ Once inside each category of the quiz, I noticed that the content was jumping on
 | As a user, I want to have a variety of questions that do not repeat                                 | Yes       |                                     |
 | As a user, I want to challenge myself by answering the questions without multiple choice options.   | No        | Moved to the next development phase 
 
-
+[Return to Table of Contents](#contents)  
 
  
 ### Accessibility
 
-  - I have followed good standard accessibility practices by including the following:
-	  - I used semantic HTML.
-	  - I included descriptive atl attributes to used images. 
-	  - I marked the current page with the "current" attribute to ensure that screen readers indicate it to the users.
-	  - I provided descriptive information for the screen readers where icons were used.
-	  - I ensured that sufficient color contrast is provided when choosing the color palette.    
+I have followed good standard accessibility practices by including the following:
+- I used semantic HTML.
+- I included descriptive atl attributes to the used images. 
+    - **To note**: as the quiz uses multiple images to generate questions, instead of providing a specific image description, I chose to name all the images as "Question Image". This prevents the players from getting a hint/answer to the question.
+- I provided descriptive information for the screen readers where icons were used.
+- I ensured that sufficient color contrast is provided when choosing the color palette. I used Contrast Grid website tool to ensure that the colors are well-chosen.
 
- [Return to Table of Contents](#table-of-contents)
+![Contrast-grid](assets/documentation/testing-images/contrast-grid.webp)
+
+#### Wave report 
+
+**The main page**
+The three alerts are referring to what appears to be the question number count, the hidden score calculation and the total score count that is displayed at the end of each quiz.  
+![main page wave report](assets/documentation/testing-images/wave-desktop-main.webp)
+
+**The 404 page**
+The shown alert refers to "redundant link: Adjacent links go to the same URL". Both anchor tags, one in the header and one in the main body refer to the index.html link. 
+![main page wave report](assets/documentation/testing-images/wave-desktop-404.webp)
+
+#### WCAG report
+- The color contrast passes AAA standard but for the following exceptions:
+	- the ridge border set around the image display color contrast returns a fail in all filters. The image showing this can be found [here](assets/documentation/testing-images/wcag-border.webp).
+	- the answer buttons' and the footer's color contrasts return a fail against tritanopia filter. The image showing this can be found [here](assets/documentation/testing-images/wcag-tritanopia.webp).    
+
+[Return to Table of Contents](#contents)
