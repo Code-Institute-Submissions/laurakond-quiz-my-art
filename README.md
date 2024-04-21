@@ -18,34 +18,28 @@ Link to live page: [Quiz My Art](https://laurakond.github.io/quiz-my-art/)
 [Design](#design)
 - [Target audience](#target-audience)
 - [User Stories](#user-stories)
+- [Website Structure](#website-structure)
 - [Wireframes](#wireframes)
 - [Color palette](#color-palette)
 - [Font styles](#font-styles)
-
 [Features](#features)
- - [Existing features](#existing-features)
- - [Features Left to Implement](#features-left-to-implement)
- - [Accessibility](#accessibility)
-
+- [Existing features](#existing-features)
+- [Features Left to Implement](#features-left-to-implement)
 [Tools and Technologies](#tools-and-technologies)
 - [Languages used](#languages-used)
 - [Frameworks, Libraries and Programs used](#frameworks-libraries-and-programs-used)
-
 [Deployment](#deployment)
-
-[Testing](#testing)
-- [W3C Validator testing](#w3c-validator-testing)
-- [Unfixed bugs](#unfixed-bugs)
-- [Lighthouse](#lighthouse)
-
+- [Local Development](#local-development)
+	- [How to Fork](#how-to-fork)
+	- [How to Clone](#how-to-clone)
+[Testing](#testing)  
 [Credits](#credits)
 - [Content](#content)
 - [Used Code](#used-code)
 - [Media](#media)
 - [General resources](#general-resources)
 - [Acknowledgments](#acknowledgments)
-- [Code Inspiration](#code-inspiration)
-
+- [References](#references)
 
 ## Design
 
