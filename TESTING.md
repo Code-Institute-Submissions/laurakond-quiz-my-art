@@ -24,7 +24,7 @@
 
 ### W3C Validator Testing
 
-- All HTML pages and CSS file were tested with W3C Markup and CSS validation services. 
+- All HTML pages and CSS files were tested with W3C Markup and CSS validation services. 
 
 #### HTML
 
@@ -35,11 +35,11 @@
 	- The screenshot of the final test run can be found [here](assets/documentation/testing-images/w3school/w3c-index.webp).
 
 **404 page**
-- Initial run of 404 error html page returned an error for the aria-current atrribute for h1 element.
+- The initial run of 404 error html page returned an error in the aria-current attribute for h1 element.
 	- The screenshot of the test run with one displayed error can be found [here](assets/documentation/testing-images/w3school/w3c-404-with-error.webp).
 	- I resolved this by adjusting the correct value to "page".
-- The second error that was generated (image lost due to multiple corrections of the code) returned semantic error indicating that a button element cannot be stored inside an anchor tag. 
-	- I had several attempts to try and connect the button area to the main index.html file. At the end I decided to keep the anchor tag and style it to look like a button. 
+- The second error that was generated (image lost due to multiple corrections of the code) returned a semantic error indicating that a button element cannot be stored inside an anchor tag. 
+	- I had several attempts to try and connect the button area to the main index.html file. At the end, I decided to keep the anchor tag and style it to look like a button. 
 	- The screenshot of the final test run can be found [here](assets/documentation/testing-images/w3school/w3c-404-no-error.webp).
 
 
