@@ -474,7 +474,15 @@ A big thank you goes to the Code Institute Tutor Support (Roman and Thomas) for 
 
 And a thank you goes to the Slack community who provided with the energy and kept my morale up during this project.
 
-
+### References
+I have referred to the following repositories and projects when sourcing guidance, information and inspiration for the project:
+- [Kera Cudmore](https://github.com/kera-cudmore) - for README guidance.
+- [Georgina Carlisle](https://github.com/GeorginaCarlisle) - for README and project ideas & inspiration.
+	- Both Kera and Georgina's repositories provided me with a good understanding of how to structure the README and what information to include.
+	- I appropriated Kera's Deployment example for my README.
+- [Jamie Connell](https://github.com/GreenNinjaBoy) - for project ideas & inspiration.
+    
+[Return to Table of Contents](#table-of-contents)
 
 ### Code inspiration
 
