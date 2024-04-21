@@ -22,17 +22,22 @@ Link to live page: [Quiz My Art](https://laurakond.github.io/quiz-my-art/)
 - [Wireframes](#wireframes)
 - [Color palette](#color-palette)
 - [Font styles](#font-styles)
+
 [Features](#features)
 - [Existing features](#existing-features)
 - [Features Left to Implement](#features-left-to-implement)
+
 [Tools and Technologies](#tools-and-technologies)
 - [Languages used](#languages-used)
 - [Frameworks, Libraries and Programs used](#frameworks-libraries-and-programs-used)
+
 [Deployment](#deployment)
 - [Local Development](#local-development)
 	- [How to Fork](#how-to-fork)
 	- [How to Clone](#how-to-clone)
+
 [Testing](#testing)  
+
 [Credits](#credits)
 - [Content](#content)
 - [Used Code](#used-code)
