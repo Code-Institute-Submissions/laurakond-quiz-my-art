@@ -130,10 +130,19 @@ The final version bears slight differences to the wireframes:
 
 ### Color palette
 
-The following color scheme was used to ensure contrast is achieved between main parts of the website:
+The following palette was used to ensure contrast is achieved between the main parts of the website:
+
+- #F3F7F5 - Seasalt - for main background, header color, default inner button color for "categories" buttons, "Play again" button, and "Return to Home page" button on error page. It was also used as a button font for the hover effect on larger devices.
+- #100007 - Licorice - for all fonts excluding the Logo.
+	- rgba color hex (16, 0, 7) of Licorice was used for the button shadow effect to make them pop.
+- #002A32 - Gunmetal - for the backdrop of the image container, and for the correct button shadow effect.
+- #7B5214 - Field drab - for the image container ridge border.
+- #E09F3E - Hunyandi yellow - for the footer, main categories' container, answer choice buttons, score section container, and error page message container.
+- #9E2A2B - Auburn - for the box shadow effect around the above-mentioned container areas, the header shadow for smaller devices, and for the incorrect button shadow effect.
+- #540B0E - Chocolate cosmos - for the font color of the Logo and as a button background color for hover effect on larger devices.
 
 
-![color-palette](link)
+![color-palette](assets/documentation/features-images/pp2-color-palette.webp)
 
 ### Font styles
 
