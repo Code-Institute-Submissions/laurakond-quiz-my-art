@@ -337,19 +337,17 @@ The following resources were used to help implement the website:
 
 ## Deployment
 
-This website was deployed using GitHub pages. The steps to deploy are as follows:
-
-1. Login to GitHub and navigate to the repository page (quiz-my-art), click on the chosen repository.
-2. Once inside the repository, click on the "Settings" tab above the repository title.
-3. Select "Pages" tab on the left side navigation menu.
-4. In the "Source" section (middle of the screen), select "main" or "master" branch, then "root" folder and click "save" button.
-5. The GitHub page site will be deployed. 
+This website was deployed using GitHub pages. To deploy the project, follow the steps below:
+1. Login to GitHub and navigate to the main repository page.
+2.  Click on the chosen repository [quiz-my-art](https://github.com/laurakond/quiz-my-art).
+3. Once inside the repository, click on the "Settings" tab above the repository title displayed around the middle of the page.
+4. Select "Pages" tab on the left side navigation menu.
+5. In the "Source" section (middle of the screen), select "main" or "master" branch, then "root" folder and click "save" button.
+6. The GitHub page site will be deployed.
 
 It might take a few minutes to generate the "live" website link.
 
-The live link to Cross Stitch Art can be found here: [Quiz My Art](link).
-
- [Return to Table of Contents](#table-of-contents)
+The live link to Quiz My Art can be found here: [Quiz My Art](https://laurakond.github.io/quiz-my-art/).  
 
 
 ## Testing 
