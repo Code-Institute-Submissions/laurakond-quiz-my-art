@@ -31,19 +31,24 @@
 - Initial run of the index.html returned an error indicating that the img element, which is being generated using JavaScript, was missing correct src and alt attributes (image of the test lost). 
 	- I resolved this by using a "#" as a placeholder for both src and alt attributes, and ensured that the alt attribute is being generated together with the image src attribute.
 - The final run of the **index.html page** through the W3C validator returned no errors.
-	- The screenshot of the final test run can be found [here](assets/documentation/testing-images/w3school/w3c-index.webp).
+
+![index.html](assets/documentation/testing-images/w3school/w3c-index.jpg).
 
 **404 page**
 - The initial run of 404 error html page returned an error in the aria-current attribute for h1 element.
-	- The screenshot of the test run with one displayed error can be found [here](assets/documentation/testing-images/w3school/w3c-404-with-error.webp).
+
+![404 page](assets/documentation/testing-images/w3school/w3c-404-with-error.jpg).
 	- I resolved this by adjusting the correct value to "page".
 - The second error that was generated (image lost due to multiple corrections of the code) returned a semantic error indicating that a button element cannot be stored inside an anchor tag. 
 	- I had several attempts to try and connect the button area to the main index.html file. At the end, I decided to keep the anchor tag and style it to look like a button. 
-	- The screenshot of the final test run can be found [here](assets/documentation/testing-images/w3school/w3c-404-no-error.webp).
+
+![404 page final](assets/documentation/testing-images/w3school/w3c-404-no-error.jpg).
 
 
 **CSS**
-- No errors were found when passing through the official W3C CSS validator. The screenshot of the test result can be found [here](assets/documentation/testing-images/w3school/w3c-css.webp).
+- No errors were found when passing through the official W3C CSS validator. 
+
+![css validator](assets/documentation/testing-images/w3school/w3c-css.jpg).
 
 [Return to Table of Contents](#contents)
 
@@ -58,14 +63,21 @@ All JavaScript pages were tested with JsHint services. Initial tests of the code
     - This was generated because I have chosen to create three additional JavaScript files each containing an appropriate question list, i.e. artistQuestions, periodQuestions, and paintingQuestions.
     - The final screenshot of JSHint test run for the main script code: 
     
-![Script.js test code](assets/documentation/testing-images/jshint/jshint-testing.webp)
+![Script.js test code](assets/documentation/testing-images/jshint/jshint-testing.jpg)
 
 4) The test run for each category file returned a warning of three unused variables: artistQuestions, periodQuestions and paintingQuestions. 
-    - As mentioned at point 3, this is due to the fact that I chose to create three separate JavaScript files that house each category of questions. 
-    - The test run of each JavaScript page can be found below:
-        - [artistQuestions](assets/documentation/testing-images\jshint/artist-questions-jshint.webp)
-        - [periodQuestions](assets/documentation/testing-images/jshint/artist-questions-jshint.webp)
-        - [paintingQuestions](assets/documentation/testing-images/jshint/artist-questions-jshint.webp)
+    - As mentioned at point 3, this is due to the fact that I chose to create three separate JavaScript files that house each category of questions. All returned minor warnings.
+
+Artist Questions test:
+
+![artistQuestions](assets/documentation/testing-images\jshint/artist-questions-jshint.jpg)
+Period Questions test:
+
+![periodQuestions](assets/documentation/testing-images/jshint/artist-questions-jshint.jpg)
+
+Painting Questions test:
+
+![paintingQuestions](assets/documentation/testing-images/jshint/artist-questions-jshint.jpg)
 
 
 
@@ -237,16 +249,16 @@ The shown alert refers to "redundant link: Adjacent links go to the same URL". B
 
 ### Browser Testing
 The website has been extensively tested using the following browsers and devices:
-- [Google Chrome browser on desktop](assets/documentation/testing-images/device-screenshots/google-chrome.webp), tablet (Samsung Galaxy tab 8) and mobile (iPhone7)
+- [Google Chrome browser on desktop](assets/documentation/testing-images/device-screenshots/google-chrome.jpg), tablet (Samsung Galaxy tab 8) and mobile (iPhone7)
 
-- [Mozilla Firefox browser](assets/documentation/testing-images/device-screenshots/firefox.webp)
-- [Internet Explorer browser](assets/documentation/testing-images/device-screenshots/explorer.webp)
-- [Safari browser on a mobile device](assets/documentation/testing-images/device-screenshots/safari-test.webp):
+- [Mozilla Firefox browser](assets/documentation/testing-images/device-screenshots/firefox.jpg)
+- [Internet Explorer browser](assets/documentation/testing-images/device-screenshots/explorer.jpg)
+- [Safari browser on a mobile device](assets/documentation/testing-images/device-screenshots/safari-test.jpg):
     - iPhone 7 
 	- iPhone 12 Pro Max
 	- iPhone XS Max
 
-- [Google Chrome Dev browser](assets/documentation/testing-images/device-screenshots/google-chrome-dev.webp)
+- [Google Chrome Dev browser](assets/documentation/testing-images/device-screenshots/google-chrome-dev.jpg)
  
 [Return to Table of Contents](#contents)
 
