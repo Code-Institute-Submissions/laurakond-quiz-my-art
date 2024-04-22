@@ -71,7 +71,7 @@ All JavaScript pages were tested with JsHint services. Initial tests of the code
 
 Artist Questions test:
 
-![artistQuestions](assets/documentation/testing-images\jshint/artist-questions-jshint.jpg)
+![artistQuestions](assets/documentation/testing-images/jshint/artist-questions-jshint.jpg)
 Period Questions test:
 
 ![periodQuestions](assets/documentation/testing-images/jshint/artist-questions-jshint.jpg)
