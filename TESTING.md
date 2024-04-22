@@ -32,23 +32,24 @@
 	- I resolved this by using a "#" as a placeholder for both src and alt attributes, and ensured that the alt attribute is being generated together with the image src attribute.
 - The final run of the **index.html page** through the W3C validator returned no errors.
 
-![index.html](assets/documentation/testing-images/w3school/w3c-index.jpg).
+![index.html](assets/documentation/testing-images/w3school/w3c-index.jpg)
 
 **404 page**
 - The initial run of 404 error html page returned an error in the aria-current attribute for h1 element.
+    - I resolved this by adjusting the correct value to "page".
 
-![404 page](assets/documentation/testing-images/w3school/w3c-404-with-error.jpg).
-	- I resolved this by adjusting the correct value to "page".
+![404 page](assets/documentation/testing-images/w3school/w3c-404-with-error.jpg)	
+
 - The second error that was generated (image lost due to multiple corrections of the code) returned a semantic error indicating that a button element cannot be stored inside an anchor tag. 
 	- I had several attempts to try and connect the button area to the main index.html file. At the end, I decided to keep the anchor tag and style it to look like a button. 
 
-![404 page final](assets/documentation/testing-images/w3school/w3c-404-no-error.jpg).
+![404 page final](assets/documentation/testing-images/w3school/w3c-404-no-error.jpg)
 
 
 **CSS**
 - No errors were found when passing through the official W3C CSS validator. 
 
-![css validator](assets/documentation/testing-images/w3school/w3c-css.jpg).
+![css validator](assets/documentation/testing-images/w3school/w3c-css.jpg)
 
 [Return to Table of Contents](#contents)
 
