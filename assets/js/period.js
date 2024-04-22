@@ -84,7 +84,7 @@ const periodQuestions = [
     },
     {
         question: "Mantegna, The Ceiling of the Marriage Chamber",
-        imageUrl: "assets/images/period-images/Mantegna.webp",
+        imageUrl: "assets/images/period-images/mantegna.webp",
         answers: [
             { text: 'Gothic Art', correct: false },
             { text: 'Dutch Renaissance', correct: false },
