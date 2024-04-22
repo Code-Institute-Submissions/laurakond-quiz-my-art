@@ -153,12 +153,12 @@ Once inside each category of the quiz, I noticed that the content was jumping on
 2.  On smaller devices, the distance between the next button and the footer is inconsistent. This is for a couple of reasons:
     1. Manually set height that prevents the content jumping (as mentioned in the Fixed Bugs section).
     2.  Each quiz generates different content that is of varying length. 
-        - For example, the "When was it created?" quiz category generates a longer introductory paragraph which is [wrapped between three lines](assets/documentation/features-images/mobile/mobile-three-line-category.webp) on smaller devices. Similarly, the title / artist / work of art descriptions, and answer choices all have custom content that is of not one set length. 
+        - For example, the "When was it created?" quiz category generates a longer introductory paragraph which is [wrapped between three lines](assets/documentation/features-images/mobile/mobile-three-line-category.jpg) on smaller devices. Similarly, the title / artist / work of art descriptions, and answer choices all have custom content that is of not one set length. 
         - All of these aspects have affected the overall height of the screen. I was unable to find a solution for  adjusting the height of each individual quiz category. Therefore, I chose to have one set height. 
         - I prioritised making the content static and having a consistent space between the answer buttons and the Next button ensuring a good user experience. 
     - I will be addressing all the mentioned bugs at the next development stage.
 
-3. The content generated within the container below the image (id name "painting-name"), is not displayed consistently. I tried applying different padding and margin settings so that it would start from one exact point, but it did not fix the problem. The inconsistency, I believe, is due to different content lengths, which makes it impossible to set it in a way that it would ensure the text is displayed in the same position. An example image can be seen [here](assets/documentation/features-images/mobile/mobile-title-name-example.webp). 
+3. The content generated within the container below the image (id name "painting-name"), is not displayed consistently. I tried applying different padding and margin settings so that it would start from one exact point, but it did not fix the problem. The inconsistency, I believe, is due to different content lengths, which makes it impossible to set it in a way that it would ensure the text is displayed in the same position. An example image can be seen [here](assets/documentation/features-images/mobile/mobile-title-name-example.jpg). 
     - This is something to address at the next development stage.
 
 4. When testing the website for responsiveness, I noticed that the color palette changes once a device is set to dark mode. 
